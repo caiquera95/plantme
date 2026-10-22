@@ -1,0 +1,132 @@
+{
+  "createdNodeIds": [
+    "167:1236",
+    "167:1237",
+    "167:1238",
+    "167:1239",
+    "167:1240",
+    "167:1242",
+    "167:1243",
+    "167:1244",
+    "167:1246",
+    "167:1247",
+    "167:1248",
+    "167:1250",
+    "167:1251",
+    "167:1252",
+    "167:1253",
+    "167:1255",
+    "167:1256",
+    "167:1257",
+    "167:1259",
+    "167:1260",
+    "167:1261",
+    "167:1263",
+    "167:1264",
+    "167:1265",
+    "167:1266",
+    "167:1268",
+    "167:1269",
+    "167:1270",
+    "167:1272",
+    "167:1273",
+    "167:1274",
+    "167:1276",
+    "167:1277",
+    "167:1278",
+    "167:1279",
+    "167:1281",
+    "167:1282",
+    "167:1283",
+    "167:1285",
+    "167:1286",
+    "167:1287"
+  ],
+  "mutatedNodeIds": [
+    "163:2382",
+    "163:2554",
+    "163:2604",
+    "163:2630",
+    "163:2652",
+    "163:2671",
+    "163:2699",
+    "163:2857",
+    "163:2887",
+    "163:3062",
+    "163:3263",
+    "163:3314",
+    "163:3462",
+    "163:3730",
+    "163:4330",
+    "163:2654",
+    "163:1702",
+    "155:229",
+    "155:265"
+  ],
+  "deletedNodeIds": [
+    "163:1260",
+    "163:1703"
+  ],
+  "runtime": {
+    "auth": "VariableID:167:1217",
+    "hasPlants": "VariableID:167:1218",
+    "manualMode": "VariableID:167:1219",
+    "photoMode": "VariableID:167:1220",
+    "photoReturn": "VariableID:167:1221",
+    "photoLabel": "VariableID:167:1222",
+    "errorReturn": "VariableID:167:1223",
+    "errorSuccess": "VariableID:167:1224",
+    "authOrigin": "VariableID:167:1225",
+    "entryOrigin": "VariableID:167:1226",
+    "detailOrigin": "VariableID:167:1227",
+    "catalogOrigin": "VariableID:167:1228",
+    "guideOrigin": "VariableID:167:1229",
+    "prefOrigin": "VariableID:167:1230",
+    "legalOrigin": "VariableID:167:1231",
+    "codeOrigin": "VariableID:167:1232",
+    "settingsReturn": "VariableID:167:1233",
+    "draftStep": "VariableID:167:1234",
+    "discardTo": "VariableID:167:1235"
+  },
+  "runtimeCollectionId": "VariableCollectionId:167:1216",
+  "guideNodes": [
+    "167:1238",
+    "167:1242",
+    "167:1246",
+    "167:1251",
+    "167:1255",
+    "167:1259",
+    "167:1264",
+    "167:1268",
+    "167:1272",
+    "167:1277",
+    "167:1281",
+    "167:1285"
+  ],
+  "startingPoints": [
+    {
+      "nodeId": "163:1250",
+      "name": "01 / Jornada completa · primeiro acesso"
+    },
+    {
+      "nodeId": "163:1886",
+      "name": "02 / Rotina de quem já tem plantas"
+    },
+    {
+      "nodeId": "163:2267",
+      "name": "03 / Adicionar planta"
+    },
+    {
+      "nodeId": "163:2542",
+      "name": "04 / Identificar por foto"
+    },
+    {
+      "nodeId": "163:4525",
+      "name": "05 / Perfil e conta"
+    },
+    {
+      "nodeId": "163:5332",
+      "name": "06 / Sair da conta"
+    }
+  ]
+}

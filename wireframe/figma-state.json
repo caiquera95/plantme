@@ -1,0 +1,4379 @@
+{
+  "pageId": "155:229",
+  "kitId": "155:240",
+  "headerId": "155:265",
+  "boards": {
+    "A": "163:1243",
+    "B": "163:1399",
+    "H": "163:1822",
+    "P": "163:2260",
+    "I": "163:2535",
+    "N": "163:2838",
+    "D": "163:3177",
+    "C": "163:3711",
+    "L": "163:4241",
+    "F": "163:4518",
+    "S": "163:5167",
+    "X": "163:5555"
+  },
+  "components": {
+    "button_primary": "155:242",
+    "button_secondary": "155:244",
+    "button_danger": "155:246",
+    "button_disabled": "155:248",
+    "field": "155:250",
+    "card": "155:253",
+    "notice": "155:256",
+    "choice": "155:259",
+    "row": "155:262"
+  },
+  "properties": {
+    "button_primary": {
+      "label": "Label#155:0"
+    },
+    "button_secondary": {
+      "label": "Label#155:1"
+    },
+    "button_danger": {
+      "label": "Label#155:2"
+    },
+    "button_disabled": {
+      "label": "Label#155:3"
+    },
+    "field": {
+      "title": "Title#155:4",
+      "body": "Body#155:5"
+    },
+    "card": {
+      "title": "Title#155:6",
+      "body": "Body#155:7"
+    },
+    "notice": {
+      "title": "Title#155:8",
+      "body": "Body#155:9"
+    },
+    "choice": {
+      "title": "Title#155:10",
+      "body": "Body#155:11"
+    },
+    "row": {
+      "title": "Title#155:12",
+      "body": "Body#155:13"
+    }
+  },
+  "variables": {
+    "bg": "VariableID:123:320",
+    "white": "VariableID:123:321",
+    "ink": "VariableID:123:322",
+    "dark": "VariableID:123:323",
+    "green": "VariableID:123:324",
+    "soft": "VariableID:123:326",
+    "muted": "VariableID:123:327",
+    "border": "VariableID:123:328",
+    "gap/sm": "VariableID:155:231",
+    "gap/md": "VariableID:155:232",
+    "gap/lg": "VariableID:155:233",
+    "gap/xl": "VariableID:155:234",
+    "radius/control": "VariableID:155:235",
+    "radius/card": "VariableID:155:236",
+    "danger": "VariableID:155:237",
+    "primary": "VariableID:155:238"
+  },
+  "styles": {
+    "title": "S:d2e128ef91ac083d7e9d8d6bc97fe76a6c36e102,",
+    "small": "S:aea491855a67ce8501203744b4fa40c7556c3562,",
+    "body": "S:5c20e39308fc42ade5dd38a8fa59180b3256cfd1,",
+    "strong": "S:2e9c2b86f3024dab8546d7fa4dddac366bcec3eb,",
+    "caption": "S:17be30d8e184469fafb92372851f7a8ddb0c78cc,",
+    "label": "S:14e86819f276bdb102b0a4010331a6e5ef9037a4,",
+    "action": "S:4ce3c7410014149653d74c5d89c954cea33acb85,"
+  },
+  "variableIds": [
+    "VariableCollectionId:155:230",
+    "VariableID:155:231",
+    "VariableID:155:232",
+    "VariableID:155:233",
+    "VariableID:155:234",
+    "VariableID:155:235",
+    "VariableID:155:236",
+    "VariableID:155:237",
+    "VariableID:155:238"
+  ],
+  "styleIds": [
+    "S:4ce3c7410014149653d74c5d89c954cea33acb85,"
+  ],
+  "createdNodeIds": [
+    "155:229",
+    "155:240",
+    "155:241",
+    "155:242",
+    "155:243",
+    "155:244",
+    "155:245",
+    "155:246",
+    "155:247",
+    "155:248",
+    "155:249",
+    "155:250",
+    "155:251",
+    "155:252",
+    "155:253",
+    "155:254",
+    "155:255",
+    "155:256",
+    "155:257",
+    "155:258",
+    "155:259",
+    "155:260",
+    "155:261",
+    "155:262",
+    "155:263",
+    "155:264",
+    "155:265",
+    "155:266",
+    "155:267",
+    "155:268",
+    "155:269",
+    "155:270",
+    "155:271",
+    "155:272",
+    "155:273",
+    "155:274",
+    "155:275",
+    "155:276",
+    "155:277",
+    "156:229",
+    "156:230",
+    "156:231",
+    "156:232",
+    "156:233",
+    "156:234",
+    "156:235",
+    "156:236",
+    "156:237",
+    "156:238",
+    "156:239",
+    "156:240",
+    "156:241",
+    "156:242",
+    "156:243",
+    "156:244",
+    "156:245",
+    "156:246",
+    "156:247",
+    "156:248",
+    "156:249",
+    "156:250",
+    "156:251",
+    "156:252",
+    "156:253",
+    "156:254",
+    "156:255",
+    "156:256",
+    "156:257",
+    "156:258",
+    "156:259",
+    "156:260",
+    "156:261",
+    "156:262",
+    "156:263",
+    "156:264",
+    "156:265",
+    "156:266",
+    "156:267",
+    "156:268",
+    "156:269",
+    "156:270",
+    "156:271",
+    "156:272",
+    "156:273",
+    "156:274",
+    "156:275",
+    "156:276",
+    "156:277",
+    "156:278",
+    "156:279",
+    "156:280",
+    "156:281",
+    "156:282",
+    "156:283",
+    "156:284",
+    "156:285",
+    "156:286",
+    "156:287",
+    "156:288",
+    "156:289",
+    "156:290",
+    "156:291",
+    "156:292",
+    "156:293",
+    "156:294",
+    "156:295",
+    "156:296",
+    "156:297",
+    "156:298",
+    "156:299",
+    "156:300",
+    "156:301",
+    "156:302",
+    "156:303",
+    "156:304",
+    "156:305",
+    "156:306",
+    "156:307",
+    "156:308",
+    "156:309",
+    "156:310",
+    "156:311",
+    "156:312",
+    "156:313",
+    "156:314",
+    "156:315",
+    "156:316",
+    "156:317",
+    "156:318",
+    "156:319",
+    "156:320",
+    "156:321",
+    "156:322",
+    "156:323",
+    "156:324",
+    "156:325",
+    "I156:325;155:254",
+    "I156:325;155:255",
+    "156:328",
+    "156:329",
+    "I156:329;155:254",
+    "I156:329;155:255",
+    "156:332",
+    "156:333",
+    "I156:333;155:254",
+    "I156:333;155:255",
+    "156:336",
+    "156:337",
+    "156:338",
+    "156:339"
+  ],
+  "fonts": [
+    {
+      "family": "Inter",
+      "style": "Regular"
+    },
+    {
+      "family": "Inter",
+      "style": "Medium"
+    },
+    {
+      "family": "Inter",
+      "style": "Semi Bold"
+    },
+    {
+      "family": "Manrope",
+      "style": "Bold"
+    },
+    {
+      "family": "Nunito",
+      "style": "Black"
+    }
+  ],
+  "scope": "125 telas e estados / componentes de apoio apenas",
+  "componentCount": 9,
+  "navIds": {
+    "Início": "156:229",
+    "Coleção": "156:252",
+    "Dicas": "156:275",
+    "Perfil": "156:298"
+  },
+  "screens": {
+    "A00": "163:1250",
+    "A01": "163:1273",
+    "A02": "163:1293",
+    "A03": "163:1317",
+    "A04": "163:1345",
+    "B00": "163:1406",
+    "B01": "163:1441",
+    "B02": "163:1475",
+    "B03": "163:1503",
+    "B04": "163:1525",
+    "B05": "163:1549",
+    "B06": "163:1570",
+    "B07": "163:1596",
+    "B08": "163:1621",
+    "B09": "163:1640",
+    "B10": "163:1665",
+    "B11": "163:1691",
+    "B12": "163:1710",
+    "H00": "163:1829",
+    "H01": "163:1857",
+    "H02": "163:1886",
+    "H03": "163:1934",
+    "H04": "163:1961",
+    "H05": "163:1999",
+    "H06": "163:2021",
+    "H07": "163:2050",
+    "H08": "163:2081",
+    "P00": "163:2267",
+    "P01": "163:2300",
+    "P02": "163:2345",
+    "P03": "163:2370",
+    "P04": "163:2403",
+    "P05": "163:2427",
+    "P06": "163:2458",
+    "I00": "163:2542",
+    "I01": "163:2567",
+    "I02": "163:2592",
+    "I03": "163:2618",
+    "I04": "163:2640",
+    "I05": "163:2662",
+    "I06": "163:2687",
+    "I07": "163:2721",
+    "I08": "163:2745",
+    "I09": "163:2769",
+    "N00": "163:2845",
+    "N01": "163:2875",
+    "N02": "163:2899",
+    "N03": "163:2926",
+    "N04": "163:2958",
+    "N05": "163:2983",
+    "N06": "163:3008",
+    "N07": "163:3031",
+    "N08": "163:3050",
+    "N09": "163:3084",
+    "D01": "163:3184",
+    "D02": "163:3232",
+    "D00": "163:3251",
+    "D03": "163:3302",
+    "D04": "163:3340",
+    "D05": "163:3377",
+    "D06": "163:3405",
+    "D07": "163:3431",
+    "D08": "163:3450",
+    "D09": "163:3481",
+    "D10": "163:3511",
+    "D11": "163:3535",
+    "C00": "163:3718",
+    "C01": "163:3747",
+    "C02": "163:3778",
+    "C03": "163:3802",
+    "C04": "163:3826",
+    "C05": "163:3850",
+    "C06": "163:3869",
+    "C07": "163:3913",
+    "C08": "163:3953",
+    "C09": "163:3979",
+    "C10": "163:4019",
+    "C11": "163:4039",
+    "C12": "163:4064",
+    "C13": "163:4083",
+    "C14": "163:4103",
+    "L00": "163:4248",
+    "L01": "163:4291",
+    "L02": "163:4318",
+    "L03": "163:4347",
+    "L04": "163:4371",
+    "L05": "163:4393",
+    "L06": "163:4424",
+    "F00": "163:4525",
+    "F01": "163:4572",
+    "F02": "163:4610",
+    "F03": "163:4643",
+    "F04": "163:4673",
+    "F10": "163:4695",
+    "F05": "163:4721",
+    "F06": "163:4753",
+    "F07": "163:4775",
+    "F08": "163:4809",
+    "F09": "163:4835",
+    "F11": "163:4866",
+    "F12": "163:4897",
+    "F13": "163:4920",
+    "F14": "163:4944",
+    "F15": "163:4966",
+    "S00": "163:5174",
+    "S01": "163:5214",
+    "S02": "163:5243",
+    "S03": "163:5261",
+    "S04": "163:5283",
+    "S05": "163:5309",
+    "S06": "163:5332",
+    "S07": "163:5352",
+    "S08": "163:5371",
+    "S09": "163:5397",
+    "S10": "163:5423",
+    "S11": "163:5441",
+    "S12": "163:5460",
+    "X00": "163:5562",
+    "X01": "163:5588",
+    "X02": "163:5615",
+    "X03": "163:5634",
+    "X04": "163:5653",
+    "X05": "163:5672",
+    "X06": "163:5691",
+    "X07": "163:5711"
+  },
+  "routes": [
+    {
+      "nodeId": "163:1267",
+      "to": "H02",
+      "label": "Sessão válida",
+      "source": "A00",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:1269",
+      "to": "H00",
+      "label": "Visitante recorrente",
+      "source": "A00",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:1284",
+      "to": "A02",
+      "label": "Começar agora",
+      "source": "A01",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1285",
+      "to": "B00",
+      "label": "Já tenho uma conta",
+      "source": "A01",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1298",
+      "to": "A01",
+      "label": "Voltar",
+      "source": "A02",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:1310",
+      "to": "A03",
+      "label": "Continuar",
+      "source": "A02",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1322",
+      "to": "A02",
+      "label": "Voltar",
+      "source": "A03",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:1336",
+      "to": "A04",
+      "label": "Continuar",
+      "source": "A03",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1337",
+      "to": "A04",
+      "label": "Escolher depois",
+      "source": "A03",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1350",
+      "to": "A03",
+      "label": "Voltar",
+      "source": "A04",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:1360",
+      "to": "P00",
+      "label": "Adicionar minha primeira planta",
+      "source": "A04",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1361",
+      "to": "H00",
+      "label": "Explorar o app primeiro",
+      "source": "A04",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1411",
+      "to": "A01",
+      "label": "Voltar",
+      "source": "B00",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:1420",
+      "to": "B05",
+      "label": "Esqueci minha senha",
+      "source": "B00",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:1426",
+      "to": "H02",
+      "label": "Entrar",
+      "source": "B00",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1427",
+      "to": "B01",
+      "label": "Criar uma conta",
+      "source": "B00",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1433",
+      "to": "B04",
+      "label": "Credenciais incorretas",
+      "source": "B00",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:1435",
+      "to": "B02",
+      "label": "E-mail não verificado",
+      "source": "B00",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:1437",
+      "to": "X01",
+      "label": "Sem conexão",
+      "source": "B00",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:1446",
+      "to": "B00",
+      "label": "Voltar",
+      "source": "B01",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:1458",
+      "to": "F09",
+      "label": "Termos e privacidade",
+      "source": "B01",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:1463",
+      "to": "B02",
+      "label": "Criar conta",
+      "source": "B01",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1469",
+      "to": "B03",
+      "label": "E-mail já cadastrado",
+      "source": "B01",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:1471",
+      "to": "B10",
+      "label": "Campos inválidos",
+      "source": "B01",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:1480",
+      "to": "B01",
+      "label": "Voltar",
+      "source": "B02",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:1490",
+      "to": "B09",
+      "label": "Verificar e continuar",
+      "source": "B02",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1491",
+      "to": "B11",
+      "label": "Reenviar código",
+      "source": "B02",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1492",
+      "to": "B01",
+      "label": "Corrigir e-mail",
+      "source": "B02",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1499",
+      "to": "B12",
+      "label": "Código inválido ou expirado",
+      "source": "B02",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:1508",
+      "to": "B01",
+      "label": "Voltar",
+      "source": "B03",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:1518",
+      "to": "B00",
+      "label": "Entrar",
+      "source": "B03",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1519",
+      "to": "B05",
+      "label": "Recuperar senha",
+      "source": "B03",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1530",
+      "to": "B00",
+      "label": "Voltar",
+      "source": "B04",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:1541",
+      "to": "H02",
+      "label": "Tentar entrar",
+      "source": "B04",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1542",
+      "to": "B05",
+      "label": "Recuperar senha",
+      "source": "B04",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1554",
+      "to": "B00",
+      "label": "Voltar",
+      "source": "B05",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:1563",
+      "to": "B06",
+      "label": "Enviar código",
+      "source": "B05",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1575",
+      "to": "B05",
+      "label": "Voltar",
+      "source": "B06",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:1585",
+      "to": "B07",
+      "label": "Validar código",
+      "source": "B06",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1586",
+      "to": "B11",
+      "label": "Reenviar código",
+      "source": "B06",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1591",
+      "to": "B12",
+      "label": "Código expirado",
+      "source": "B06",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:1601",
+      "to": "B06",
+      "label": "Voltar",
+      "source": "B07",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:1612",
+      "to": "B08",
+      "label": "Salvar nova senha",
+      "source": "B07",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1617",
+      "to": "B10",
+      "label": "Senhas não conferem",
+      "source": "B07",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:1633",
+      "to": "B00",
+      "label": "Voltar para entrar",
+      "source": "B08",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1652",
+      "to": "H00",
+      "label": "Continuar",
+      "source": "B09",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1653",
+      "to": "F00",
+      "label": "Ver meu perfil",
+      "source": "B09",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1659",
+      "to": "H01",
+      "label": "Com planta local",
+      "source": "B09",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:1661",
+      "to": "H02",
+      "label": "Com coleção remota",
+      "source": "B09",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:1670",
+      "to": "B01",
+      "label": "Voltar",
+      "source": "B10",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:1683",
+      "to": "B01",
+      "label": "Corrigir cadastro",
+      "source": "B10",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1684",
+      "to": "B07",
+      "label": "Corrigir nova senha",
+      "source": "B10",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1702",
+      "to": "B02",
+      "label": "Voltar ao código",
+      "source": "B11",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1715",
+      "to": "B02",
+      "label": "Voltar",
+      "source": "B12",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:1725",
+      "to": "B11",
+      "label": "Reenviar código",
+      "source": "B12",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1726",
+      "to": "B02",
+      "label": "Corrigir código",
+      "source": "B12",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1839",
+      "to": "P00",
+      "label": "Sua primeira planta começa aqui",
+      "source": "H00",
+      "type": "card"
+    },
+    {
+      "nodeId": "163:1840",
+      "to": "L02",
+      "label": "Dica verde do dia",
+      "source": "H00",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:1844",
+      "to": "L05",
+      "label": "Minhas conquistas",
+      "source": "H00",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:1849",
+      "to": "P00",
+      "label": "Adicionar primeira planta",
+      "source": "H00",
+      "type": "action"
+    },
+    {
+      "nodeId": "I163:1850;156:230",
+      "to": "H02",
+      "label": "Início",
+      "source": "H00",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:1850;156:234",
+      "to": "D01",
+      "label": "Coleção",
+      "source": "H00",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:1850;156:239",
+      "to": "P00",
+      "label": "Adicionar",
+      "source": "H00",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:1850;156:243",
+      "to": "L00",
+      "label": "Dicas",
+      "source": "H00",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:1850;156:247",
+      "to": "F01",
+      "label": "Perfil",
+      "source": "H00",
+      "type": "nav"
+    },
+    {
+      "nodeId": "163:1867",
+      "to": "C00",
+      "label": "Próximo cuidado",
+      "source": "H01",
+      "type": "card"
+    },
+    {
+      "nodeId": "163:1868",
+      "to": "D00",
+      "label": "Ver minha Jiboia",
+      "source": "H01",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:1873",
+      "to": "L02",
+      "label": "Dica verde do dia",
+      "source": "H01",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:1878",
+      "to": "D00",
+      "label": "Ver minha planta",
+      "source": "H01",
+      "type": "action"
+    },
+    {
+      "nodeId": "I163:1879;156:230",
+      "to": "H02",
+      "label": "Início",
+      "source": "H01",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:1879;156:234",
+      "to": "D01",
+      "label": "Coleção",
+      "source": "H01",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:1879;156:239",
+      "to": "P00",
+      "label": "Adicionar",
+      "source": "H01",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:1879;156:243",
+      "to": "L00",
+      "label": "Dicas",
+      "source": "H01",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:1879;156:247",
+      "to": "F00",
+      "label": "Perfil",
+      "source": "H01",
+      "type": "nav"
+    },
+    {
+      "nodeId": "163:1895",
+      "to": "H04",
+      "label": "Notificações",
+      "source": "H02",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:1899",
+      "to": "H06",
+      "label": "São Paulo · 24°",
+      "source": "H02",
+      "type": "card"
+    },
+    {
+      "nodeId": "163:1900",
+      "to": "C06",
+      "label": "Cuidados de hoje",
+      "source": "H02",
+      "type": "card"
+    },
+    {
+      "nodeId": "163:1902",
+      "to": "D00",
+      "label": "Ver monstera",
+      "source": "H02",
+      "type": "plant"
+    },
+    {
+      "nodeId": "163:1906",
+      "to": "D00",
+      "label": "Ver jiboia",
+      "source": "H02",
+      "type": "plant"
+    },
+    {
+      "nodeId": "163:1910",
+      "to": "D00",
+      "label": "Ver espada",
+      "source": "H02",
+      "type": "plant"
+    },
+    {
+      "nodeId": "163:1914",
+      "to": "L02",
+      "label": "Dica verde do dia",
+      "source": "H02",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:1918",
+      "to": "L05",
+      "label": "Minhas conquistas",
+      "source": "H02",
+      "type": "row"
+    },
+    {
+      "nodeId": "I163:1922;156:230",
+      "to": "H02",
+      "label": "Início",
+      "source": "H02",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:1922;156:234",
+      "to": "D01",
+      "label": "Coleção",
+      "source": "H02",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:1922;156:239",
+      "to": "P00",
+      "label": "Adicionar",
+      "source": "H02",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:1922;156:243",
+      "to": "L00",
+      "label": "Dicas",
+      "source": "H02",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:1922;156:247",
+      "to": "F00",
+      "label": "Perfil",
+      "source": "H02",
+      "type": "nav"
+    },
+    {
+      "nodeId": "163:1928",
+      "to": "H03",
+      "label": "Tudo em dia",
+      "source": "H02",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:1930",
+      "to": "X01",
+      "label": "Sem internet",
+      "source": "H02",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:1944",
+      "to": "C06",
+      "label": "Próximo cuidado",
+      "source": "H03",
+      "type": "card"
+    },
+    {
+      "nodeId": "163:1945",
+      "to": "D01",
+      "label": "Sua coleção",
+      "source": "H03",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:1950",
+      "to": "L00",
+      "label": "Aprender algo novo",
+      "source": "H03",
+      "type": "row"
+    },
+    {
+      "nodeId": "I163:1954;156:230",
+      "to": "H02",
+      "label": "Início",
+      "source": "H03",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:1954;156:234",
+      "to": "D01",
+      "label": "Coleção",
+      "source": "H03",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:1954;156:239",
+      "to": "P00",
+      "label": "Adicionar",
+      "source": "H03",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:1954;156:243",
+      "to": "L00",
+      "label": "Dicas",
+      "source": "H03",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:1954;156:247",
+      "to": "F00",
+      "label": "Perfil",
+      "source": "H03",
+      "type": "nav"
+    },
+    {
+      "nodeId": "163:1966",
+      "to": "H02",
+      "label": "Voltar",
+      "source": "H04",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:1973",
+      "to": "C00",
+      "label": "Hora de conferir a Monstera",
+      "source": "H04",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:1978",
+      "to": "C00",
+      "label": "Cuidado adiado da Jiboia",
+      "source": "H04",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:1982",
+      "to": "L06",
+      "label": "Nova conquista",
+      "source": "H04",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:1987",
+      "to": "H05",
+      "label": "Marcar todas como lidas",
+      "source": "H04",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:1993",
+      "to": "H05",
+      "label": "Sem notificações",
+      "source": "H04",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:1995",
+      "to": "F05",
+      "label": "Permissão desativada",
+      "source": "H04",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:2004",
+      "to": "H02",
+      "label": "Voltar",
+      "source": "H05",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:2014",
+      "to": "C06",
+      "label": "Ver próximos cuidados",
+      "source": "H05",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2026",
+      "to": "H02",
+      "label": "Voltar",
+      "source": "H06",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:2035",
+      "to": "H07",
+      "label": "Alterar cidade",
+      "source": "H06",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:2041",
+      "to": "H07",
+      "label": "Escolher minha cidade",
+      "source": "H06",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2042",
+      "to": "H08",
+      "label": "Usar minha localização",
+      "source": "H06",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2055",
+      "to": "H06",
+      "label": "Voltar",
+      "source": "H07",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:2063",
+      "to": "H06",
+      "label": "São Paulo, SP",
+      "source": "H07",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:2068",
+      "to": "H06",
+      "label": "São Paulo de Olivença, AM",
+      "source": "H07",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:2074",
+      "to": "H06",
+      "label": "Salvar cidade",
+      "source": "H07",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2086",
+      "to": "H06",
+      "label": "Voltar",
+      "source": "H08",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:2093",
+      "to": "H07",
+      "label": "Clima perto de você",
+      "source": "H08",
+      "type": "card"
+    },
+    {
+      "nodeId": "163:2095",
+      "to": "H06",
+      "label": "Permitir localização",
+      "source": "H08",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2096",
+      "to": "H07",
+      "label": "Escolher cidade manualmente",
+      "source": "H08",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2102",
+      "to": "H07",
+      "label": "Localização negada",
+      "source": "H08",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:2272",
+      "to": "H00",
+      "label": "Voltar",
+      "source": "P00",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:2279",
+      "to": "P01",
+      "label": "Buscar pelo nome",
+      "source": "P00",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:2284",
+      "to": "I00",
+      "label": "Identificar por foto",
+      "source": "P00",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:2289",
+      "to": "P05",
+      "label": "Adicionar manualmente",
+      "source": "P00",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:2305",
+      "to": "P00",
+      "label": "Voltar",
+      "source": "P01",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:2313",
+      "to": "P03",
+      "label": "Monstera deliciosa",
+      "source": "P01",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:2318",
+      "to": "P03",
+      "label": "Monstera adansonii",
+      "source": "P01",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:2323",
+      "to": "P03",
+      "label": "Jiboia",
+      "source": "P01",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:2328",
+      "to": "I00",
+      "label": "Não sei o nome",
+      "source": "P01",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:2337",
+      "to": "P02",
+      "label": "Nenhum resultado",
+      "source": "P01",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:2339",
+      "to": "X00",
+      "label": "Carregando catálogo",
+      "source": "P01",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:2341",
+      "to": "X02",
+      "label": "Falha na busca",
+      "source": "P01",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:2350",
+      "to": "P01",
+      "label": "Voltar",
+      "source": "P02",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:2360",
+      "to": "P05",
+      "label": "Adicionar manualmente",
+      "source": "P02",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2361",
+      "to": "P01",
+      "label": "Tentar outra busca",
+      "source": "P02",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2362",
+      "to": "I00",
+      "label": "Identificar por foto",
+      "source": "P02",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2375",
+      "to": "P01",
+      "label": "Voltar",
+      "source": "P03",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:2391",
+      "to": "P04",
+      "label": "Guia da espécie",
+      "source": "P03",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:2396",
+      "to": "N00",
+      "label": "Adicionar às minhas plantas",
+      "source": "P03",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2408",
+      "to": "P03",
+      "label": "Voltar",
+      "source": "P04",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:2420",
+      "to": "N00",
+      "label": "Adicionar esta espécie",
+      "source": "P04",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2432",
+      "to": "P00",
+      "label": "Voltar",
+      "source": "P05",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:2441",
+      "to": "N01",
+      "label": "Foto · opcional",
+      "source": "P05",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:2448",
+      "to": "N02",
+      "label": "Continuar",
+      "source": "P05",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2454",
+      "to": "P06",
+      "label": "Nome não preenchido",
+      "source": "P05",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:2463",
+      "to": "P05",
+      "label": "Voltar",
+      "source": "P06",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:2474",
+      "to": "P05",
+      "label": "Corrigir e continuar",
+      "source": "P06",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2547",
+      "to": "P00",
+      "label": "Voltar",
+      "source": "I00",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:2557",
+      "to": "I01",
+      "label": "Tirar foto",
+      "source": "I00",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2558",
+      "to": "I02",
+      "label": "Escolher da galeria",
+      "source": "I00",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2559",
+      "to": "P05",
+      "label": "Adicionar manualmente",
+      "source": "I00",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2572",
+      "to": "I00",
+      "label": "Voltar",
+      "source": "I01",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:2581",
+      "to": "I03",
+      "label": "Permitir e abrir câmera",
+      "source": "I01",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2582",
+      "to": "I00",
+      "label": "Agora não",
+      "source": "I01",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2588",
+      "to": "I08",
+      "label": "Câmera negada",
+      "source": "I01",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:2597",
+      "to": "I00",
+      "label": "Voltar",
+      "source": "I02",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:2607",
+      "to": "I04",
+      "label": "Usar foto selecionada",
+      "source": "I02",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2608",
+      "to": "I00",
+      "label": "Cancelar",
+      "source": "I02",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2614",
+      "to": "I09",
+      "label": "Imagem inválida",
+      "source": "I02",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:2623",
+      "to": "I00",
+      "label": "Voltar",
+      "source": "I03",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:2632",
+      "to": "I04",
+      "label": "Capturar foto",
+      "source": "I03",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2633",
+      "to": "I02",
+      "label": "Escolher da galeria",
+      "source": "I03",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2645",
+      "to": "I00",
+      "label": "Voltar",
+      "source": "I04",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:2654",
+      "to": "I05",
+      "label": "Identificar planta",
+      "source": "I04",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2655",
+      "to": "I03",
+      "label": "Tirar outra foto",
+      "source": "I04",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2674",
+      "to": "I06",
+      "label": "Ver sugestões",
+      "source": "I05",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2675",
+      "to": "I00",
+      "label": "Cancelar análise",
+      "source": "I05",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2681",
+      "to": "I07",
+      "label": "Sem identificação",
+      "source": "I05",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:2683",
+      "to": "X02",
+      "label": "Falha de conexão",
+      "source": "I05",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:2692",
+      "to": "I04",
+      "label": "Voltar",
+      "source": "I06",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:2700",
+      "to": "P03",
+      "label": "Monstera deliciosa",
+      "source": "I06",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:2705",
+      "to": "P03",
+      "label": "Monstera adansonii",
+      "source": "I06",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:2712",
+      "to": "N00",
+      "label": "Confirmar Monstera deliciosa",
+      "source": "I06",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2713",
+      "to": "I07",
+      "label": "Nenhuma destas",
+      "source": "I06",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2726",
+      "to": "I00",
+      "label": "Voltar",
+      "source": "I07",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:2736",
+      "to": "I03",
+      "label": "Tentar outra foto",
+      "source": "I07",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2737",
+      "to": "P01",
+      "label": "Buscar pelo nome",
+      "source": "I07",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2738",
+      "to": "P05",
+      "label": "Cadastrar manualmente",
+      "source": "I07",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2750",
+      "to": "I00",
+      "label": "Voltar",
+      "source": "I08",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:2759",
+      "to": "X04",
+      "label": "Ver orientação dos ajustes",
+      "source": "I08",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2760",
+      "to": "I02",
+      "label": "Escolher da galeria",
+      "source": "I08",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2761",
+      "to": "P01",
+      "label": "Buscar pelo nome",
+      "source": "I08",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2774",
+      "to": "I00",
+      "label": "Voltar",
+      "source": "I09",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:2783",
+      "to": "I02",
+      "label": "Escolher outra imagem",
+      "source": "I09",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2784",
+      "to": "P01",
+      "label": "Buscar pelo nome",
+      "source": "I09",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2850",
+      "to": "P03",
+      "label": "Voltar",
+      "source": "N00",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:2859",
+      "to": "N01",
+      "label": "Foto da minha planta",
+      "source": "N00",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:2865",
+      "to": "N02",
+      "label": "Continuar",
+      "source": "N00",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2871",
+      "to": "N07",
+      "label": "Cancelar cadastro",
+      "source": "N00",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:2880",
+      "to": "N00",
+      "label": "Voltar",
+      "source": "N01",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:2889",
+      "to": "I01",
+      "label": "Tirar foto",
+      "source": "N01",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2890",
+      "to": "I02",
+      "label": "Escolher da galeria",
+      "source": "N01",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2891",
+      "to": "N00",
+      "label": "Usar foto atual",
+      "source": "N01",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2904",
+      "to": "N00",
+      "label": "Voltar",
+      "source": "N02",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:2919",
+      "to": "N03",
+      "label": "Continuar",
+      "source": "N02",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2931",
+      "to": "N02",
+      "label": "Voltar",
+      "source": "N03",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:2938",
+      "to": "N04",
+      "label": "Verificar substrato",
+      "source": "N03",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:2943",
+      "to": "N04",
+      "label": "Adubação",
+      "source": "N03",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:2951",
+      "to": "N05",
+      "label": "Continuar",
+      "source": "N03",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2963",
+      "to": "N03",
+      "label": "Voltar",
+      "source": "N04",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:2976",
+      "to": "N03",
+      "label": "Salvar ajuste",
+      "source": "N04",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2988",
+      "to": "N03",
+      "label": "Voltar",
+      "source": "N05",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:2997",
+      "to": "N06",
+      "label": "Ativar lembretes",
+      "source": "N05",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:2998",
+      "to": "N08",
+      "label": "Agora não",
+      "source": "N05",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3004",
+      "to": "N08",
+      "label": "Permissão negada",
+      "source": "N05",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:3013",
+      "to": "N05",
+      "label": "Voltar",
+      "source": "N06",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:3022",
+      "to": "N08",
+      "label": "Permitir",
+      "source": "N06",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3023",
+      "to": "N08",
+      "label": "Não permitir",
+      "source": "N06",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3042",
+      "to": "N00",
+      "label": "Continuar cadastro",
+      "source": "N07",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3043",
+      "to": "P00",
+      "label": "Descartar cadastro",
+      "source": "N07",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3055",
+      "to": "N05",
+      "label": "Voltar",
+      "source": "N08",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:3064",
+      "to": "N03",
+      "label": "Rotina de cuidados",
+      "source": "N08",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:3069",
+      "to": "N02",
+      "label": "Dados e ambiente",
+      "source": "N08",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:3074",
+      "to": "N09",
+      "label": "Salvar planta",
+      "source": "N08",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3080",
+      "to": "X03",
+      "label": "Falha ao salvar",
+      "source": "N08",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:3096",
+      "to": "D00",
+      "label": "Ver minha planta",
+      "source": "N09",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3097",
+      "to": "H01",
+      "label": "Ir para o início",
+      "source": "N09",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3195",
+      "to": "D05",
+      "label": "Todas",
+      "source": "D01",
+      "type": "filter"
+    },
+    {
+      "nodeId": "163:3197",
+      "to": "D05",
+      "label": "Sala",
+      "source": "D01",
+      "type": "filter"
+    },
+    {
+      "nodeId": "163:3199",
+      "to": "D05",
+      "label": "Varanda",
+      "source": "D01",
+      "type": "filter"
+    },
+    {
+      "nodeId": "163:3202",
+      "to": "D00",
+      "label": "Ver monstera",
+      "source": "D01",
+      "type": "plant"
+    },
+    {
+      "nodeId": "163:3206",
+      "to": "D00",
+      "label": "Ver jiboia",
+      "source": "D01",
+      "type": "plant"
+    },
+    {
+      "nodeId": "163:3210",
+      "to": "D00",
+      "label": "Ver espada",
+      "source": "D01",
+      "type": "plant"
+    },
+    {
+      "nodeId": "163:3214",
+      "to": "D06",
+      "label": "Plantas arquivadas",
+      "source": "D01",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:3220",
+      "to": "P00",
+      "label": "Adicionar planta",
+      "source": "D01",
+      "type": "action"
+    },
+    {
+      "nodeId": "I163:3221;156:253",
+      "to": "H02",
+      "label": "Início",
+      "source": "D01",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:3221;156:257",
+      "to": "D01",
+      "label": "Coleção",
+      "source": "D01",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:3221;156:262",
+      "to": "P00",
+      "label": "Adicionar",
+      "source": "D01",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:3221;156:266",
+      "to": "L00",
+      "label": "Dicas",
+      "source": "D01",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:3221;156:270",
+      "to": "F00",
+      "label": "Perfil",
+      "source": "D01",
+      "type": "nav"
+    },
+    {
+      "nodeId": "163:3226",
+      "to": "D02",
+      "label": "Coleção vazia",
+      "source": "D01",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:3228",
+      "to": "D05",
+      "label": "Sem resultado",
+      "source": "D01",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:3243",
+      "to": "P00",
+      "label": "Adicionar primeira planta",
+      "source": "D02",
+      "type": "action"
+    },
+    {
+      "nodeId": "I163:3244;156:253",
+      "to": "H02",
+      "label": "Início",
+      "source": "D02",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:3244;156:257",
+      "to": "D01",
+      "label": "Coleção",
+      "source": "D02",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:3244;156:262",
+      "to": "P00",
+      "label": "Adicionar",
+      "source": "D02",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:3244;156:266",
+      "to": "L00",
+      "label": "Dicas",
+      "source": "D02",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:3244;156:270",
+      "to": "F01",
+      "label": "Perfil",
+      "source": "D02",
+      "type": "nav"
+    },
+    {
+      "nodeId": "163:3256",
+      "to": "D01",
+      "label": "Voltar",
+      "source": "D00",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:3269",
+      "to": "C00",
+      "label": "Conferir substrato",
+      "source": "D00",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:3274",
+      "to": "C09",
+      "label": "Histórico de cuidados",
+      "source": "D00",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:3278",
+      "to": "P04",
+      "label": "Guia da espécie",
+      "source": "D00",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:3282",
+      "to": "D08",
+      "label": "Fotos e evolução",
+      "source": "D00",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:3287",
+      "to": "D04",
+      "label": "Opções da planta",
+      "source": "D00",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:3292",
+      "to": "C01",
+      "label": "Registrar cuidado",
+      "source": "D00",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3298",
+      "to": "C10",
+      "label": "Histórico vazio",
+      "source": "D00",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:3307",
+      "to": "D00",
+      "label": "Voltar",
+      "source": "D03",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:3316",
+      "to": "N01",
+      "label": "Trocar foto",
+      "source": "D03",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:3323",
+      "to": "P01",
+      "label": "Corrigir espécie",
+      "source": "D03",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:3329",
+      "to": "D00",
+      "label": "Salvar alterações",
+      "source": "D03",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3330",
+      "to": "C07",
+      "label": "Ajustar rotina",
+      "source": "D03",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3336",
+      "to": "X05",
+      "label": "Sair sem salvar",
+      "source": "D03",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:3345",
+      "to": "D00",
+      "label": "Voltar",
+      "source": "D04",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:3352",
+      "to": "D03",
+      "label": "Editar dados",
+      "source": "D04",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:3356",
+      "to": "C07",
+      "label": "Editar rotina",
+      "source": "D04",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:3360",
+      "to": "D07",
+      "label": "Arquivar planta",
+      "source": "D04",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:3365",
+      "to": "D10",
+      "label": "Remover planta",
+      "source": "D04",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:3370",
+      "to": "D00",
+      "label": "Voltar para a planta",
+      "source": "D04",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3396",
+      "to": "D01",
+      "label": "Limpar busca e filtros",
+      "source": "D05",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3397",
+      "to": "P00",
+      "label": "Adicionar outra planta",
+      "source": "D05",
+      "type": "action"
+    },
+    {
+      "nodeId": "I163:3398;156:253",
+      "to": "H02",
+      "label": "Início",
+      "source": "D05",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:3398;156:257",
+      "to": "D01",
+      "label": "Coleção",
+      "source": "D05",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:3398;156:262",
+      "to": "P00",
+      "label": "Adicionar",
+      "source": "D05",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:3398;156:266",
+      "to": "L00",
+      "label": "Dicas",
+      "source": "D05",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:3398;156:270",
+      "to": "F00",
+      "label": "Perfil",
+      "source": "D05",
+      "type": "nav"
+    },
+    {
+      "nodeId": "163:3410",
+      "to": "D01",
+      "label": "Voltar",
+      "source": "D06",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:3417",
+      "to": "D11",
+      "label": "Jiboia da varanda",
+      "source": "D06",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:3423",
+      "to": "D01",
+      "label": "Voltar à coleção",
+      "source": "D06",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3442",
+      "to": "D06",
+      "label": "Arquivar planta",
+      "source": "D07",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3443",
+      "to": "D00",
+      "label": "Manter na coleção",
+      "source": "D07",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3455",
+      "to": "D00",
+      "label": "Voltar",
+      "source": "D08",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:3463",
+      "to": "D09",
+      "label": "7 de outubro",
+      "source": "D08",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:3468",
+      "to": "D09",
+      "label": "30 de setembro",
+      "source": "D08",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:3474",
+      "to": "D09",
+      "label": "Adicionar foto e nota",
+      "source": "D08",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3486",
+      "to": "D08",
+      "label": "Voltar",
+      "source": "D09",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:3493",
+      "to": "N01",
+      "label": "Adicionar foto",
+      "source": "D09",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:3501",
+      "to": "D08",
+      "label": "Salvar registro",
+      "source": "D09",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3507",
+      "to": "X03",
+      "label": "Falha ao salvar",
+      "source": "D09",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:3522",
+      "to": "D00",
+      "label": "Manter planta",
+      "source": "D10",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3523",
+      "to": "D01",
+      "label": "Remover planta",
+      "source": "D10",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3524",
+      "to": "D07",
+      "label": "Arquivar em vez de remover",
+      "source": "D10",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3531",
+      "to": "D02",
+      "label": "Última planta removida",
+      "source": "D10",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:3540",
+      "to": "D06",
+      "label": "Voltar",
+      "source": "D11",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:3549",
+      "to": "C09",
+      "label": "Ver histórico",
+      "source": "D11",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:3554",
+      "to": "C07",
+      "label": "Restaurar e revisar rotina",
+      "source": "D11",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3555",
+      "to": "D10",
+      "label": "Remover definitivamente",
+      "source": "D11",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3723",
+      "to": "D00",
+      "label": "Voltar",
+      "source": "C00",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:3732",
+      "to": "C07",
+      "label": "Rotina atual",
+      "source": "C00",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:3737",
+      "to": "C01",
+      "label": "Registrar cuidado",
+      "source": "C00",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3738",
+      "to": "C03",
+      "label": "Adiar verificação",
+      "source": "C00",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3739",
+      "to": "C04",
+      "label": "Ainda está úmido",
+      "source": "C00",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3752",
+      "to": "D00",
+      "label": "Voltar",
+      "source": "C01",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:3768",
+      "to": "C02",
+      "label": "Salvar cuidado",
+      "source": "C01",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3774",
+      "to": "X03",
+      "label": "Falha no registro",
+      "source": "C01",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:3789",
+      "to": "C09",
+      "label": "Ver histórico",
+      "source": "C02",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:3794",
+      "to": "D00",
+      "label": "Voltar para a planta",
+      "source": "C02",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3795",
+      "to": "C06",
+      "label": "Ver cuidados de hoje",
+      "source": "C02",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3807",
+      "to": "C00",
+      "label": "Voltar",
+      "source": "C03",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:3819",
+      "to": "C05",
+      "label": "Confirmar adiamento",
+      "source": "C03",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3831",
+      "to": "C00",
+      "label": "Voltar",
+      "source": "C04",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:3842",
+      "to": "C05",
+      "label": "Salvar verificação",
+      "source": "C04",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3843",
+      "to": "C07",
+      "label": "Ajustar intervalo da rotina",
+      "source": "C04",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3861",
+      "to": "D00",
+      "label": "Voltar para a planta",
+      "source": "C05",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3862",
+      "to": "C06",
+      "label": "Ver agenda",
+      "source": "C05",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3874",
+      "to": "H02",
+      "label": "Voltar",
+      "source": "C06",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:3888",
+      "to": "C00",
+      "label": "Monstera · Verificar substrato",
+      "source": "C06",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:3893",
+      "to": "C00",
+      "label": "Jiboia · Verificação adiada",
+      "source": "C06",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:3898",
+      "to": "C00",
+      "label": "Espada · Limpar folhas",
+      "source": "C06",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:3908",
+      "to": "H03",
+      "label": "Agenda vazia",
+      "source": "C06",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:3918",
+      "to": "D00",
+      "label": "Voltar",
+      "source": "C07",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:3925",
+      "to": "C08",
+      "label": "Verificar substrato",
+      "source": "C07",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:3930",
+      "to": "C08",
+      "label": "Adubação",
+      "source": "C07",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:3935",
+      "to": "C08",
+      "label": "Limpeza de folhas",
+      "source": "C07",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:3940",
+      "to": "C13",
+      "label": "Pausar todos os lembretes",
+      "source": "C07",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:3945",
+      "to": "C08",
+      "label": "Adicionar cuidado",
+      "source": "C07",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3946",
+      "to": "D00",
+      "label": "Salvar rotina",
+      "source": "C07",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3958",
+      "to": "C07",
+      "label": "Voltar",
+      "source": "C08",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:3971",
+      "to": "C07",
+      "label": "Salvar cuidado",
+      "source": "C08",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3972",
+      "to": "C14",
+      "label": "Remover da rotina",
+      "source": "C08",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:3984",
+      "to": "D00",
+      "label": "Voltar",
+      "source": "C09",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:3998",
+      "to": "C11",
+      "label": "Rega · Hoje às 09:00",
+      "source": "C09",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4003",
+      "to": "C11",
+      "label": "Verificação · 30 de setembro",
+      "source": "C09",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4009",
+      "to": "C01",
+      "label": "Registrar outro cuidado",
+      "source": "C09",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4015",
+      "to": "C10",
+      "label": "Nenhum registro",
+      "source": "C09",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:4024",
+      "to": "D00",
+      "label": "Voltar",
+      "source": "C10",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:4033",
+      "to": "C01",
+      "label": "Registrar primeiro cuidado",
+      "source": "C10",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4044",
+      "to": "C09",
+      "label": "Voltar",
+      "source": "C11",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:4056",
+      "to": "C09",
+      "label": "Salvar correção",
+      "source": "C11",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4057",
+      "to": "C12",
+      "label": "Excluir registro",
+      "source": "C11",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4075",
+      "to": "C11",
+      "label": "Manter registro",
+      "source": "C12",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4076",
+      "to": "C09",
+      "label": "Excluir registro",
+      "source": "C12",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4094",
+      "to": "C07",
+      "label": "Pausar lembretes",
+      "source": "C13",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4095",
+      "to": "C07",
+      "label": "Manter lembretes",
+      "source": "C13",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4114",
+      "to": "C08",
+      "label": "Manter cuidado",
+      "source": "C14",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4115",
+      "to": "C07",
+      "label": "Remover da rotina",
+      "source": "C14",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4267",
+      "to": "L02",
+      "label": "Entenda a luz indireta",
+      "source": "L00",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4271",
+      "to": "L02",
+      "label": "Observe antes de regar",
+      "source": "L00",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4275",
+      "to": "L03",
+      "label": "Dicas salvas",
+      "source": "L00",
+      "type": "row"
+    },
+    {
+      "nodeId": "I163:4279;156:276",
+      "to": "H02",
+      "label": "Início",
+      "source": "L00",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:4279;156:280",
+      "to": "D01",
+      "label": "Coleção",
+      "source": "L00",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:4279;156:285",
+      "to": "P00",
+      "label": "Adicionar",
+      "source": "L00",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:4279;156:289",
+      "to": "L00",
+      "label": "Dicas",
+      "source": "L00",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:4279;156:293",
+      "to": "F00",
+      "label": "Perfil",
+      "source": "L00",
+      "type": "nav"
+    },
+    {
+      "nodeId": "163:4285",
+      "to": "L01",
+      "label": "Busca de conteúdo",
+      "source": "L00",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:4287",
+      "to": "X02",
+      "label": "Falha ao carregar",
+      "source": "L00",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:4296",
+      "to": "L00",
+      "label": "Voltar",
+      "source": "L01",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:4304",
+      "to": "L02",
+      "label": "Entenda a luz indireta",
+      "source": "L01",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4309",
+      "to": "L00",
+      "label": "Limpar busca",
+      "source": "L01",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4314",
+      "to": "L04",
+      "label": "Sem resultado",
+      "source": "L01",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:4323",
+      "to": "L00",
+      "label": "Voltar",
+      "source": "L02",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:4333",
+      "to": "D03",
+      "label": "Aplicar na minha planta",
+      "source": "L02",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4339",
+      "to": "L03",
+      "label": "Salvar dica",
+      "source": "L02",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4340",
+      "to": "L00",
+      "label": "Voltar às dicas",
+      "source": "L02",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4352",
+      "to": "L00",
+      "label": "Voltar",
+      "source": "L03",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:4359",
+      "to": "L02",
+      "label": "Entenda a luz indireta",
+      "source": "L03",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4364",
+      "to": "L00",
+      "label": "Explorar mais dicas",
+      "source": "L03",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4376",
+      "to": "L01",
+      "label": "Voltar",
+      "source": "L04",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:4386",
+      "to": "L01",
+      "label": "Tentar outra busca",
+      "source": "L04",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4387",
+      "to": "L00",
+      "label": "Explorar categorias",
+      "source": "L04",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4398",
+      "to": "H02",
+      "label": "Voltar",
+      "source": "L05",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:4405",
+      "to": "L06",
+      "label": "Primeira planta",
+      "source": "L05",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4409",
+      "to": "L06",
+      "label": "Primeiro cuidado",
+      "source": "L05",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4414",
+      "to": "L06",
+      "label": "Conhecendo minha planta",
+      "source": "L05",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4429",
+      "to": "L05",
+      "label": "Voltar",
+      "source": "L06",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:4438",
+      "to": "L00",
+      "label": "Continuar aprendendo",
+      "source": "L06",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4443",
+      "to": "L05",
+      "label": "Voltar às conquistas",
+      "source": "L06",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4534",
+      "to": "F02",
+      "label": "Editar perfil",
+      "source": "F00",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4539",
+      "to": "F03",
+      "label": "Preferências de cultivo",
+      "source": "F00",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4544",
+      "to": "F05",
+      "label": "Notificações",
+      "source": "F00",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4548",
+      "to": "L05",
+      "label": "Conquistas",
+      "source": "F00",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4552",
+      "to": "F07",
+      "label": "Ajuda e suporte",
+      "source": "F00",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4556",
+      "to": "F09",
+      "label": "Privacidade e termos",
+      "source": "F00",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4560",
+      "to": "S00",
+      "label": "Conta e segurança",
+      "source": "F00",
+      "type": "row"
+    },
+    {
+      "nodeId": "I163:4565;156:299",
+      "to": "H02",
+      "label": "Início",
+      "source": "F00",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:4565;156:303",
+      "to": "D01",
+      "label": "Coleção",
+      "source": "F00",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:4565;156:308",
+      "to": "P00",
+      "label": "Adicionar",
+      "source": "F00",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:4565;156:312",
+      "to": "L00",
+      "label": "Dicas",
+      "source": "F00",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:4565;156:316",
+      "to": "F00",
+      "label": "Perfil",
+      "source": "F00",
+      "type": "nav"
+    },
+    {
+      "nodeId": "163:4583",
+      "to": "F03",
+      "label": "Preferências de cultivo",
+      "source": "F01",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4588",
+      "to": "F05",
+      "label": "Notificações",
+      "source": "F01",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4592",
+      "to": "F07",
+      "label": "Ajuda e suporte",
+      "source": "F01",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4596",
+      "to": "F09",
+      "label": "Privacidade e termos",
+      "source": "F01",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4601",
+      "to": "B01",
+      "label": "Criar conta",
+      "source": "F01",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4602",
+      "to": "B00",
+      "label": "Já tenho uma conta",
+      "source": "F01",
+      "type": "action"
+    },
+    {
+      "nodeId": "I163:4603;156:299",
+      "to": "H02",
+      "label": "Início",
+      "source": "F01",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:4603;156:303",
+      "to": "D01",
+      "label": "Coleção",
+      "source": "F01",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:4603;156:308",
+      "to": "P00",
+      "label": "Adicionar",
+      "source": "F01",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:4603;156:312",
+      "to": "L00",
+      "label": "Dicas",
+      "source": "F01",
+      "type": "nav"
+    },
+    {
+      "nodeId": "I163:4603;156:316",
+      "to": "F01",
+      "label": "Perfil",
+      "source": "F01",
+      "type": "nav"
+    },
+    {
+      "nodeId": "163:4615",
+      "to": "F00",
+      "label": "Voltar",
+      "source": "F02",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:4622",
+      "to": "I02",
+      "label": "Alterar foto",
+      "source": "F02",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4631",
+      "to": "F00",
+      "label": "Salvar perfil",
+      "source": "F02",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4637",
+      "to": "X05",
+      "label": "Sair com alterações",
+      "source": "F02",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:4639",
+      "to": "X03",
+      "label": "Falha ao salvar",
+      "source": "F02",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:4648",
+      "to": "F00",
+      "label": "Voltar",
+      "source": "F03",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:4655",
+      "to": "F04",
+      "label": "Nível de experiência",
+      "source": "F03",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4660",
+      "to": "F10",
+      "label": "Meus interesses",
+      "source": "F03",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4666",
+      "to": "F00",
+      "label": "Salvar preferências",
+      "source": "F03",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4678",
+      "to": "F03",
+      "label": "Voltar",
+      "source": "F04",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:4689",
+      "to": "F03",
+      "label": "Salvar nível",
+      "source": "F04",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4700",
+      "to": "F03",
+      "label": "Voltar",
+      "source": "F10",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:4714",
+      "to": "F03",
+      "label": "Salvar interesses",
+      "source": "F10",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4726",
+      "to": "F00",
+      "label": "Voltar",
+      "source": "F05",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:4733",
+      "to": "F06",
+      "label": "Permissão no aparelho",
+      "source": "F05",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4742",
+      "to": "F00",
+      "label": "Salvar preferências",
+      "source": "F05",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4748",
+      "to": "F06",
+      "label": "Permissão do sistema negada",
+      "source": "F05",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:4758",
+      "to": "F05",
+      "label": "Voltar",
+      "source": "F06",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:4767",
+      "to": "X04",
+      "label": "Ver ajustes do aparelho",
+      "source": "F06",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4768",
+      "to": "F05",
+      "label": "Continuar sem avisos",
+      "source": "F06",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4780",
+      "to": "F00",
+      "label": "Voltar",
+      "source": "F07",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:4787",
+      "to": "F08",
+      "label": "Como adicionar uma planta?",
+      "source": "F07",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4791",
+      "to": "F08",
+      "label": "Como funcionam os lembretes?",
+      "source": "F07",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4795",
+      "to": "F08",
+      "label": "Como guardar minha coleção?",
+      "source": "F07",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4800",
+      "to": "F11",
+      "label": "Enviar uma mensagem ao suporte",
+      "source": "F07",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4814",
+      "to": "F07",
+      "label": "Voltar",
+      "source": "F08",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:4823",
+      "to": "F05",
+      "label": "Gerenciar notificações",
+      "source": "F08",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4828",
+      "to": "F07",
+      "label": "Voltar à ajuda",
+      "source": "F08",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4840",
+      "to": "F00",
+      "label": "Voltar",
+      "source": "F09",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:4847",
+      "to": "F12",
+      "label": "Política de privacidade",
+      "source": "F09",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4851",
+      "to": "F13",
+      "label": "Termos de uso",
+      "source": "F09",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4855",
+      "to": "F14",
+      "label": "Sobre o PlantMe",
+      "source": "F09",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4871",
+      "to": "F07",
+      "label": "Voltar",
+      "source": "F11",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:4881",
+      "to": "I02",
+      "label": "Anexo · opcional",
+      "source": "F11",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:4887",
+      "to": "F15",
+      "label": "Enviar mensagem",
+      "source": "F11",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4893",
+      "to": "X03",
+      "label": "Falha no envio",
+      "source": "F11",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:4902",
+      "to": "F09",
+      "label": "Voltar",
+      "source": "F12",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:4913",
+      "to": "F09",
+      "label": "Voltar às informações",
+      "source": "F12",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4925",
+      "to": "F09",
+      "label": "Voltar",
+      "source": "F13",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:4936",
+      "to": "F09",
+      "label": "Voltar às informações",
+      "source": "F13",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4949",
+      "to": "F09",
+      "label": "Voltar",
+      "source": "F14",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:4960",
+      "to": "F09",
+      "label": "Voltar",
+      "source": "F14",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:4977",
+      "to": "F07",
+      "label": "Voltar à ajuda",
+      "source": "F15",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5179",
+      "to": "F00",
+      "label": "Voltar",
+      "source": "S00",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:5186",
+      "to": "S01",
+      "label": "Alterar senha",
+      "source": "S00",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:5191",
+      "to": "S03",
+      "label": "Alterar e-mail",
+      "source": "S00",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:5196",
+      "to": "S05",
+      "label": "Exportar meus dados",
+      "source": "S00",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:5200",
+      "to": "S06",
+      "label": "Sair da conta",
+      "source": "S00",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:5205",
+      "to": "S08",
+      "label": "Excluir minha conta",
+      "source": "S00",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:5219",
+      "to": "S00",
+      "label": "Voltar",
+      "source": "S01",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:5231",
+      "to": "S02",
+      "label": "Salvar nova senha",
+      "source": "S01",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5232",
+      "to": "B05",
+      "label": "Esqueci a senha atual",
+      "source": "S01",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5239",
+      "to": "B10",
+      "label": "Dados inválidos",
+      "source": "S01",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:5254",
+      "to": "S00",
+      "label": "Voltar à segurança",
+      "source": "S02",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5266",
+      "to": "S00",
+      "label": "Voltar",
+      "source": "S03",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:5276",
+      "to": "S04",
+      "label": "Enviar código de confirmação",
+      "source": "S03",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5288",
+      "to": "S03",
+      "label": "Voltar",
+      "source": "S04",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:5298",
+      "to": "S00",
+      "label": "Confirmar alteração",
+      "source": "S04",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5299",
+      "to": "S03",
+      "label": "Corrigir novo e-mail",
+      "source": "S04",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5305",
+      "to": "B12",
+      "label": "Código expirado",
+      "source": "S04",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:5314",
+      "to": "S00",
+      "label": "Voltar",
+      "source": "S05",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:5325",
+      "to": "S12",
+      "label": "Solicitar exportação",
+      "source": "S05",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5343",
+      "to": "F00",
+      "label": "Continuar conectado",
+      "source": "S06",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5344",
+      "to": "S07",
+      "label": "Sair da conta",
+      "source": "S06",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5363",
+      "to": "B00",
+      "label": "Entrar novamente",
+      "source": "S07",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5364",
+      "to": "H00",
+      "label": "Explorar como visitante",
+      "source": "S07",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5376",
+      "to": "S00",
+      "label": "Voltar",
+      "source": "S08",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:5384",
+      "to": "S05",
+      "label": "Guardar uma cópia antes",
+      "source": "S08",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:5389",
+      "to": "S00",
+      "label": "Manter minha conta",
+      "source": "S08",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5390",
+      "to": "S09",
+      "label": "Continuar exclusão",
+      "source": "S08",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5402",
+      "to": "S08",
+      "label": "Voltar",
+      "source": "S09",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:5412",
+      "to": "S10",
+      "label": "Excluir definitivamente",
+      "source": "S09",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5413",
+      "to": "S00",
+      "label": "Cancelar",
+      "source": "S09",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5419",
+      "to": "S11",
+      "label": "Falha na exclusão",
+      "source": "S09",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:5434",
+      "to": "A01",
+      "label": "Voltar às boas-vindas",
+      "source": "S10",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5452",
+      "to": "S09",
+      "label": "Tentar novamente",
+      "source": "S11",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5453",
+      "to": "S00",
+      "label": "Voltar à segurança",
+      "source": "S11",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5471",
+      "to": "S00",
+      "label": "Voltar à segurança",
+      "source": "S12",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5567",
+      "to": "H02",
+      "label": "Voltar",
+      "source": "X00",
+      "type": "back"
+    },
+    {
+      "nodeId": "163:5578",
+      "to": "D01",
+      "label": "Ver conteúdo carregado",
+      "source": "X00",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5584",
+      "to": "X02",
+      "label": "Falha",
+      "source": "X00",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:5598",
+      "to": "D01",
+      "label": "Ver coleção disponível",
+      "source": "X01",
+      "type": "row"
+    },
+    {
+      "nodeId": "163:5604",
+      "to": "H02",
+      "label": "Tentar reconectar",
+      "source": "X01",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5605",
+      "to": "D01",
+      "label": "Ver minha coleção",
+      "source": "X01",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5611",
+      "to": "X07",
+      "label": "Sincronização pendente",
+      "source": "X01",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "163:5626",
+      "to": "P01",
+      "label": "Tentar novamente",
+      "source": "X02",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5627",
+      "to": "P00",
+      "label": "Voltar",
+      "source": "X02",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5645",
+      "to": "N08",
+      "label": "Voltar ao formulário",
+      "source": "X03",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5646",
+      "to": "N09",
+      "label": "Tentar salvar novamente",
+      "source": "X03",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5664",
+      "to": "F05",
+      "label": "Voltar ao PlantMe",
+      "source": "X04",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5665",
+      "to": "I00",
+      "label": "Continuar sem permissão",
+      "source": "X04",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5683",
+      "to": "D03",
+      "label": "Continuar editando",
+      "source": "X05",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5684",
+      "to": "D00",
+      "label": "Descartar alterações",
+      "source": "X05",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5702",
+      "to": "B00",
+      "label": "Entrar novamente",
+      "source": "X06",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5703",
+      "to": "S07",
+      "label": "Continuar como visitante",
+      "source": "X06",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5722",
+      "to": "H02",
+      "label": "Tentar sincronizar",
+      "source": "X07",
+      "type": "action"
+    },
+    {
+      "nodeId": "163:5723",
+      "to": "D01",
+      "label": "Voltar à coleção",
+      "source": "X07",
+      "type": "action"
+    },
+    {
+      "nodeId": "171:1215",
+      "to": "N07",
+      "label": "Cancelar cadastro",
+      "source": "N00",
+      "type": "action"
+    },
+    {
+      "nodeId": "171:1218",
+      "to": "N07",
+      "label": "Cancelar cadastro",
+      "source": "N02",
+      "type": "action"
+    },
+    {
+      "nodeId": "171:1221",
+      "to": "N07",
+      "label": "Cancelar cadastro",
+      "source": "N03",
+      "type": "action"
+    },
+    {
+      "nodeId": "171:1224",
+      "to": "N07",
+      "label": "Cancelar cadastro",
+      "source": "N05",
+      "type": "action"
+    },
+    {
+      "nodeId": "171:1227",
+      "to": "N07",
+      "label": "Cancelar cadastro",
+      "source": "N08",
+      "type": "action"
+    },
+    {
+      "nodeId": "171:1230",
+      "to": "X06",
+      "label": "Sessão expirada",
+      "source": "H02",
+      "type": "scenario"
+    },
+    {
+      "nodeId": "171:1233",
+      "to": "X06",
+      "label": "Sessão expirada",
+      "source": "F00",
+      "type": "scenario"
+    }
+  ],
+  "annotations": {
+    "A00": "163:1262",
+    "A01": "163:1287",
+    "A02": "163:1311",
+    "A03": "163:1339",
+    "A04": "163:1363",
+    "B00": "163:1428",
+    "B01": "163:1464",
+    "B02": "163:1494",
+    "B03": "163:1520",
+    "B04": "163:1543",
+    "B05": "163:1564",
+    "B06": "163:1587",
+    "B07": "163:1613",
+    "B08": "163:1634",
+    "B09": "163:1654",
+    "B10": "163:1685",
+    "B11": "163:1704",
+    "B12": "163:1727",
+    "H00": "163:1851",
+    "H01": "163:1880",
+    "H02": "163:1923",
+    "H03": "163:1955",
+    "H04": "163:1988",
+    "H05": "163:2015",
+    "H06": "163:2043",
+    "H07": "163:2075",
+    "H08": "163:2097",
+    "P00": "163:2294",
+    "P01": "163:2333",
+    "P02": "163:2364",
+    "P03": "163:2397",
+    "P04": "163:2421",
+    "P05": "163:2449",
+    "P06": "163:2475",
+    "I00": "163:2561",
+    "I01": "163:2583",
+    "I02": "163:2609",
+    "I03": "163:2634",
+    "I04": "163:2656",
+    "I05": "163:2676",
+    "I06": "163:2714",
+    "I07": "163:2740",
+    "I08": "163:2763",
+    "I09": "163:2785",
+    "N00": "163:2866",
+    "N01": "163:2893",
+    "N02": "163:2920",
+    "N03": "163:2952",
+    "N04": "163:2977",
+    "N05": "163:2999",
+    "N06": "163:3024",
+    "N07": "163:3044",
+    "N08": "163:3075",
+    "N09": "163:3098",
+    "D01": "163:3222",
+    "D02": "163:3245",
+    "D00": "163:3293",
+    "D03": "163:3331",
+    "D04": "163:3371",
+    "D05": "163:3399",
+    "D06": "163:3424",
+    "D07": "163:3444",
+    "D08": "163:3475",
+    "D09": "163:3502",
+    "D10": "163:3526",
+    "D11": "163:3556",
+    "C00": "163:3741",
+    "C01": "163:3769",
+    "C02": "163:3796",
+    "C03": "163:3820",
+    "C04": "163:3844",
+    "C05": "163:3863",
+    "C06": "163:3903",
+    "C07": "163:3947",
+    "C08": "163:3973",
+    "C09": "163:4010",
+    "C10": "163:4034",
+    "C11": "163:4058",
+    "C12": "163:4077",
+    "C13": "163:4096",
+    "C14": "163:4116",
+    "L00": "163:4280",
+    "L01": "163:4310",
+    "L02": "163:4341",
+    "L03": "163:4365",
+    "L04": "163:4388",
+    "L05": "163:4418",
+    "L06": "163:4444",
+    "F00": "163:4566",
+    "F01": "163:4604",
+    "F02": "163:4632",
+    "F03": "163:4667",
+    "F04": "163:4690",
+    "F10": "163:4715",
+    "F05": "163:4743",
+    "F06": "163:4769",
+    "F07": "163:4804",
+    "F08": "163:4829",
+    "F09": "163:4860",
+    "F11": "163:4888",
+    "F12": "163:4914",
+    "F13": "163:4937",
+    "F14": "163:4961",
+    "F15": "163:4978",
+    "S00": "163:5209",
+    "S01": "163:5234",
+    "S02": "163:5255",
+    "S03": "163:5277",
+    "S04": "163:5300",
+    "S05": "163:5326",
+    "S06": "163:5345",
+    "S07": "163:5365",
+    "S08": "163:5391",
+    "S09": "163:5414",
+    "S10": "163:5435",
+    "S11": "163:5454",
+    "S12": "163:5472",
+    "X00": "163:5579",
+    "X01": "163:5606",
+    "X02": "163:5628",
+    "X03": "163:5647",
+    "X04": "163:5666",
+    "X05": "163:5685",
+    "X06": "163:5704",
+    "X07": "163:5724"
+  },
+  "boardContents": {
+    "A": "163:1244",
+    "B": "163:1400",
+    "H": "163:1823",
+    "P": "163:2261",
+    "I": "163:2536",
+    "N": "163:2839",
+    "D": "163:3178",
+    "C": "163:3712",
+    "L": "163:4242",
+    "F": "163:4519",
+    "S": "163:5168",
+    "X": "163:5556"
+  },
+  "runtime": {
+    "auth": "VariableID:167:1217",
+    "hasPlants": "VariableID:167:1218",
+    "manualMode": "VariableID:167:1219",
+    "photoMode": "VariableID:167:1220",
+    "photoReturn": "VariableID:167:1221",
+    "photoLabel": "VariableID:167:1222",
+    "errorReturn": "VariableID:167:1223",
+    "errorSuccess": "VariableID:167:1224",
+    "authOrigin": "VariableID:167:1225",
+    "entryOrigin": "VariableID:167:1226",
+    "detailOrigin": "VariableID:167:1227",
+    "catalogOrigin": "VariableID:167:1228",
+    "guideOrigin": "VariableID:167:1229",
+    "prefOrigin": "VariableID:167:1230",
+    "legalOrigin": "VariableID:167:1231",
+    "codeOrigin": "VariableID:167:1232",
+    "settingsReturn": "VariableID:167:1233",
+    "draftStep": "VariableID:167:1234",
+    "discardTo": "VariableID:167:1235",
+    "onboarded": "VariableID:173:229",
+    "draftOrigin": "VariableID:177:1214"
+  },
+  "startingPoints": [
+    {
+      "nodeId": "163:1250",
+      "name": "01 / Jornada completa · primeiro acesso"
+    },
+    {
+      "nodeId": "163:1886",
+      "name": "02 / Rotina de quem já tem plantas"
+    },
+    {
+      "nodeId": "163:2267",
+      "name": "03 / Adicionar planta"
+    },
+    {
+      "nodeId": "163:2542",
+      "name": "04 / Identificar por foto"
+    },
+    {
+      "nodeId": "163:4525",
+      "name": "05 / Perfil e conta"
+    },
+    {
+      "nodeId": "163:5332",
+      "name": "06 / Sair da conta"
+    }
+  ],
+  "validation": {
+    "screenCount": 125,
+    "textCount": 1378,
+    "instanceCount": 475,
+    "reactionCount": 441,
+    "fontFamilies": [
+      "Inter",
+      "Nunito",
+      "Manrope"
+    ],
+    "imageFillCount": 0,
+    "colorIssues": [],
+    "issues": [],
+    "missingDestinations": [],
+    "startingPoints": [
+      {
+        "nodeId": "163:1250",
+        "name": "01 / Jornada completa · primeiro acesso"
+      },
+      {
+        "nodeId": "163:1886",
+        "name": "02 / Rotina de quem já tem plantas"
+      },
+      {
+        "nodeId": "163:2267",
+        "name": "03 / Adicionar planta"
+      },
+      {
+        "nodeId": "163:2542",
+        "name": "04 / Identificar por foto"
+      },
+      {
+        "nodeId": "163:4525",
+        "name": "05 / Perfil e conta"
+      },
+      {
+        "nodeId": "163:5332",
+        "name": "06 / Sair da conta"
+      }
+    ]
+  },
+  "status": "complete",
+  "fileKey": "l6fOEzCk3migCg7NOUlNRl",
+  "visualTreatment": {
+    "mode": "monochrome",
+    "palette": {
+      "background": "VariableID:181:1215",
+      "surface": "VariableID:181:1216",
+      "text": "VariableID:181:1217",
+      "primary": "VariableID:181:1218",
+      "selected": "VariableID:181:1219",
+      "muted": "VariableID:181:1220",
+      "border": "VariableID:181:1221",
+      "borderStrong": "VariableID:181:1222",
+      "placeholder": "VariableID:181:1223"
+    },
+    "paletteCollectionId": "VariableCollectionId:181:1214",
+    "photoPlaceholders": [
+      {
+        "screen": "D01",
+        "nodeId": "183:1243",
+        "backgroundId": "163:3203",
+        "labelId": "183:1244",
+        "width": 109,
+        "height": 110
+      },
+      {
+        "screen": "D01",
+        "nodeId": "183:1245",
+        "backgroundId": "163:3207",
+        "labelId": "183:1246",
+        "width": 109,
+        "height": 110
+      },
+      {
+        "screen": "D01",
+        "nodeId": "183:1247",
+        "backgroundId": "163:3211",
+        "labelId": "183:1248",
+        "width": 109,
+        "height": 110
+      },
+      {
+        "screen": "D00",
+        "nodeId": "183:1249",
+        "backgroundId": "163:3263",
+        "labelId": "183:1250",
+        "width": 343,
+        "height": 160
+      },
+      {
+        "screen": "D03",
+        "nodeId": "183:1251",
+        "backgroundId": "163:3314",
+        "labelId": "183:1252",
+        "width": 343,
+        "height": 100
+      },
+      {
+        "screen": "D08",
+        "nodeId": "183:1253",
+        "backgroundId": "163:3462",
+        "labelId": "183:1254",
+        "width": 343,
+        "height": 210
+      },
+      {
+        "screen": "D11",
+        "nodeId": "183:1255",
+        "backgroundId": "163:3547",
+        "labelId": "183:1256",
+        "width": 343,
+        "height": 180
+      },
+      {
+        "screen": "C00",
+        "nodeId": "183:1257",
+        "backgroundId": "163:3730",
+        "labelId": "183:1258",
+        "width": 343,
+        "height": 150
+      },
+      {
+        "screen": "H01",
+        "nodeId": "183:1215",
+        "backgroundId": "163:1866",
+        "labelId": "183:1216",
+        "width": 343,
+        "height": 170
+      },
+      {
+        "screen": "H02",
+        "nodeId": "183:1217",
+        "backgroundId": "163:1903",
+        "labelId": "183:1218",
+        "width": 109,
+        "height": 110
+      },
+      {
+        "screen": "H02",
+        "nodeId": "183:1219",
+        "backgroundId": "163:1907",
+        "labelId": "183:1220",
+        "width": 109,
+        "height": 110
+      },
+      {
+        "screen": "H02",
+        "nodeId": "183:1221",
+        "backgroundId": "163:1911",
+        "labelId": "183:1222",
+        "width": 109,
+        "height": 110
+      },
+      {
+        "screen": "P03",
+        "nodeId": "183:1223",
+        "backgroundId": "163:2382",
+        "labelId": "183:1224",
+        "width": 343,
+        "height": 180
+      },
+      {
+        "screen": "I00",
+        "nodeId": "183:1225",
+        "backgroundId": "163:2554",
+        "labelId": "183:1226",
+        "width": 343,
+        "height": 170
+      },
+      {
+        "screen": "I02",
+        "nodeId": "183:1227",
+        "backgroundId": "163:2604",
+        "labelId": "183:1228",
+        "width": 343,
+        "height": 240
+      },
+      {
+        "screen": "I03",
+        "nodeId": "183:1229",
+        "backgroundId": "163:2630",
+        "labelId": "183:1230",
+        "width": 343,
+        "height": 330
+      },
+      {
+        "screen": "I04",
+        "nodeId": "183:1231",
+        "backgroundId": "163:2652",
+        "labelId": "183:1232",
+        "width": 343,
+        "height": 280
+      },
+      {
+        "screen": "I05",
+        "nodeId": "183:1233",
+        "backgroundId": "163:2671",
+        "labelId": "183:1234",
+        "width": 343,
+        "height": 200
+      },
+      {
+        "screen": "I06",
+        "nodeId": "183:1235",
+        "backgroundId": "163:2699",
+        "labelId": "183:1236",
+        "width": 343,
+        "height": 150
+      },
+      {
+        "screen": "N00",
+        "nodeId": "183:1237",
+        "backgroundId": "163:2857",
+        "labelId": "183:1238",
+        "width": 343,
+        "height": 160
+      },
+      {
+        "screen": "N01",
+        "nodeId": "183:1239",
+        "backgroundId": "163:2887",
+        "labelId": "183:1240",
+        "width": 343,
+        "height": 220
+      },
+      {
+        "screen": "N08",
+        "nodeId": "183:1241",
+        "backgroundId": "163:3062",
+        "labelId": "183:1242",
+        "width": 343,
+        "height": 120
+      }
+    ],
+    "removedDecorations": [
+      {
+        "nodeId": "163:3241",
+        "screen": "D02",
+        "name": "Foto / mascot"
+      },
+      {
+        "nodeId": "163:3787",
+        "screen": "C02",
+        "name": "Foto / mascot"
+      },
+      {
+        "nodeId": "163:4031",
+        "screen": "C10",
+        "name": "Foto / mascot"
+      },
+      {
+        "nodeId": "163:1838",
+        "screen": "H00",
+        "name": "Foto / mascot"
+      },
+      {
+        "nodeId": "163:1943",
+        "screen": "H03",
+        "name": "Foto / mascot"
+      },
+      {
+        "nodeId": "163:2011",
+        "screen": "H05",
+        "name": "Foto / mascot"
+      },
+      {
+        "nodeId": "163:5361",
+        "screen": "S07",
+        "name": "Foto / mascot"
+      },
+      {
+        "nodeId": "163:2733",
+        "screen": "I07",
+        "name": "Foto / mascot"
+      },
+      {
+        "nodeId": "163:3093",
+        "screen": "N09",
+        "name": "Foto / mascot"
+      },
+      {
+        "nodeId": "163:1259",
+        "screen": "A00",
+        "name": "Foto / welcome"
+      },
+      {
+        "nodeId": "163:1282",
+        "screen": "A01",
+        "name": "Foto / welcome"
+      },
+      {
+        "nodeId": "163:1357",
+        "screen": "A04",
+        "name": "Foto / mascot"
+      },
+      {
+        "nodeId": "163:1630",
+        "screen": "B08",
+        "name": "Foto / mascot"
+      },
+      {
+        "nodeId": "163:1649",
+        "screen": "B09",
+        "name": "Foto / mascot"
+      },
+      {
+        "nodeId": "163:4330",
+        "screen": "L02",
+        "name": "Foto / monstera"
+      },
+      {
+        "nodeId": "163:4436",
+        "screen": "L06",
+        "name": "Foto / mascot"
+      },
+      {
+        "nodeId": "163:4581",
+        "screen": "F01",
+        "name": "Foto / mascot"
+      },
+      {
+        "nodeId": "163:4956",
+        "screen": "F14",
+        "name": "Foto / mascot"
+      }
+    ],
+    "imageFillCount": 0
+  }
+}

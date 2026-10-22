@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PlantMe — Conheça sua Jiboia</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 430px; height: 844px; overflow: hidden; }
+    body { font-family: "Avenir Next", Avenir, sans-serif; color: #092923; }
+    .screen { width: 430px; height: 844px; position: relative; overflow: hidden; background: #fcfaf5; }
+    .status { position: absolute; top: 0; left: 0; width: 100%; height: 45px; display: flex; align-items: flex-start; padding: 9px 17px 0; font: 600 14px/19px -apple-system, sans-serif; color: #0e1613; }
+    .status .left { display: flex; align-items: center; gap: 4px; }
+    .status .time { position: absolute; left: 50%; transform: translateX(-50%); }
+    .status .battery { position: absolute; right: 17px; top: 10px; width: 25px; height: 12px; border: 1.6px solid #141b18; border-radius: 2px; padding: 1.5px; }
+    .status .battery:after { content: ""; position: absolute; width: 2px; height: 5px; top: 2px; right: -4px; border-radius: 0 1px 1px 0; background: #141b18; }
+    .status .battery i { display:block; width:100%; height:100%; background:#141b18; border-radius:1px; }
+    .back { position: absolute; top: 68px; left: 24px; width: 54px; height: 54px; border-radius: 17px; background: #fff; box-shadow: 0 4px 13px #1b381914, 0 1px 2px #1b38190b; display: grid; place-items: center; }
+    .progress { position:absolute; top:91px; right:25px; display:flex; gap:5px; }
+    .progress span { width:20px; height:5px; border-radius:4px; background:#e5e8da; }
+    .progress span:nth-child(-n+2) { background:#1a6c3c; }
+    h1 { position: absolute; left: 25px; top: 145px; width: 380px; margin: 0; font-size: 30px; line-height: 1.1; font-weight: 800; letter-spacing: -1.25px; }
+    .intro { position: absolute; left: 25px; top: 185px; width: 365px; margin: 0; color:#64726c; font-size:16px; line-height: 1.35; letter-spacing:-0.2px; }
+    .hero { position:absolute; left:24px; top:232px; width:382px; height:211px; border-radius:24px; overflow:hidden; background:linear-gradient(117deg,#e9f2d9 0%,#f3f7e9 61%,#fafaf4 100%); box-shadow:0 5px 13px #4563390e; }
+    .hero:before { content:""; position:absolute; left:-28px; top:65px; width:240px; height:240px; border:1px solid #a8c89155; border-radius:50%; }
+    .hero:after { content:""; position:absolute; left:33px; top:105px; width:176px; height:176px; border:1px solid #a8c89155; border-radius:50%; }
+    .hero img { position:absolute; width:236px; height:236px; object-fit:cover; right:-2px; top:-15px; mix-blend-mode:multiply; }
+    .hero-copy { position:absolute; z-index:2; left:23px; top:24px; width:175px; }
+    .eyebrow { display:inline-block; padding:5px 10px; border-radius:20px; background:#ffffffad; color:#246d3c; font-size:11px; line-height:15px; font-weight:800; letter-spacing:.4px; text-transform:uppercase; }
+    .hero-copy strong { display:block; margin-top:13px; font-size:23px; line-height:1.07; letter-spacing:-.7px; }
+    .hero-copy p { margin:11px 0 0; width:158px; font-size:13px; line-height:1.32; color:#4d6656; font-weight:500; }
+    .form { position:absolute; left:24px; top:466px; width:382px; }
+    .field-label { display:block; font-size:17px; line-height:22px; font-weight:750; letter-spacing:-.45px; }
+    .room { display:flex; align-items:center; height:72px; margin-top:12px; padding:0 17px 0 13px; background:#fff; border:1.5px solid #e2e6da; border-radius:17px; box-shadow:0 2px 0 #dddcd033; }
+    .room .icon { width:43px; height:43px; border-radius:13px; display:grid; place-items:center; background:#eaf3e6; color:#277245; flex:0 0 auto; }
+    .room .text { margin-left:13px; font-size:16px; font-weight:700; }
+    .room .chevron { margin-left:auto; color:#1e6c3b; }
+    .light-title { margin-top:24px; }
+    .light-options { display:flex; gap:10px; margin-top:12px; }
+    .choice { display:flex; align-items:center; height:70px; width:calc(50% - 5px); padding:0 12px; background:#fff; border:1.5px solid #e0e3d9; border-radius:17px; color:#102b25; }
+    .choice.selected { border-color:#23743c; background:#e4f1e2; box-shadow:inset 0 -2px 0 #c2dfc1; }
+    .choice .small-icon { width:34px; height:34px; display:grid; place-items:center; margin-right:10px; flex:0 0 auto; color:#327646; }
+    .choice:not(.selected) .small-icon { color:#9d9e91; }
+    .choice span { font-size:14px; font-weight:700; white-space:nowrap; }
+    .unknown { display:block; text-align:right; color:#1a6c3c; font-size:13px; font-weight:650; margin-top:12px; }
+    .footer { position:absolute; left:24px; bottom:25px; width:382px; }
+    .button { height:62px; display:flex; align-items:center; justify-content:center; border-radius:16px; background:#176534; box-shadow:inset 0 -5px 0 #104a29, 0 4px 8px #18572e1a; color:#fff; font-size:18px; font-weight:750; position:relative; }
+    .button:before, .button:after { content:""; position:absolute; width:4px; height:4px; border-radius:50%; background:#b9ecc2; top:9px; }
+    .button:before { left:11px; } .button:after { right:13px; }
+  </style>
+</head>
+<body>
+  <main class="screen">
+    <div class="status"><div class="left"><svg width="19" height="14" viewBox="0 0 19 14"><rect y="8" width="3" height="6" rx=".5"/><rect x="4" y="6" width="3" height="8" rx=".5"/><rect x="8" y="4" width="3" height="10" rx=".5"/><rect x="12" y="2" width="3" height="12" rx=".5"/></svg><span>Service</span><svg width="17" height="14" viewBox="0 0 17 14" fill="none"><path d="M1 5c4-3.8 11-3.8 15 0M3.6 8c2.6-2.6 7.3-2.6 9.9 0M6.5 10.7c1.1-1.1 2.9-1.1 4 0" stroke="#121b16" stroke-width="1.7" stroke-linecap="round"/><circle cx="8.5" cy="12" r="1" fill="#121b16"/></svg></div><span class="time">19:02</span><div class="battery"><i></i></div></div>
+    <div class="back"><svg width="23" height="23" viewBox="0 0 24 24" fill="none"><path d="m14.8 4.5-7 7.5 7 7.5" stroke="#19703b" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="progress"><span></span><span></span><span></span></div>
+    <h1>Conheça sua Jiboia</h1>
+    <p class="intro">Vamos escolher um bom lugar para ela.</p>
+    <div class="hero">
+      <div class="hero-copy"><span class="eyebrow">Dica para começar</span><strong>Luz suave<br>faz bem.</strong><p>Evite sol direto nas folhas.</p></div>
+      <img src="../plantme-onboarding/07-jiboia.png" alt="Jiboia em vaso branco">
+    </div>
+    <section class="form">
+      <label class="field-label">Onde ela vai ficar?</label>
+      <div class="room"><span class="icon"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"><path d="M5 11V8.5a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2V11M3.5 16V13a2 2 0 0 1 4 0v1h10v-1a2 2 0 1 1 4 0v3.5a2 2 0 0 1-2 2h-14a2 2 0 0 1-2-2Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M6.5 18.5v2M18.5 18.5v2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span><span class="text">Sala de estar</span><svg class="chevron" width="19" height="19" viewBox="0 0 20 20" fill="none"><path d="m5 7 5 5 5-5" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <label class="field-label light-title">Como é a luz nesse local?</label>
+      <div class="light-options">
+        <div class="choice selected"><span class="small-icon"><svg width="31" height="31" viewBox="0 0 31 31" fill="none"><path d="M9 20.5a5 5 0 0 1-1.4-9.8 7.3 7.3 0 0 1 13.9 2.8 4.1 4.1 0 0 1 .4 8.1H9Z" fill="#fff" stroke="currentColor" stroke-width="1.5"/><path d="M9 9.5 6.8 7.3M14.5 7V4.2M5.3 15.5H2.5" stroke="#F4B82A" stroke-width="1.7" stroke-linecap="round"/></svg></span><span>Luz indireta</span></div>
+        <div class="choice"><span class="small-icon"><svg width="27" height="27" viewBox="0 0 27 27" fill="none"><circle cx="13.5" cy="13.5" r="5" stroke="currentColor" stroke-width="1.7"/><path d="M13.5 1.5v3M13.5 22.5v3M1.5 13.5h3M22.5 13.5h3M5 5l2.2 2.2M19.8 19.8 22 22M22 5l-2.2 2.2M7.2 19.8 5 22" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span><span>Sol direto</span></div>
+      </div>
+      <span class="unknown">Não sei informar</span>
+    </section>
+    <div class="footer"><div class="button">Continuar</div></div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,41 @@
+{
+  "primitiveCount": 58,
+  "semanticCount": 48,
+  "modes": [
+    {
+      "name": "Light",
+      "modeId": "190:1"
+    },
+    {
+      "name": "Dark",
+      "modeId": "190:2"
+    }
+  ],
+  "aliasValuesChecked": 96,
+  "errors": [],
+  "textStyleCount": 10,
+  "effectStyles": [
+    "raised",
+    "floating",
+    "overlay"
+  ],
+  "numericTolerance": 0.000001,
+  "opacityCheck": {
+    "values": [
+      {
+        "name": "opacity/disabled",
+        "value": 0.4000000059604645
+      },
+      {
+        "name": "opacity/muted",
+        "value": 0.6399999856948853
+      },
+      {
+        "name": "opacity/opaque",
+        "value": 1
+      }
+    ],
+    "errors": [],
+    "numericTolerance": 0.000001
+  }
+}

@@ -1,0 +1,13 @@
+Crie uma coleção consistente de SEIS fotografias individuais para cards do onboarding PlantMe, numa única solicitação. Exporte SEIS ARQUIVOS SEPARADOS quadrados, cada um com pelo menos 2048 × 2048 pixels; não entregar apenas uma colagem. A imagem anexada é a referência visual principal obrigatória de composição, realismo, iluminação e acabamento, não um alvo para edição.
+Use case: product-mockup. Fotografia profissional de catálogo de plantas reais.
+Arquivos/espécies:
+1 plantas-interior: ave-do-paraíso (Strelitzia), seguindo diretamente a espécie e composição da referência.
+2 suculentas: echeveria verde saudável, volumosa e simétrica.
+3 cactos: dois ou três pequenos cactos botanicamente naturais de formatos diferentes no mesmo vaso.
+4 ervas: manjericão saudável, cheio e reconhecível.
+5 flores: delicadas flores rosadas naturais com folhagem equilibrada.
+6 plantas-externas: pequeno arbusto de lavanda, folhagem e flores características de cultivo externo.
+Em todas: planta isolada completamente visível, centralizada, fundo branco ou ivory uniforme sem textura, MESMO vaso cilíndrico minimalista de cerâmica clara como na referência, MESMA altura visual de vaso, perspectiva frontal ligeiramente elevada, iluminação difusa de estúdio de direção idêntica, mesmo balanço de branco, distância da câmera e tratamento de cor. Sombra de contato muito suave sob vaso. Folhas naturais detalhadas botanicamente reconhecíveis, bordas limpas sem halos. As seis devem parecer produzidas na mesma sessão. Conjunto planta e vaso ocupa aproximadamente 75% da imagem, margem segura em todas as folhas, vaso próximo da parte inferior, nada cortado, escala visual semelhante adaptada às proporções naturais das espécies. Preserve a direção fotográfica da referência mudando somente a espécie.
+Sem texto, etiquetas, pessoas, mãos, móveis, cenários, ferramentas, objetos decorativos ou gráficos. Sem transparência, sombras fortes, vasos coloridos, recortes artificiais, folhas deformadas, saturação excessiva, 3D, ilustração ou aparência de IA. Salvar os seis resultados individuais.
+
+Método: ferramenta integrada image_gen. A chamada de coleção retornou somente a primeira imagem; as demais foram geradas individualmente usando a mesma referência e direção fotográfica. Originais: 1254 x 1254. Exportações: 2048 x 2048 por ampliação com sips. Há variações na escala dos vasos.

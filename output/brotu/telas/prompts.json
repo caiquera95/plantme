@@ -1,0 +1,20 @@
+{
+  "provider": "built-in image_gen",
+  "screens": [
+    {
+      "key": "login-com-brotu",
+      "screen": "/Users/caiqueantonio/Downloads/login2.png",
+      "mascot": "/Users/caiqueantonio/Documents/ChatGPT/PlantMe 2/output/brotu/onboarding/08-login-acompanhando.png",
+      "instruction": "The new Brotu accompanies typing: hands near belly, gentle head tilt and calm attentive smile. Place it at the right of the heading, looking toward the email/password fields to the lower left.",
+      "prompt": "Edit Image 1, the complete PlantMe mobile screen, to show the improved contextual mascot interaction. Image 2 is the exact new Brotu mascot artwork to insert. REPLACE ONLY the existing small waving mascot near the upper-right title area with the character from Image 2. Preserve the exact pose, expression, colors and soft 3D identity of Image 2. The new Brotu accompanies typing: hands near belly, gentle head tilt and calm attentive smile. Place it at the right of the heading, looking toward the email/password fields to the lower left. Fit the full mascot, including both head leaves and feet, inside the existing mascot area; adjust its size minimally to avoid overlap with text or inputs. Preserve ALL other pixels and UI structure from Image 1 as closely as possible: original portrait canvas dimensions and aspect ratio, off-white background, device status bar, back button, EXACT unmodified PlantMe logo, all Portuguese text verbatim, typography, headings, spacing, input fields, password eye icon, green primary button, secondary actions, divider lines, Apple and Google marks, legal text and bottom account link. Do not redesign, recolor, rewrite, invent or omit any UI elements. Remove the old mascot entirely before placing the new one, leaving no ghost or duplicate character. This is one polished full-screen mobile mockup, no device frame, no surrounding presentation canvas, no captions, no watermark. Opaque off-white screen background, matching Image 1."
+    },
+    {
+      "key": "cadastro-com-brotu",
+      "screen": "/Users/caiqueantonio/Downloads/cadastro2.png",
+      "mascot": "/Users/caiqueantonio/Documents/ChatGPT/PlantMe 2/output/brotu/onboarding/09-cadastro-orientando.png",
+      "instruction": "The new Brotu extends its open rounded arm toward viewer left, presenting the form. Place it at the right of the heading with its gesture leading toward the email/password fields.",
+      "prompt": "Edit Image 1, the complete PlantMe mobile screen, to show the improved contextual mascot interaction. Image 2 is the exact new Brotu mascot artwork to insert. REPLACE ONLY the existing small waving mascot near the upper-right title area with the character from Image 2. Preserve the exact pose, expression, colors and soft 3D identity of Image 2. The new Brotu extends its open rounded arm toward viewer left, presenting the form. Place it at the right of the heading with its gesture leading toward the email/password fields. Fit the full mascot, including both head leaves and feet, inside the existing mascot area; adjust its size minimally to avoid overlap with text or inputs. Preserve ALL other pixels and UI structure from Image 1 as closely as possible: original portrait canvas dimensions and aspect ratio, off-white background, device status bar, back button, EXACT unmodified PlantMe logo, all Portuguese text verbatim, typography, headings, spacing, input fields, password eye icon, green primary button, secondary actions, divider lines, Apple and Google marks, legal text and bottom account link. Do not redesign, recolor, rewrite, invent or omit any UI elements. Remove the old mascot entirely before placing the new one, leaving no ghost or duplicate character. This is one polished full-screen mobile mockup, no device frame, no surrounding presentation canvas, no captions, no watermark. Opaque off-white screen background, matching Image 1."
+    }
+  ],
+  "cadastroRefinement": "Reduce mascot 20%, move right and upward to keep subtitle completely unobstructed."
+}

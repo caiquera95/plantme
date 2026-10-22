@@ -1,0 +1,41 @@
+{
+  "screenCount": 125,
+  "textCount": 1378,
+  "instanceCount": 475,
+  "reactionCount": 441,
+  "fontFamilies": [
+    "Inter",
+    "Nunito",
+    "Manrope"
+  ],
+  "imageFillCount": 0,
+  "colorIssues": [],
+  "issues": [],
+  "missingDestinations": [],
+  "startingPoints": [
+    {
+      "nodeId": "163:1250",
+      "name": "01 / Jornada completa · primeiro acesso"
+    },
+    {
+      "nodeId": "163:1886",
+      "name": "02 / Rotina de quem já tem plantas"
+    },
+    {
+      "nodeId": "163:2267",
+      "name": "03 / Adicionar planta"
+    },
+    {
+      "nodeId": "163:2542",
+      "name": "04 / Identificar por foto"
+    },
+    {
+      "nodeId": "163:4525",
+      "name": "05 / Perfil e conta"
+    },
+    {
+      "nodeId": "163:5332",
+      "name": "06 / Sair da conta"
+    }
+  ]
+}

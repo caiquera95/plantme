@@ -1,0 +1,78 @@
+{
+  "screenCount": 125,
+  "textCount": 1356,
+  "instanceCount": 475,
+  "reactionCount": 441,
+  "conditionalCount": 73,
+  "fontFamilies": [
+    "Inter",
+    "Nunito",
+    "Manrope"
+  ],
+  "issues": [],
+  "missingDestinations": [],
+  "overlaps": [],
+  "sectionCount": 12,
+  "startingPoints": [
+    {
+      "nodeId": "163:1250",
+      "name": "01 / Jornada completa · primeiro acesso"
+    },
+    {
+      "nodeId": "163:1886",
+      "name": "02 / Rotina de quem já tem plantas"
+    },
+    {
+      "nodeId": "163:2267",
+      "name": "03 / Adicionar planta"
+    },
+    {
+      "nodeId": "163:2542",
+      "name": "04 / Identificar por foto"
+    },
+    {
+      "nodeId": "163:4525",
+      "name": "05 / Perfil e conta"
+    },
+    {
+      "nodeId": "163:5332",
+      "name": "06 / Sair da conta"
+    },
+    {
+      "nodeId": "163:1273",
+      "name": "Flow 1"
+    },
+    {
+      "nodeId": "163:1400",
+      "name": "Flow 2"
+    },
+    {
+      "nodeId": "163:1823",
+      "name": "Flow 3"
+    },
+    {
+      "nodeId": "163:2261",
+      "name": "Flow 4"
+    },
+    {
+      "nodeId": "163:2536",
+      "name": "Flow 5"
+    },
+    {
+      "nodeId": "163:2662",
+      "name": "Flow 6"
+    },
+    {
+      "nodeId": "163:2839",
+      "name": "Flow 7"
+    },
+    {
+      "nodeId": "163:3178",
+      "name": "Flow 8"
+    },
+    {
+      "nodeId": "163:4242",
+      "name": "Flow 9"
+    }
+  ]
+}

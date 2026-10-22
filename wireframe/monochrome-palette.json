@@ -1,0 +1,25 @@
+{
+  "palette": {
+    "background": "VariableID:181:1215",
+    "surface": "VariableID:181:1216",
+    "text": "VariableID:181:1217",
+    "primary": "VariableID:181:1218",
+    "selected": "VariableID:181:1219",
+    "muted": "VariableID:181:1220",
+    "border": "VariableID:181:1221",
+    "borderStrong": "VariableID:181:1222",
+    "placeholder": "VariableID:181:1223"
+  },
+  "collectionId": "VariableCollectionId:181:1214",
+  "variableIds": [
+    "VariableID:181:1215",
+    "VariableID:181:1216",
+    "VariableID:181:1217",
+    "VariableID:181:1218",
+    "VariableID:181:1219",
+    "VariableID:181:1220",
+    "VariableID:181:1221",
+    "VariableID:181:1222",
+    "VariableID:181:1223"
+  ]
+}

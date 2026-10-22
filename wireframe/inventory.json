@@ -1,0 +1,5279 @@
+{
+  "product": "PlantMe 2.0",
+  "version": "2026-10-07",
+  "viewport": {
+    "width": 375,
+    "height": 667
+  },
+  "groups": [
+    {
+      "key": "A",
+      "title": "01 · Entrada e onboarding",
+      "description": "Primeiro acesso → personalização → primeira planta. Conta e permissões ficam no contexto de uso."
+    },
+    {
+      "key": "B",
+      "title": "02 · Conta e recuperação de acesso",
+      "description": "Acesso por e-mail. Retorno à ação original após autenticação; dados do visitante são preservados."
+    },
+    {
+      "key": "H",
+      "title": "03 · Início, notificações e clima",
+      "description": "Estados sem planta, primeira planta e coleção. A rotina é o centro do início."
+    },
+    {
+      "key": "P",
+      "title": "04 · Adicionar por busca ou manualmente",
+      "description": "Três entradas: buscar, identificar e cadastro manual. Seleção da espécie precede personalização."
+    },
+    {
+      "key": "I",
+      "title": "05 · Identificação e permissões",
+      "description": "Foto → revisão → análise → sugestões com confirmação humana. Busca e manual sempre disponíveis."
+    },
+    {
+      "key": "N",
+      "title": "06 · Personalização e primeira rotina",
+      "description": "Nome e foto → ambiente → rotina → lembretes → salvar. Voltar preserva o rascunho."
+    },
+    {
+      "key": "D",
+      "title": "07 · Coleção e detalhes da planta",
+      "description": "Lista, filtros, dados, guia e evolução. Editar, arquivar e remover têm consequências distintas."
+    },
+    {
+      "key": "C",
+      "title": "08 · Cuidados, agenda e histórico",
+      "description": "Verificar → decidir → registrar ou adiar. Registro, edição e pausa atualizam a agenda."
+    },
+    {
+      "key": "L",
+      "title": "09 · Dicas, conteúdo e conquistas",
+      "description": "Aprender com conteúdo editorial, salvar dicas e acompanhar progresso com critérios explícitos."
+    },
+    {
+      "key": "F",
+      "title": "10 · Perfil e preferências",
+      "description": "Perfil autenticado e visitante; edição de dados, experiência, interesses, notificações e suporte."
+    },
+    {
+      "key": "S",
+      "title": "11 · Segurança, sair e excluir conta",
+      "description": "Sair encerra a sessão; excluir apaga os dados da conta. Ações e consequências não se confundem."
+    },
+    {
+      "key": "X",
+      "title": "12 · Estados transversais e recuperação",
+      "description": "Padrões aplicáveis à origem: carregamento, offline, falha, alterações não salvas e sessão expirada."
+    }
+  ],
+  "screens": [
+    {
+      "key": "A00",
+      "group": "A",
+      "title": "PlantMe",
+      "subtitle": "Cuidar da sua planta ficou fácil.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "welcome",
+          "body": "",
+          "to": null,
+          "height": 350
+        }
+      ],
+      "actions": [],
+      "back": null,
+      "tab": null,
+      "note": "Após 1,2 s: primeiro acesso → A01; sessão válida → H02; visitante com plantas → H01; visitante sem plantas com onboarding concluído → H00.",
+      "states": [
+        {
+          "label": "Sessão válida",
+          "to": "H02",
+          "style": "primary"
+        },
+        {
+          "label": "Visitante recorrente",
+          "to": "H00",
+          "style": "primary"
+        }
+      ],
+      "autoNext": "A01"
+    },
+    {
+      "key": "A01",
+      "group": "A",
+      "title": "Boas-vindas ao PlantMe",
+      "subtitle": "Um cuidado de cada vez. Cada passo conta.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "welcome",
+          "body": "",
+          "to": null,
+          "height": 235
+        }
+      ],
+      "actions": [
+        {
+          "label": "Começar agora",
+          "to": "A02",
+          "style": "primary"
+        },
+        {
+          "label": "Já tenho uma conta",
+          "to": "B00",
+          "style": "link"
+        }
+      ],
+      "back": null,
+      "tab": null,
+      "note": "Início da jornada. Criar conta é opcional; não perde preferências ao entrar.",
+      "states": []
+    },
+    {
+      "key": "A02",
+      "group": "A",
+      "title": "Vamos conhecer você melhor",
+      "subtitle": "Qual é seu nível de experiência com plantas?",
+      "blocks": [
+        {
+          "kind": "choices",
+          "title": "",
+          "body": "",
+          "to": null,
+          "items": [
+            "Estou começando|Estou aprendendo sobre plantas",
+            "Já sei o básico|Tenho alguma experiência",
+            "Experiente|Cultivo plantas há algum tempo"
+          ]
+        },
+        {
+          "kind": "card",
+          "title": "Vamos cultivar juntos",
+          "body": "A rotina vai acompanhar seu nível.",
+          "to": null,
+          "icon": "leaf"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Continuar",
+          "to": "A03",
+          "style": "primary"
+        }
+      ],
+      "back": "A01",
+      "tab": null,
+      "note": "Seleção única. Exemplo: iniciante selecionado. Continuar habilita após escolha; voltar preserva resposta.",
+      "states": []
+    },
+    {
+      "key": "A03",
+      "group": "A",
+      "title": "Quais plantas você quer cultivar?",
+      "subtitle": "Escolha seus interesses. Você pode mudar depois.",
+      "blocks": [
+        {
+          "kind": "choices",
+          "title": "",
+          "body": "",
+          "to": null,
+          "items": [
+            "Plantas de interior|Selecionada",
+            "Suculentas|Selecionada",
+            "Cactos|Não selecionada",
+            "Ervas|Não selecionada",
+            "Flores|Não selecionada",
+            "Plantas externas|Não selecionada"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "Continuar",
+          "to": "A04",
+          "style": "primary"
+        },
+        {
+          "label": "Escolher depois",
+          "to": "A04",
+          "style": "link"
+        }
+      ],
+      "back": "A02",
+      "tab": null,
+      "note": "Seleção múltipla e opcional. O resumo de A04 reflete exatamente as escolhas.",
+      "states": []
+    },
+    {
+      "key": "A04",
+      "group": "A",
+      "title": "Sua rotina verde começa agora",
+      "subtitle": "Um cuidado de cada vez. Cada passo conta.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "mascot",
+          "body": "",
+          "to": null,
+          "height": 170
+        },
+        {
+          "kind": "card",
+          "title": "Seu começo",
+          "body": "Nível iniciante\nPlantas de interior e suculentas\nRotina ajustável de cuidados",
+          "to": null,
+          "icon": "leaf"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Adicionar minha primeira planta",
+          "to": "P00",
+          "style": "primary"
+        },
+        {
+          "label": "Explorar o app primeiro",
+          "to": "H00",
+          "style": "link"
+        }
+      ],
+      "back": "A03",
+      "tab": null,
+      "note": "Onboarding concluído. Ainda não há planta, conta criada ou permissão de notificação concedida.",
+      "states": []
+    },
+    {
+      "key": "B00",
+      "group": "B",
+      "title": "Entrar na sua conta",
+      "subtitle": "Sua coleção, sempre com você.",
+      "blocks": [
+        {
+          "kind": "field",
+          "title": "E-mail",
+          "body": "anna@email.com",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "field",
+          "title": "Senha",
+          "body": "••••••••",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "row",
+          "title": "Esqueci minha senha",
+          "body": "Recuperar acesso",
+          "to": "B05",
+          "icon": "user"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Entrar",
+          "to": "H02",
+          "style": "primary"
+        },
+        {
+          "label": "Criar uma conta",
+          "to": "B01",
+          "style": "secondary"
+        }
+      ],
+      "back": "A01",
+      "tab": null,
+      "note": "Entrar retorna à origem quando chamado de Perfil ou sincronização. Exemplo padrão → início com coleção.",
+      "states": [
+        {
+          "label": "Credenciais incorretas",
+          "to": "B04",
+          "style": "primary"
+        },
+        {
+          "label": "E-mail não verificado",
+          "to": "B02",
+          "style": "primary"
+        },
+        {
+          "label": "Sem conexão",
+          "to": "X01",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "B01",
+      "group": "B",
+      "title": "Criar sua conta",
+      "subtitle": "Salve suas plantas e sua evolução.",
+      "blocks": [
+        {
+          "kind": "field",
+          "title": "Como você quer ser chamado?",
+          "body": "Anna",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "field",
+          "title": "E-mail",
+          "body": "anna@email.com",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "field",
+          "title": "Senha",
+          "body": "••••••••",
+          "to": null,
+          "hint": "Pelo menos 8 caracteres"
+        },
+        {
+          "kind": "check",
+          "title": "Li e aceito os Termos de uso",
+          "body": "Consulte os termos e a privacidade em Perfil.",
+          "to": null
+        },
+        {
+          "kind": "row",
+          "title": "Termos e privacidade",
+          "body": "Ler antes de continuar",
+          "to": "F09",
+          "icon": "book"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Criar conta",
+          "to": "B02",
+          "style": "primary"
+        }
+      ],
+      "back": "B00",
+      "tab": null,
+      "note": "Aceite obrigatório; marketing não selecionado por padrão. Preferências e coleção local são mantidas.",
+      "states": [
+        {
+          "label": "E-mail já cadastrado",
+          "to": "B03",
+          "style": "primary"
+        },
+        {
+          "label": "Campos inválidos",
+          "to": "B10",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "B02",
+      "group": "B",
+      "title": "Confira seu e-mail",
+      "subtitle": "Enviamos um código para anna@email.com.",
+      "blocks": [
+        {
+          "kind": "field",
+          "title": "Código de verificação",
+          "body": "4 8 2 1 9 0",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "card",
+          "title": "Não recebeu?",
+          "body": "Verifique o spam. Reenvio disponível em 30 s.",
+          "to": null,
+          "icon": "leaf"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Verificar e continuar",
+          "to": "B09",
+          "style": "primary"
+        },
+        {
+          "label": "Reenviar código",
+          "to": "B11",
+          "style": "secondary"
+        },
+        {
+          "label": "Corrigir e-mail",
+          "to": "B01",
+          "style": "link"
+        }
+      ],
+      "back": "B01",
+      "tab": null,
+      "note": "Código expira em 10 min. Login pendente retorna à intenção de entrada.",
+      "states": [
+        {
+          "label": "Código inválido ou expirado",
+          "to": "B12",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "B03",
+      "group": "B",
+      "title": "Este e-mail já tem conta",
+      "subtitle": "Você pode entrar ou recuperar sua senha.",
+      "blocks": [
+        {
+          "kind": "field",
+          "title": "E-mail",
+          "body": "anna@email.com",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "notice",
+          "title": "Conta encontrada",
+          "body": "Nenhuma coleção foi sobrescrita.",
+          "to": null,
+          "icon": "user"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Entrar",
+          "to": "B00",
+          "style": "primary"
+        },
+        {
+          "label": "Recuperar senha",
+          "to": "B05",
+          "style": "secondary"
+        }
+      ],
+      "back": "B01",
+      "tab": null,
+      "note": "",
+      "states": []
+    },
+    {
+      "key": "B04",
+      "group": "B",
+      "title": "Vamos tentar de novo",
+      "subtitle": "E-mail ou senha não conferem.",
+      "blocks": [
+        {
+          "kind": "field",
+          "title": "E-mail",
+          "body": "anna@email.com",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "field",
+          "title": "Senha",
+          "body": "••••••••",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "notice",
+          "title": "Confira os dados",
+          "body": "Sua senha não aparece na tela.",
+          "to": null,
+          "icon": "user"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Tentar entrar",
+          "to": "H02",
+          "style": "primary"
+        },
+        {
+          "label": "Recuperar senha",
+          "to": "B05",
+          "style": "secondary"
+        }
+      ],
+      "back": "B00",
+      "tab": null,
+      "note": "Preservar e-mail. Não confirmar publicamente se uma conta existe. Tentativas repetidas → pausa informada.",
+      "states": []
+    },
+    {
+      "key": "B05",
+      "group": "B",
+      "title": "Recuperar senha",
+      "subtitle": "Informe o e-mail usado na sua conta.",
+      "blocks": [
+        {
+          "kind": "field",
+          "title": "E-mail",
+          "body": "anna@email.com",
+          "to": null,
+          "hint": ""
+        }
+      ],
+      "actions": [
+        {
+          "label": "Enviar código",
+          "to": "B06",
+          "style": "primary"
+        }
+      ],
+      "back": "B00",
+      "tab": null,
+      "note": "Mensagem igual para e-mails existentes e inexistentes; não revelar existência da conta.",
+      "states": []
+    },
+    {
+      "key": "B06",
+      "group": "B",
+      "title": "Confira seu e-mail",
+      "subtitle": "Se houver uma conta, você receberá um código.",
+      "blocks": [
+        {
+          "kind": "field",
+          "title": "Código de recuperação",
+          "body": "4 8 2 1 9 0",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "card",
+          "title": "Código de acesso",
+          "body": "Use o código recebido para definir uma nova senha.",
+          "to": null,
+          "icon": "leaf"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Validar código",
+          "to": "B07",
+          "style": "primary"
+        },
+        {
+          "label": "Reenviar código",
+          "to": "B11",
+          "style": "secondary"
+        }
+      ],
+      "back": "B05",
+      "tab": null,
+      "note": "",
+      "states": [
+        {
+          "label": "Código expirado",
+          "to": "B12",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "B07",
+      "group": "B",
+      "title": "Definir nova senha",
+      "subtitle": "Escolha uma senha que você ainda não usa.",
+      "blocks": [
+        {
+          "kind": "field",
+          "title": "Nova senha",
+          "body": "••••••••",
+          "to": null,
+          "hint": "Pelo menos 8 caracteres"
+        },
+        {
+          "kind": "field",
+          "title": "Confirmar nova senha",
+          "body": "••••••••",
+          "to": null,
+          "hint": ""
+        }
+      ],
+      "actions": [
+        {
+          "label": "Salvar nova senha",
+          "to": "B08",
+          "style": "primary"
+        }
+      ],
+      "back": "B06",
+      "tab": null,
+      "note": "",
+      "states": [
+        {
+          "label": "Senhas não conferem",
+          "to": "B10",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "B08",
+      "group": "B",
+      "title": "Senha atualizada",
+      "subtitle": "Você já pode entrar com sua nova senha.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "mascot",
+          "body": "",
+          "to": null,
+          "height": 170
+        },
+        {
+          "kind": "notice",
+          "title": "Tudo certo",
+          "body": "Outras sessões serão encerradas.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Voltar para entrar",
+          "to": "B00",
+          "style": "primary"
+        }
+      ],
+      "back": null,
+      "tab": null,
+      "note": "Recuperar senha não autentica automaticamente.",
+      "states": []
+    },
+    {
+      "key": "B09",
+      "group": "B",
+      "title": "Sua conta está pronta",
+      "subtitle": "Vamos continuar de onde você parou.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "mascot",
+          "body": "",
+          "to": null,
+          "height": 170
+        },
+        {
+          "kind": "notice",
+          "title": "Plantas preservadas",
+          "body": "Os dados deste aparelho foram vinculados à sua conta.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Continuar",
+          "to": "H00",
+          "style": "primary"
+        },
+        {
+          "label": "Ver meu perfil",
+          "to": "F00",
+          "style": "secondary"
+        }
+      ],
+      "back": null,
+      "tab": null,
+      "note": "Primeira conta sem plantas → H00. Com plantas locais → H01. Login com coleção remota → H02.",
+      "states": [
+        {
+          "label": "Com planta local",
+          "to": "H01",
+          "style": "primary"
+        },
+        {
+          "label": "Com coleção remota",
+          "to": "H02",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "B10",
+      "group": "B",
+      "title": "Confira os campos",
+      "subtitle": "Falta ajustar um detalhe para continuar.",
+      "blocks": [
+        {
+          "kind": "field",
+          "title": "E-mail",
+          "body": "anna@",
+          "to": null,
+          "hint": "Informe um e-mail válido"
+        },
+        {
+          "kind": "field",
+          "title": "Senha",
+          "body": "•••••",
+          "to": null,
+          "hint": "Use pelo menos 8 caracteres"
+        },
+        {
+          "kind": "notice",
+          "title": "Revise os campos destacados",
+          "body": "A validação acontece perto do campo correspondente.",
+          "to": null,
+          "icon": "user"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Corrigir cadastro",
+          "to": "B01",
+          "style": "primary"
+        },
+        {
+          "label": "Corrigir nova senha",
+          "to": "B07",
+          "style": "secondary"
+        }
+      ],
+      "back": "B01",
+      "tab": null,
+      "note": "Estado reutilizável; erros específicos, foco no primeiro erro e dados válidos preservados.",
+      "states": []
+    },
+    {
+      "key": "B11",
+      "group": "B",
+      "title": "Código reenviado",
+      "subtitle": "Confira sua caixa de entrada.",
+      "blocks": [
+        {
+          "kind": "notice",
+          "title": "Novo código enviado",
+          "body": "Aguarde 30 segundos para pedir outro.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Voltar ao código",
+          "to": "B02",
+          "style": "primary"
+        }
+      ],
+      "back": null,
+      "tab": null,
+      "note": "Retorna a B02, B06 ou S04 conforme a origem do reenvio; o código anterior fica inválido.",
+      "states": []
+    },
+    {
+      "key": "B12",
+      "group": "B",
+      "title": "Este código não funcionou",
+      "subtitle": "O código pode ter expirado ou estar incorreto.",
+      "blocks": [
+        {
+          "kind": "field",
+          "title": "Código",
+          "body": "4 8 2 1 9 0",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "notice",
+          "title": "Tente novamente",
+          "body": "Confira os números ou solicite um novo código.",
+          "to": null,
+          "icon": "user"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Reenviar código",
+          "to": "B11",
+          "style": "primary"
+        },
+        {
+          "label": "Corrigir código",
+          "to": "B02",
+          "style": "secondary"
+        }
+      ],
+      "back": "B02",
+      "tab": null,
+      "note": "No fluxo de recuperação, retorno é B06. Não descartar e-mail nem intenção original.",
+      "states": []
+    },
+    {
+      "key": "H00",
+      "group": "H",
+      "title": "Bom dia, Anna",
+      "subtitle": "Vamos começar sua rotina verde.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "mascot",
+          "body": "",
+          "to": null,
+          "height": 160
+        },
+        {
+          "kind": "card",
+          "title": "Sua primeira planta começa aqui",
+          "body": "Adicione uma planta para organizar seus cuidados.",
+          "to": "P00",
+          "icon": "leaf"
+        },
+        {
+          "kind": "row",
+          "title": "Dica verde do dia",
+          "body": "Aprenda a observar sua planta",
+          "to": "L02",
+          "icon": "book"
+        },
+        {
+          "kind": "row",
+          "title": "Minhas conquistas",
+          "body": "Cada cuidado conta",
+          "to": "L05",
+          "icon": "trophy"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Adicionar primeira planta",
+          "to": "P00",
+          "style": "primary"
+        }
+      ],
+      "back": null,
+      "tab": "Início",
+      "note": "Visitante ou conta sem plantas. Não mostrar tarefas, números de progresso ou alertas fictícios.",
+      "states": []
+    },
+    {
+      "key": "H01",
+      "group": "H",
+      "title": "Sua planta está pronta",
+      "subtitle": "A Jiboia já faz parte da sua coleção.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "jiboia",
+          "body": "",
+          "to": null,
+          "height": 170
+        },
+        {
+          "kind": "card",
+          "title": "Próximo cuidado",
+          "body": "Conferir a umidade do substrato · Hoje",
+          "to": "C00",
+          "icon": "drop"
+        },
+        {
+          "kind": "row",
+          "title": "Ver minha Jiboia",
+          "body": "Detalhes e rotina",
+          "to": "D00",
+          "icon": "leaf"
+        },
+        {
+          "kind": "row",
+          "title": "Dica verde do dia",
+          "body": "Conheça a luz do seu ambiente",
+          "to": "L02",
+          "icon": "book"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Ver minha planta",
+          "to": "D00",
+          "style": "primary"
+        }
+      ],
+      "back": null,
+      "tab": "Início",
+      "note": "Após a primeira planta, retornar aqui. O próximo cuidado depende da rotina salva.",
+      "states": []
+    },
+    {
+      "key": "H02",
+      "group": "H",
+      "title": "Bom dia, Anna",
+      "subtitle": "Um cuidado de cada vez.",
+      "blocks": [
+        {
+          "kind": "row",
+          "title": "Notificações",
+          "body": "2 novidades na sua rotina",
+          "to": "H04",
+          "icon": "bell"
+        },
+        {
+          "kind": "card",
+          "title": "São Paulo · 24°",
+          "body": "Parcialmente nublado · Informação do clima",
+          "to": "H06",
+          "icon": "sun"
+        },
+        {
+          "kind": "card",
+          "title": "Cuidados de hoje",
+          "body": "2 verificações de rega · 1 cuidado adiado",
+          "to": "C06",
+          "icon": "drop"
+        },
+        {
+          "kind": "plants",
+          "title": "",
+          "body": "",
+          "to": "D00",
+          "items": [
+            "monstera",
+            "jiboia",
+            "espada"
+          ]
+        },
+        {
+          "kind": "row",
+          "title": "Dica verde do dia",
+          "body": "Entenda a luz indireta",
+          "to": "L02",
+          "icon": "book"
+        },
+        {
+          "kind": "row",
+          "title": "Minhas conquistas",
+          "body": "Sua evolução no cultivo",
+          "to": "L05",
+          "icon": "trophy"
+        }
+      ],
+      "actions": [],
+      "back": null,
+      "tab": "Início",
+      "note": "Clima é contexto; não conclui que a planta precisa de água. Cards abrem a planta selecionada.",
+      "states": [
+        {
+          "label": "Tudo em dia",
+          "to": "H03",
+          "style": "primary"
+        },
+        {
+          "label": "Sem internet",
+          "to": "X01",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "H03",
+      "group": "H",
+      "title": "Tudo em dia por aqui",
+      "subtitle": "Você já registrou os cuidados de hoje.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "mascot",
+          "body": "",
+          "to": null,
+          "height": 130
+        },
+        {
+          "kind": "card",
+          "title": "Próximo cuidado",
+          "body": "Jiboia · Conferir substrato amanhã",
+          "to": "C06",
+          "icon": "drop"
+        },
+        {
+          "kind": "row",
+          "title": "Sua coleção",
+          "body": "3 plantas crescendo com você",
+          "to": "D01",
+          "icon": "leaf"
+        },
+        {
+          "kind": "row",
+          "title": "Aprender algo novo",
+          "body": "Dicas para sua rotina",
+          "to": "L00",
+          "icon": "book"
+        }
+      ],
+      "actions": [],
+      "back": null,
+      "tab": "Início",
+      "note": "Estado após concluir cuidados do dia. Não exigir registro diário para manter conquistas.",
+      "states": []
+    },
+    {
+      "key": "H04",
+      "group": "H",
+      "title": "Notificações",
+      "subtitle": "Novidades para sua rotina.",
+      "blocks": [
+        {
+          "kind": "row",
+          "title": "Hora de conferir a Monstera",
+          "body": "Hoje · Conferir a umidade antes de regar",
+          "to": "C00",
+          "icon": "drop"
+        },
+        {
+          "kind": "row",
+          "title": "Cuidado adiado da Jiboia",
+          "body": "Hoje às 18h",
+          "to": "C00",
+          "icon": "bell"
+        },
+        {
+          "kind": "row",
+          "title": "Nova conquista",
+          "body": "Primeiro cuidado registrado",
+          "to": "L06",
+          "icon": "trophy"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Marcar todas como lidas",
+          "to": "H05",
+          "style": "secondary"
+        }
+      ],
+      "back": "H02",
+      "tab": null,
+      "note": "Tocar no alerta abre a planta/cuidado e marca como lido. Planta removida → H05 com aviso.",
+      "states": [
+        {
+          "label": "Sem notificações",
+          "to": "H05",
+          "style": "primary"
+        },
+        {
+          "label": "Permissão desativada",
+          "to": "F05",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "H05",
+      "group": "H",
+      "title": "Tudo tranquilo",
+      "subtitle": "Você não tem notificações novas.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "mascot",
+          "body": "",
+          "to": null,
+          "height": 150
+        },
+        {
+          "kind": "notice",
+          "title": "Sua rotina continua aqui",
+          "body": "Veja os próximos cuidados no início.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Ver próximos cuidados",
+          "to": "C06",
+          "style": "primary"
+        }
+      ],
+      "back": "H02",
+      "tab": null,
+      "note": "Lista vazia ou todas lidas. Não usar aviso alarmante.",
+      "states": []
+    },
+    {
+      "key": "H06",
+      "group": "H",
+      "title": "Clima da sua região",
+      "subtitle": "Use como contexto para observar suas plantas.",
+      "blocks": [
+        {
+          "kind": "card",
+          "title": "São Paulo, SP",
+          "body": "24° · Máxima 28° · Mínima 18°",
+          "to": null,
+          "icon": "sun"
+        },
+        {
+          "kind": "notice",
+          "title": "Observe antes de regar",
+          "body": "A necessidade de água depende da planta, do substrato e do ambiente.",
+          "to": null,
+          "icon": "check"
+        },
+        {
+          "kind": "row",
+          "title": "Alterar cidade",
+          "body": "São Paulo, SP",
+          "to": "H07",
+          "icon": "pin"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Escolher minha cidade",
+          "to": "H07",
+          "style": "primary"
+        },
+        {
+          "label": "Usar minha localização",
+          "to": "H08",
+          "style": "secondary"
+        }
+      ],
+      "back": "H02",
+      "tab": null,
+      "note": "Cidade manual disponível sem GPS. Sem dados → ocultar clima no início e manter cuidados acessíveis.",
+      "states": []
+    },
+    {
+      "key": "H07",
+      "group": "H",
+      "title": "Escolher cidade",
+      "subtitle": "Informe a cidade para consultar o clima.",
+      "blocks": [
+        {
+          "kind": "field",
+          "title": "Buscar cidade",
+          "body": "São Paulo",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "row",
+          "title": "São Paulo, SP",
+          "body": "Brasil",
+          "to": "H06",
+          "icon": "pin"
+        },
+        {
+          "kind": "row",
+          "title": "São Paulo de Olivença, AM",
+          "body": "Brasil",
+          "to": "H06",
+          "icon": "pin"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Salvar cidade",
+          "to": "H06",
+          "style": "primary"
+        }
+      ],
+      "back": "H06",
+      "tab": null,
+      "note": "Sem resultado → orientar nova busca. País/UF diferenciam cidades homônimas.",
+      "states": []
+    },
+    {
+      "key": "H08",
+      "group": "H",
+      "title": "Usar sua localização?",
+      "subtitle": "Precisamos dela apenas para sugerir sua cidade.",
+      "blocks": [
+        {
+          "kind": "card",
+          "title": "Clima perto de você",
+          "body": "A permissão é opcional e pode ser alterada nos ajustes.",
+          "to": "H07",
+          "icon": "pin"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Permitir localização",
+          "to": "H06",
+          "style": "primary"
+        },
+        {
+          "label": "Escolher cidade manualmente",
+          "to": "H07",
+          "style": "secondary"
+        }
+      ],
+      "back": "H06",
+      "tab": null,
+      "note": "Tela explicativa precede o diálogo nativo do sistema. Negar → escolha manual, sem bloquear o app.",
+      "states": [
+        {
+          "label": "Localização negada",
+          "to": "H07",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "P00",
+      "group": "P",
+      "title": "Adicionar planta",
+      "subtitle": "Como você quer começar?",
+      "blocks": [
+        {
+          "kind": "row",
+          "title": "Buscar pelo nome",
+          "body": "Encontre a espécie no catálogo",
+          "to": "P01",
+          "icon": "search"
+        },
+        {
+          "kind": "row",
+          "title": "Identificar por foto",
+          "body": "Fotografe ou escolha uma imagem",
+          "to": "I00",
+          "icon": "camera"
+        },
+        {
+          "kind": "row",
+          "title": "Adicionar manualmente",
+          "body": "Você pode cadastrar sem saber a espécie",
+          "to": "P05",
+          "icon": "manual"
+        }
+      ],
+      "actions": [],
+      "back": "H00",
+      "tab": null,
+      "note": "Ação central + e CTAs de primeira planta levam aqui. Cancelar retorna à origem, sem criar rascunho vazio.",
+      "states": []
+    },
+    {
+      "key": "P01",
+      "group": "P",
+      "title": "Buscar uma planta",
+      "subtitle": "Busque por nome popular ou científico.",
+      "blocks": [
+        {
+          "kind": "field",
+          "title": "Nome da planta",
+          "body": "Monstera",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "row",
+          "title": "Monstera deliciosa",
+          "body": "Costela-de-adão",
+          "to": "P03",
+          "icon": "leaf"
+        },
+        {
+          "kind": "row",
+          "title": "Monstera adansonii",
+          "body": "Costela-de-adão menor",
+          "to": "P03",
+          "icon": "leaf"
+        },
+        {
+          "kind": "row",
+          "title": "Jiboia",
+          "body": "Epipremnum aureum",
+          "to": "P03",
+          "icon": "leaf"
+        },
+        {
+          "kind": "row",
+          "title": "Não sei o nome",
+          "body": "Tentar identificar por foto",
+          "to": "I00",
+          "icon": "camera"
+        }
+      ],
+      "actions": [],
+      "back": "P00",
+      "tab": null,
+      "note": "",
+      "states": [
+        {
+          "label": "Nenhum resultado",
+          "to": "P02",
+          "style": "primary"
+        },
+        {
+          "label": "Carregando catálogo",
+          "to": "X00",
+          "style": "primary"
+        },
+        {
+          "label": "Falha na busca",
+          "to": "X02",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "P02",
+      "group": "P",
+      "title": "Nenhuma planta encontrada",
+      "subtitle": "Não encontramos “Monstera azul”.",
+      "blocks": [
+        {
+          "kind": "field",
+          "title": "Buscar planta",
+          "body": "Monstera azul",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "card",
+          "title": "Você ainda pode adicionar",
+          "body": "Cadastre sua planta agora e identifique depois.",
+          "to": null,
+          "icon": "leaf"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Adicionar manualmente",
+          "to": "P05",
+          "style": "primary"
+        },
+        {
+          "label": "Tentar outra busca",
+          "to": "P01",
+          "style": "secondary"
+        },
+        {
+          "label": "Identificar por foto",
+          "to": "I00",
+          "style": "link"
+        }
+      ],
+      "back": "P01",
+      "tab": null,
+      "note": "Busca sem resultado não é erro. Preservar texto e oferecer alternativas.",
+      "states": []
+    },
+    {
+      "key": "P03",
+      "group": "P",
+      "title": "Monstera deliciosa",
+      "subtitle": "Costela-de-adão",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "monstera",
+          "body": "",
+          "to": null,
+          "height": 180
+        },
+        {
+          "kind": "chips",
+          "title": "",
+          "body": "",
+          "to": null,
+          "items": [
+            "Folhagem",
+            "Luz indireta",
+            "Interior"
+          ]
+        },
+        {
+          "kind": "card",
+          "title": "Sobre esta espécie",
+          "body": "Conheça suas necessidades antes de montar a rotina.",
+          "to": null,
+          "icon": "leaf"
+        },
+        {
+          "kind": "row",
+          "title": "Guia da espécie",
+          "body": "Luz, água, substrato e ambiente",
+          "to": "P04",
+          "icon": "book"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Adicionar às minhas plantas",
+          "to": "N00",
+          "style": "primary"
+        }
+      ],
+      "back": "P01",
+      "tab": null,
+      "note": "Detalhe do catálogo; ainda não é uma planta da coleção. Resultado de foto usa a mesma tela.",
+      "states": []
+    },
+    {
+      "key": "P04",
+      "group": "P",
+      "title": "Guia da Monstera",
+      "subtitle": "Um ponto de partida para o cultivo.",
+      "blocks": [
+        {
+          "kind": "card",
+          "title": "Luz",
+          "body": "Observe a intensidade de luz no local.",
+          "to": null,
+          "icon": "sun"
+        },
+        {
+          "kind": "card",
+          "title": "Água",
+          "body": "Confira o substrato antes de decidir regar.",
+          "to": null,
+          "icon": "drop"
+        },
+        {
+          "kind": "card",
+          "title": "Ambiente",
+          "body": "Ajuste a rotina às condições da sua casa.",
+          "to": null,
+          "icon": "leaf"
+        },
+        {
+          "kind": "card",
+          "title": "Substrato e vaso",
+          "body": "Consulte orientações da espécie e confira a drenagem.",
+          "to": null,
+          "icon": "leaf"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Adicionar esta espécie",
+          "to": "N00",
+          "style": "primary"
+        }
+      ],
+      "back": "P03",
+      "tab": null,
+      "note": "Conteúdo editorial da espécie deve ser validado na implementação; o wireframe define a hierarquia.",
+      "states": []
+    },
+    {
+      "key": "P05",
+      "group": "P",
+      "title": "Cadastrar manualmente",
+      "subtitle": "Tudo bem se você ainda não souber a espécie.",
+      "blocks": [
+        {
+          "kind": "field",
+          "title": "Nome da sua planta",
+          "body": "Minha planta",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "field",
+          "title": "Espécie · opcional",
+          "body": "Ainda não sei",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "row",
+          "title": "Foto · opcional",
+          "body": "Adicionar uma imagem",
+          "to": "N01",
+          "icon": "camera"
+        },
+        {
+          "kind": "notice",
+          "title": "Rotina personalizada por você",
+          "body": "Sem espécie confirmada, não sugerimos intervalos automáticos.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Continuar",
+          "to": "N02",
+          "style": "primary"
+        }
+      ],
+      "back": "P00",
+      "tab": null,
+      "note": "Nome obrigatório; espécie e foto opcionais. Origem manual usa plano personalizado em N03.",
+      "states": [
+        {
+          "label": "Nome não preenchido",
+          "to": "P06",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "P06",
+      "group": "P",
+      "title": "Dê um nome à sua planta",
+      "subtitle": "Assim você vai encontrá-la na coleção.",
+      "blocks": [
+        {
+          "kind": "field",
+          "title": "Nome da sua planta",
+          "body": "",
+          "to": null,
+          "hint": "Este campo é obrigatório"
+        },
+        {
+          "kind": "field",
+          "title": "Espécie · opcional",
+          "body": "Ainda não sei",
+          "to": null,
+          "hint": ""
+        }
+      ],
+      "actions": [
+        {
+          "label": "Corrigir e continuar",
+          "to": "P05",
+          "style": "primary"
+        }
+      ],
+      "back": "P05",
+      "tab": null,
+      "note": "",
+      "states": []
+    },
+    {
+      "key": "I00",
+      "group": "I",
+      "title": "Identificar sua planta",
+      "subtitle": "Escolha uma foto clara das folhas.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "monstera",
+          "body": "",
+          "to": null,
+          "height": 170
+        },
+        {
+          "kind": "card",
+          "title": "Para uma foto melhor",
+          "body": "Use boa luz, enquadre uma planta e evite imagens desfocadas.",
+          "to": null,
+          "icon": "leaf"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Tirar foto",
+          "to": "I01",
+          "style": "primary"
+        },
+        {
+          "label": "Escolher da galeria",
+          "to": "I02",
+          "style": "secondary"
+        },
+        {
+          "label": "Adicionar manualmente",
+          "to": "P05",
+          "style": "link"
+        }
+      ],
+      "back": "P00",
+      "tab": null,
+      "note": "Não pedir câmera até a pessoa escolher tirar foto. Galeria usa seletor nativo de fotos.",
+      "states": []
+    },
+    {
+      "key": "I01",
+      "group": "I",
+      "title": "Permitir acesso à câmera?",
+      "subtitle": "Precisamos da câmera para fotografar sua planta.",
+      "blocks": [
+        {
+          "kind": "card",
+          "title": "Você decide quando usar",
+          "body": "A câmera só é usada ao tirar uma foto.",
+          "to": null,
+          "icon": "camera"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Permitir e abrir câmera",
+          "to": "I03",
+          "style": "primary"
+        },
+        {
+          "label": "Agora não",
+          "to": "I00",
+          "style": "secondary"
+        }
+      ],
+      "back": "I00",
+      "tab": null,
+      "note": "Pré-permissão → diálogo nativo. Permissão já concedida pula esta tela.",
+      "states": [
+        {
+          "label": "Câmera negada",
+          "to": "I08",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "I02",
+      "group": "I",
+      "title": "Escolher uma foto",
+      "subtitle": "Selecione apenas a imagem que deseja usar.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "monstera",
+          "body": "",
+          "to": null,
+          "height": 240
+        },
+        {
+          "kind": "card",
+          "title": "Seletor de fotos do sistema",
+          "body": "Escolha de uma imagem; acesso limitado à foto selecionada.",
+          "to": null,
+          "icon": "camera"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Usar foto selecionada",
+          "to": "I04",
+          "style": "primary"
+        },
+        {
+          "label": "Cancelar",
+          "to": "I00",
+          "style": "secondary"
+        }
+      ],
+      "back": "I00",
+      "tab": null,
+      "note": "Representação do seletor nativo, não uma tela customizada. Foto também pode vir do cadastro N01.",
+      "states": [
+        {
+          "label": "Imagem inválida",
+          "to": "I09",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "I03",
+      "group": "I",
+      "title": "Fotografar planta",
+      "subtitle": "Enquadre uma planta por vez.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "monstera",
+          "body": "",
+          "to": null,
+          "height": 330
+        }
+      ],
+      "actions": [
+        {
+          "label": "Capturar foto",
+          "to": "I04",
+          "style": "primary"
+        },
+        {
+          "label": "Escolher da galeria",
+          "to": "I02",
+          "style": "secondary"
+        }
+      ],
+      "back": "I00",
+      "tab": null,
+      "note": "Representação da captura. Cancelar não descarta outros dados do cadastro.",
+      "states": []
+    },
+    {
+      "key": "I04",
+      "group": "I",
+      "title": "A foto ficou boa?",
+      "subtitle": "Confira se as folhas estão visíveis.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "monstera",
+          "body": "",
+          "to": null,
+          "height": 280
+        }
+      ],
+      "actions": [
+        {
+          "label": "Identificar planta",
+          "to": "I05",
+          "style": "primary"
+        },
+        {
+          "label": "Tirar outra foto",
+          "to": "I03",
+          "style": "secondary"
+        }
+      ],
+      "back": "I00",
+      "tab": null,
+      "note": "Foto deve ser revisada antes de envio. No cadastro de foto pessoal, ação é “Usar foto” e retorna à origem.",
+      "states": []
+    },
+    {
+      "key": "I05",
+      "group": "I",
+      "title": "Buscando sua planta…",
+      "subtitle": "Estamos analisando a foto.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "monstera",
+          "body": "",
+          "to": null,
+          "height": 200
+        },
+        {
+          "kind": "notice",
+          "title": "Só mais um instante",
+          "body": "A identificação apresenta sugestões; você confirma a espécie.",
+          "to": null,
+          "icon": "search"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Ver sugestões",
+          "to": "I06",
+          "style": "primary"
+        },
+        {
+          "label": "Cancelar análise",
+          "to": "I00",
+          "style": "secondary"
+        }
+      ],
+      "back": null,
+      "tab": null,
+      "note": "Estado de processamento. Na implementação avança automaticamente; botão serve para demonstrar o protótipo.",
+      "states": [
+        {
+          "label": "Sem identificação",
+          "to": "I07",
+          "style": "primary"
+        },
+        {
+          "label": "Falha de conexão",
+          "to": "X02",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "I06",
+      "group": "I",
+      "title": "Esta pode ser sua planta",
+      "subtitle": "Confira as sugestões antes de confirmar.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "monstera",
+          "body": "",
+          "to": null,
+          "height": 150
+        },
+        {
+          "kind": "row",
+          "title": "Monstera deliciosa",
+          "body": "Ver detalhes e confirmar espécie",
+          "to": "P03",
+          "icon": "leaf"
+        },
+        {
+          "kind": "row",
+          "title": "Monstera adansonii",
+          "body": "Ver alternativa",
+          "to": "P03",
+          "icon": "leaf"
+        },
+        {
+          "kind": "notice",
+          "title": "A identificação pode variar",
+          "body": "Compare folhas e características.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Confirmar Monstera deliciosa",
+          "to": "N00",
+          "style": "primary"
+        },
+        {
+          "label": "Nenhuma destas",
+          "to": "I07",
+          "style": "secondary"
+        }
+      ],
+      "back": "I04",
+      "tab": null,
+      "note": "Não tratar reconhecimento como certeza. Confirmar uma alternativa leva ao detalhe da espécie selecionada.",
+      "states": []
+    },
+    {
+      "key": "I07",
+      "group": "I",
+      "title": "Ainda não conseguimos identificar",
+      "subtitle": "Uma nova foto pode ajudar.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "mascot",
+          "body": "",
+          "to": null,
+          "height": 150
+        },
+        {
+          "kind": "card",
+          "title": "Tente aproximar as folhas",
+          "body": "Use luz natural e evite várias plantas na mesma imagem.",
+          "to": null,
+          "icon": "leaf"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Tentar outra foto",
+          "to": "I03",
+          "style": "primary"
+        },
+        {
+          "label": "Buscar pelo nome",
+          "to": "P01",
+          "style": "secondary"
+        },
+        {
+          "label": "Cadastrar manualmente",
+          "to": "P05",
+          "style": "link"
+        }
+      ],
+      "back": "I00",
+      "tab": null,
+      "note": "",
+      "states": []
+    },
+    {
+      "key": "I08",
+      "group": "I",
+      "title": "A câmera está desativada",
+      "subtitle": "Você pode liberar o acesso nos ajustes do aparelho.",
+      "blocks": [
+        {
+          "kind": "card",
+          "title": "Outras formas de continuar",
+          "body": "Escolha uma foto da galeria ou busque pelo nome.",
+          "to": null,
+          "icon": "camera"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Ver orientação dos ajustes",
+          "to": "X04",
+          "style": "primary"
+        },
+        {
+          "label": "Escolher da galeria",
+          "to": "I02",
+          "style": "secondary"
+        },
+        {
+          "label": "Buscar pelo nome",
+          "to": "P01",
+          "style": "link"
+        }
+      ],
+      "back": "I00",
+      "tab": null,
+      "note": "Não repetir o diálogo nativo após negação permanente. Abrir ajustes somente por ação explícita.",
+      "states": []
+    },
+    {
+      "key": "I09",
+      "group": "I",
+      "title": "Não conseguimos usar esta foto",
+      "subtitle": "Escolha outra imagem para continuar.",
+      "blocks": [
+        {
+          "kind": "notice",
+          "title": "Formato ou arquivo inválido",
+          "body": "O arquivo pode estar indisponível, danificado ou ser grande demais.",
+          "to": null,
+          "icon": "camera"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Escolher outra imagem",
+          "to": "I02",
+          "style": "primary"
+        },
+        {
+          "label": "Buscar pelo nome",
+          "to": "P01",
+          "style": "secondary"
+        }
+      ],
+      "back": "I00",
+      "tab": null,
+      "note": "",
+      "states": []
+    },
+    {
+      "key": "N00",
+      "group": "N",
+      "title": "Conheça sua nova planta",
+      "subtitle": "Monstera deliciosa · Costela-de-adão",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "monstera",
+          "body": "",
+          "to": null,
+          "height": 160
+        },
+        {
+          "kind": "field",
+          "title": "Apelido da planta",
+          "body": "Monstera",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "row",
+          "title": "Foto da minha planta",
+          "body": "Usar foto própria · opcional",
+          "to": "N01",
+          "icon": "camera"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Continuar",
+          "to": "N02",
+          "style": "primary"
+        }
+      ],
+      "back": "P03",
+      "tab": null,
+      "note": "Foto do catálogo como padrão. Nome obrigatório. Se vier da identificação, voltar retorna ao resultado.",
+      "states": [
+        {
+          "label": "Cancelar cadastro",
+          "to": "N07",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "N01",
+      "group": "N",
+      "title": "Foto da sua planta",
+      "subtitle": "Você pode usar a foto do catálogo ou uma foto sua.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "monstera",
+          "body": "",
+          "to": null,
+          "height": 220
+        }
+      ],
+      "actions": [
+        {
+          "label": "Tirar foto",
+          "to": "I01",
+          "style": "primary"
+        },
+        {
+          "label": "Escolher da galeria",
+          "to": "I02",
+          "style": "secondary"
+        },
+        {
+          "label": "Usar foto atual",
+          "to": "N00",
+          "style": "link"
+        }
+      ],
+      "back": "N00",
+      "tab": null,
+      "note": "Modo foto do cadastro: captura → revisão → usar foto → retorna N00/P05/D03; não inicia identificação.",
+      "states": []
+    },
+    {
+      "key": "N02",
+      "group": "N",
+      "title": "Onde ela vai ficar?",
+      "subtitle": "O ambiente ajuda a ajustar os cuidados.",
+      "blocks": [
+        {
+          "kind": "field",
+          "title": "Local",
+          "body": "Sala de estar",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "choices",
+          "title": "",
+          "body": "",
+          "to": null,
+          "items": [
+            "Ambiente interno|Selecionado",
+            "Ambiente externo|Não selecionado"
+          ]
+        },
+        {
+          "kind": "choices",
+          "title": "",
+          "body": "",
+          "to": null,
+          "items": [
+            "Luz indireta|Selecionada",
+            "Sol direto|Não selecionado",
+            "Pouca luz|Não selecionada",
+            "Ainda não sei|Não selecionada"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "Continuar",
+          "to": "N03",
+          "style": "primary"
+        }
+      ],
+      "back": "N00",
+      "tab": null,
+      "note": "Local e luz podem ser ajustados depois. “Ainda não sei” oferece orientação, sem inventar condição.",
+      "states": []
+    },
+    {
+      "key": "N03",
+      "group": "N",
+      "title": "Monte a rotina de cuidados",
+      "subtitle": "Use a proposta como ponto de partida.",
+      "blocks": [
+        {
+          "kind": "row",
+          "title": "Verificar substrato",
+          "body": "A cada 7 dias · ajustar",
+          "to": "N04",
+          "icon": "drop"
+        },
+        {
+          "kind": "row",
+          "title": "Adubação",
+          "body": "Sem lembrete definido",
+          "to": "N04",
+          "icon": "leaf"
+        },
+        {
+          "kind": "field",
+          "title": "Última rega · opcional",
+          "body": "Não lembro",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "notice",
+          "title": "Observe antes de regar",
+          "body": "O lembrete é para verificar a planta, não uma ordem automática de rega.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Continuar",
+          "to": "N05",
+          "style": "primary"
+        }
+      ],
+      "back": "N02",
+      "tab": null,
+      "note": "Com espécie: proposta editável. Manual: definir cuidados sem recomendação automática. Não lembrar última rega é válido.",
+      "states": []
+    },
+    {
+      "key": "N04",
+      "group": "N",
+      "title": "Ajustar cuidado",
+      "subtitle": "Defina uma rotina que faça sentido para sua planta.",
+      "blocks": [
+        {
+          "kind": "field",
+          "title": "Tipo de cuidado",
+          "body": "Verificar substrato",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "field",
+          "title": "Repetir a cada",
+          "body": "7 dias",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "field",
+          "title": "Primeira verificação",
+          "body": "Hoje",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "field",
+          "title": "Horário",
+          "body": "09:00",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "check",
+          "title": "Ativar este cuidado",
+          "body": "Você pode pausar depois.",
+          "to": null
+        }
+      ],
+      "actions": [
+        {
+          "label": "Salvar ajuste",
+          "to": "N03",
+          "style": "primary"
+        }
+      ],
+      "back": "N03",
+      "tab": null,
+      "note": "Intervalo positivo; primeira data não pode ficar no passado. Mesma edição é usada em C07.",
+      "states": []
+    },
+    {
+      "key": "N05",
+      "group": "N",
+      "title": "Quer receber lembretes?",
+      "subtitle": "Avisamos quando for hora de conferir sua planta.",
+      "blocks": [
+        {
+          "kind": "card",
+          "title": "Você controla os avisos",
+          "body": "A rotina continua no app mesmo sem notificações.",
+          "to": null,
+          "icon": "bell"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Ativar lembretes",
+          "to": "N06",
+          "style": "primary"
+        },
+        {
+          "label": "Agora não",
+          "to": "N08",
+          "style": "secondary"
+        }
+      ],
+      "back": "N03",
+      "tab": null,
+      "note": "Somente aqui solicitar permissão nativa. Negar mantém rotina salva com avisos internos.",
+      "states": [
+        {
+          "label": "Permissão negada",
+          "to": "N08",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "N06",
+      "group": "N",
+      "title": "Ativar notificações",
+      "subtitle": "Permita os alertas do PlantMe no aparelho.",
+      "blocks": [
+        {
+          "kind": "system",
+          "title": "“PlantMe” deseja enviar notificações",
+          "body": "Alertas, sons e avisos podem ser configurados nos Ajustes.",
+          "to": null
+        }
+      ],
+      "actions": [
+        {
+          "label": "Permitir",
+          "to": "N08",
+          "style": "primary"
+        },
+        {
+          "label": "Não permitir",
+          "to": "N08",
+          "style": "secondary"
+        }
+      ],
+      "back": "N05",
+      "tab": null,
+      "note": "Diálogo nativo do sistema. Estado concedido/negado armazenado; não pedir a cada planta.",
+      "states": []
+    },
+    {
+      "key": "N07",
+      "group": "N",
+      "title": "Descartar este cadastro?",
+      "subtitle": "Sua planta ainda não foi salva.",
+      "blocks": [
+        {
+          "kind": "notice",
+          "title": "Você pode continuar preenchendo",
+          "body": "Ao descartar, este rascunho será removido.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Continuar cadastro",
+          "to": "N00",
+          "style": "primary"
+        },
+        {
+          "label": "Descartar cadastro",
+          "to": "P00",
+          "style": "danger"
+        }
+      ],
+      "back": null,
+      "tab": null,
+      "note": "Confirmação ao sair com alterações. Cancelar retorna ao passo em andamento, preservando os dados.",
+      "states": []
+    },
+    {
+      "key": "N08",
+      "group": "N",
+      "title": "Confira sua planta",
+      "subtitle": "Está tudo pronto para começar.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "monstera",
+          "body": "",
+          "to": null,
+          "height": 120
+        },
+        {
+          "kind": "card",
+          "title": "Monstera",
+          "body": "Sala de estar · Ambiente interno\nLuz indireta",
+          "to": null,
+          "icon": "leaf"
+        },
+        {
+          "kind": "row",
+          "title": "Rotina de cuidados",
+          "body": "Verificar substrato a cada 7 dias",
+          "to": "N03",
+          "icon": "drop"
+        },
+        {
+          "kind": "row",
+          "title": "Dados e ambiente",
+          "body": "Editar antes de salvar",
+          "to": "N02",
+          "icon": "edit"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Salvar planta",
+          "to": "N09",
+          "style": "primary"
+        }
+      ],
+      "back": "N05",
+      "tab": null,
+      "note": "Criar planta somente ao salvar. Clique repetido não duplica cadastro. Falha mantém rascunho.",
+      "states": [
+        {
+          "label": "Falha ao salvar",
+          "to": "X03",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "N09",
+      "group": "N",
+      "title": "Sua planta foi adicionada!",
+      "subtitle": "Agora você pode acompanhar cada cuidado.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "mascot",
+          "body": "",
+          "to": null,
+          "height": 170
+        },
+        {
+          "kind": "card",
+          "title": "Monstera",
+          "body": "A rotina está disponível nos detalhes da planta.",
+          "to": null,
+          "icon": "leaf"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Ver minha planta",
+          "to": "D00",
+          "style": "primary"
+        },
+        {
+          "label": "Ir para o início",
+          "to": "H01",
+          "style": "secondary"
+        }
+      ],
+      "back": null,
+      "tab": null,
+      "note": "Primeira planta → H01; próximas → H02. Confirmação pode ser um estado breve em vez de uma tela extra.",
+      "states": []
+    },
+    {
+      "key": "D01",
+      "group": "D",
+      "title": "Minha coleção",
+      "subtitle": "3 plantas crescendo com você.",
+      "blocks": [
+        {
+          "kind": "field",
+          "title": "Buscar na coleção",
+          "body": "Nome ou espécie",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "chips",
+          "title": "",
+          "body": "",
+          "to": "D05",
+          "items": [
+            "Todas",
+            "Sala",
+            "Varanda"
+          ]
+        },
+        {
+          "kind": "plants",
+          "title": "",
+          "body": "",
+          "to": "D00",
+          "items": [
+            "monstera",
+            "jiboia",
+            "espada"
+          ]
+        },
+        {
+          "kind": "row",
+          "title": "Plantas arquivadas",
+          "body": "1 planta",
+          "to": "D06",
+          "icon": "leaf"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Adicionar planta",
+          "to": "P00",
+          "style": "primary"
+        }
+      ],
+      "back": null,
+      "tab": "Coleção",
+      "note": "",
+      "states": [
+        {
+          "label": "Coleção vazia",
+          "to": "D02",
+          "style": "primary"
+        },
+        {
+          "label": "Sem resultado",
+          "to": "D05",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "D02",
+      "group": "D",
+      "title": "Sua coleção começa aqui",
+      "subtitle": "Adicione uma planta para acompanhar sua evolução.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "mascot",
+          "body": "",
+          "to": null,
+          "height": 180
+        }
+      ],
+      "actions": [
+        {
+          "label": "Adicionar primeira planta",
+          "to": "P00",
+          "style": "primary"
+        }
+      ],
+      "back": null,
+      "tab": "Coleção",
+      "note": "Estado sem plantas. Conta opcional. Não confundir coleção vazia com falha de carregamento.",
+      "states": []
+    },
+    {
+      "key": "D00",
+      "group": "D",
+      "title": "Monstera",
+      "subtitle": "Monstera deliciosa · Sala de estar",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "monstera",
+          "body": "",
+          "to": null,
+          "height": 160
+        },
+        {
+          "kind": "chips",
+          "title": "",
+          "body": "",
+          "to": null,
+          "items": [
+            "Luz indireta",
+            "Interior"
+          ]
+        },
+        {
+          "kind": "row",
+          "title": "Conferir substrato",
+          "body": "Hoje · observe antes de regar",
+          "to": "C00",
+          "icon": "drop"
+        },
+        {
+          "kind": "row",
+          "title": "Histórico de cuidados",
+          "body": "Último registro há 7 dias",
+          "to": "C09",
+          "icon": "book"
+        },
+        {
+          "kind": "row",
+          "title": "Guia da espécie",
+          "body": "Luz, água e ambiente",
+          "to": "P04",
+          "icon": "book"
+        },
+        {
+          "kind": "row",
+          "title": "Fotos e evolução",
+          "body": "Acompanhar crescimento",
+          "to": "D08",
+          "icon": "camera"
+        },
+        {
+          "kind": "row",
+          "title": "Opções da planta",
+          "body": "Editar, arquivar ou remover",
+          "to": "D04",
+          "icon": "edit"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Registrar cuidado",
+          "to": "C01",
+          "style": "primary"
+        }
+      ],
+      "back": "D01",
+      "tab": null,
+      "note": "Detalhe da planta da coleção. Fonte dos dados: cadastro e registros reais. Não diagnosticar automaticamente.",
+      "states": [
+        {
+          "label": "Histórico vazio",
+          "to": "C10",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "D03",
+      "group": "D",
+      "title": "Editar minha planta",
+      "subtitle": "Mantenha os dados da sua planta atualizados.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "monstera",
+          "body": "",
+          "to": null,
+          "height": 100
+        },
+        {
+          "kind": "field",
+          "title": "Apelido",
+          "body": "Monstera",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "row",
+          "title": "Trocar foto",
+          "body": "Foto da minha planta",
+          "to": "N01",
+          "icon": "camera"
+        },
+        {
+          "kind": "field",
+          "title": "Local",
+          "body": "Sala de estar",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "field",
+          "title": "Condição de luz",
+          "body": "Luz indireta",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "row",
+          "title": "Corrigir espécie",
+          "body": "Buscar no catálogo",
+          "to": "P01",
+          "icon": "search"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Salvar alterações",
+          "to": "D00",
+          "style": "primary"
+        },
+        {
+          "label": "Ajustar rotina",
+          "to": "C07",
+          "style": "secondary"
+        }
+      ],
+      "back": "D00",
+      "tab": null,
+      "note": "Edição não cria outra planta. Corrigir espécie pede revisão da rotina; histórico é preservado.",
+      "states": [
+        {
+          "label": "Sair sem salvar",
+          "to": "X05",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "D04",
+      "group": "D",
+      "title": "Opções da planta",
+      "subtitle": "Monstera · Sua coleção",
+      "blocks": [
+        {
+          "kind": "row",
+          "title": "Editar dados",
+          "body": "Nome, foto, espécie e ambiente",
+          "to": "D03",
+          "icon": "edit"
+        },
+        {
+          "kind": "row",
+          "title": "Editar rotina",
+          "body": "Intervalos e horários",
+          "to": "C07",
+          "icon": "bell"
+        },
+        {
+          "kind": "row",
+          "title": "Arquivar planta",
+          "body": "Pausar cuidados e guardar histórico",
+          "to": "D07",
+          "icon": "leaf"
+        },
+        {
+          "kind": "row",
+          "title": "Remover planta",
+          "body": "Apagar planta e registros",
+          "to": "D10",
+          "icon": "close"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Voltar para a planta",
+          "to": "D00",
+          "style": "secondary"
+        }
+      ],
+      "back": "D00",
+      "tab": null,
+      "note": "Pode ser apresentado como menu inferior; representado completo para explicitar todas as ações.",
+      "states": []
+    },
+    {
+      "key": "D05",
+      "group": "D",
+      "title": "Buscar na coleção",
+      "subtitle": "Nenhum resultado para “Samambaia”.",
+      "blocks": [
+        {
+          "kind": "field",
+          "title": "Buscar na coleção",
+          "body": "Samambaia",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "chips",
+          "title": "",
+          "body": "",
+          "to": null,
+          "items": [
+            "Todas",
+            "Sala",
+            "Varanda"
+          ]
+        },
+        {
+          "kind": "notice",
+          "title": "Tente outro nome ou filtro",
+          "body": "A busca considera apenas suas plantas cadastradas.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Limpar busca e filtros",
+          "to": "D01",
+          "style": "primary"
+        },
+        {
+          "label": "Adicionar outra planta",
+          "to": "P00",
+          "style": "secondary"
+        }
+      ],
+      "back": null,
+      "tab": "Coleção",
+      "note": "Chips filtram local, busca filtra nome/espécie. Filtros vazios não ocultam o CTA de adicionar.",
+      "states": []
+    },
+    {
+      "key": "D06",
+      "group": "D",
+      "title": "Plantas arquivadas",
+      "subtitle": "Histórico guardado, cuidados pausados.",
+      "blocks": [
+        {
+          "kind": "row",
+          "title": "Jiboia da varanda",
+          "body": "Arquivada · sem lembretes",
+          "to": "D11",
+          "icon": "leaf"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Voltar à coleção",
+          "to": "D01",
+          "style": "secondary"
+        }
+      ],
+      "back": "D01",
+      "tab": null,
+      "note": "Arquivadas não contam como tarefas pendentes e não geram notificações.",
+      "states": []
+    },
+    {
+      "key": "D07",
+      "group": "D",
+      "title": "Arquivar Monstera?",
+      "subtitle": "Os cuidados serão pausados e o histórico ficará guardado.",
+      "blocks": [
+        {
+          "kind": "notice",
+          "title": "Você pode restaurar depois",
+          "body": "A planta vai para “Plantas arquivadas”.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Arquivar planta",
+          "to": "D06",
+          "style": "primary"
+        },
+        {
+          "label": "Manter na coleção",
+          "to": "D00",
+          "style": "secondary"
+        }
+      ],
+      "back": null,
+      "tab": null,
+      "note": "Arquivar interrompe lembretes sem apagar registros.",
+      "states": []
+    },
+    {
+      "key": "D08",
+      "group": "D",
+      "title": "Evolução da Monstera",
+      "subtitle": "Um registro de cada etapa.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "monstera",
+          "body": "",
+          "to": null,
+          "height": 210
+        },
+        {
+          "kind": "row",
+          "title": "7 de outubro",
+          "body": "Foto e observação de hoje",
+          "to": "D09",
+          "icon": "camera"
+        },
+        {
+          "kind": "row",
+          "title": "30 de setembro",
+          "body": "Primeiro registro",
+          "to": "D09",
+          "icon": "camera"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Adicionar foto e nota",
+          "to": "D09",
+          "style": "primary"
+        }
+      ],
+      "back": "D00",
+      "tab": null,
+      "note": "Exemplo ilustrativo de dados. Timeline ordenada por data; estado vazio usa convite à primeira foto.",
+      "states": []
+    },
+    {
+      "key": "D09",
+      "group": "D",
+      "title": "Registrar evolução",
+      "subtitle": "Guarde uma foto e uma observação.",
+      "blocks": [
+        {
+          "kind": "row",
+          "title": "Adicionar foto",
+          "body": "Escolher imagem ou fotografar",
+          "to": "N01",
+          "icon": "camera"
+        },
+        {
+          "kind": "field",
+          "title": "Data",
+          "body": "7 de outubro de 2026",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "field",
+          "title": "Observação · opcional",
+          "body": "Uma folha nova apareceu.",
+          "to": null,
+          "hint": ""
+        }
+      ],
+      "actions": [
+        {
+          "label": "Salvar registro",
+          "to": "D08",
+          "style": "primary"
+        }
+      ],
+      "back": "D08",
+      "tab": null,
+      "note": "Foto obrigatória neste registro; nota opcional. Foto volta a esta origem; não altera imagem principal automaticamente.",
+      "states": [
+        {
+          "label": "Falha ao salvar",
+          "to": "X03",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "D10",
+      "group": "D",
+      "title": "Remover esta planta?",
+      "subtitle": "Monstera e seu histórico serão apagados.",
+      "blocks": [
+        {
+          "kind": "notice",
+          "title": "Esta ação não pode ser desfeita",
+          "body": "Para guardar os registros, arquive a planta.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Manter planta",
+          "to": "D00",
+          "style": "primary"
+        },
+        {
+          "label": "Remover planta",
+          "to": "D01",
+          "style": "danger"
+        },
+        {
+          "label": "Arquivar em vez de remover",
+          "to": "D07",
+          "style": "link"
+        }
+      ],
+      "back": null,
+      "tab": null,
+      "note": "Remover cancela lembretes. Se for a última planta, destino é D02. Confirmação não é só um ícone.",
+      "states": [
+        {
+          "label": "Última planta removida",
+          "to": "D02",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "D11",
+      "group": "D",
+      "title": "Jiboia arquivada",
+      "subtitle": "Você pode ver o histórico ou voltar a cuidar.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "jiboia",
+          "body": "",
+          "to": null,
+          "height": 180
+        },
+        {
+          "kind": "notice",
+          "title": "Cuidados pausados",
+          "body": "Nenhum lembrete será enviado para esta planta.",
+          "to": null,
+          "icon": "check"
+        },
+        {
+          "kind": "row",
+          "title": "Ver histórico",
+          "body": "Registros preservados",
+          "to": "C09",
+          "icon": "book"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Restaurar e revisar rotina",
+          "to": "C07",
+          "style": "primary"
+        },
+        {
+          "label": "Remover definitivamente",
+          "to": "D10",
+          "style": "secondary"
+        }
+      ],
+      "back": "D06",
+      "tab": null,
+      "note": "Restaurar requer nova próxima data; não disparar todos os lembretes antigos acumulados.",
+      "states": []
+    },
+    {
+      "key": "C00",
+      "group": "C",
+      "title": "Conferir a Monstera",
+      "subtitle": "Verificação de substrato · Hoje",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "monstera",
+          "body": "",
+          "to": null,
+          "height": 150
+        },
+        {
+          "kind": "card",
+          "title": "Antes de regar",
+          "body": "Observe a umidade e as condições da planta. O lembrete não garante necessidade de água.",
+          "to": null,
+          "icon": "drop"
+        },
+        {
+          "kind": "row",
+          "title": "Rotina atual",
+          "body": "Verificar a cada 7 dias",
+          "to": "C07",
+          "icon": "bell"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Registrar cuidado",
+          "to": "C01",
+          "style": "primary"
+        },
+        {
+          "label": "Adiar verificação",
+          "to": "C03",
+          "style": "secondary"
+        },
+        {
+          "label": "Ainda está úmido",
+          "to": "C04",
+          "style": "link"
+        }
+      ],
+      "back": "D00",
+      "tab": null,
+      "note": "Lembrete/push abre este cuidado. Planta arquivada ou removida → aviso e retorno à coleção.",
+      "states": []
+    },
+    {
+      "key": "C01",
+      "group": "C",
+      "title": "Registrar cuidado",
+      "subtitle": "Monstera · Sala de estar",
+      "blocks": [
+        {
+          "kind": "choices",
+          "title": "",
+          "body": "",
+          "to": null,
+          "items": [
+            "Rega|Selecionada",
+            "Adubação|Não selecionada",
+            "Poda|Não selecionada",
+            "Limpeza de folhas|Não selecionada",
+            "Transplante|Não selecionado",
+            "Verificação sem rega|Não selecionada"
+          ]
+        },
+        {
+          "kind": "field",
+          "title": "Data e horário",
+          "body": "Hoje · 09:00",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "field",
+          "title": "Observação · opcional",
+          "body": "Substrato estava seco.",
+          "to": null,
+          "hint": ""
+        }
+      ],
+      "actions": [
+        {
+          "label": "Salvar cuidado",
+          "to": "C02",
+          "style": "primary"
+        }
+      ],
+      "back": "D00",
+      "tab": null,
+      "note": "Selecionar um tipo. Registrar cuidado real não é obrigatório para dispensar uma verificação. Proibir data futura.",
+      "states": [
+        {
+          "label": "Falha no registro",
+          "to": "X03",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "C02",
+      "group": "C",
+      "title": "Cuidado registrado",
+      "subtitle": "Sua rotina foi atualizada.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "mascot",
+          "body": "",
+          "to": null,
+          "height": 130
+        },
+        {
+          "kind": "card",
+          "title": "Monstera · Rega",
+          "body": "Hoje às 09:00\nPróxima verificação em 7 dias.",
+          "to": null,
+          "icon": "leaf"
+        },
+        {
+          "kind": "row",
+          "title": "Ver histórico",
+          "body": "Conferir o registro",
+          "to": "C09",
+          "icon": "book"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Voltar para a planta",
+          "to": "D00",
+          "style": "primary"
+        },
+        {
+          "label": "Ver cuidados de hoje",
+          "to": "C06",
+          "style": "secondary"
+        }
+      ],
+      "back": null,
+      "tab": null,
+      "note": "Evento salvo atualiza histórico e próxima tarefa correspondente. Mostrar opção de corrigir pelo histórico.",
+      "states": []
+    },
+    {
+      "key": "C03",
+      "group": "C",
+      "title": "Adiar verificação",
+      "subtitle": "Quando você quer conferir a Monstera?",
+      "blocks": [
+        {
+          "kind": "choices",
+          "title": "",
+          "body": "",
+          "to": null,
+          "items": [
+            "Mais tarde|Hoje às 18:00",
+            "Amanhã|Às 09:00",
+            "Escolher data e hora|Personalizar"
+          ]
+        },
+        {
+          "kind": "field",
+          "title": "Nova data e horário",
+          "body": "Amanhã · 09:00",
+          "to": null,
+          "hint": ""
+        }
+      ],
+      "actions": [
+        {
+          "label": "Confirmar adiamento",
+          "to": "C05",
+          "style": "primary"
+        }
+      ],
+      "back": "C00",
+      "tab": null,
+      "note": "Nova data futura obrigatória. Adiar muda só a tarefa atual, não a frequência geral.",
+      "states": []
+    },
+    {
+      "key": "C04",
+      "group": "C",
+      "title": "Ainda está úmido",
+      "subtitle": "Tudo bem, você pode verificar novamente depois.",
+      "blocks": [
+        {
+          "kind": "notice",
+          "title": "Não precisa registrar uma rega",
+          "body": "Vamos guardar a verificação sem rega.",
+          "to": null,
+          "icon": "check"
+        },
+        {
+          "kind": "field",
+          "title": "Verificar novamente",
+          "body": "Amanhã · 09:00",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "field",
+          "title": "Observação · opcional",
+          "body": "Substrato ainda úmido.",
+          "to": null,
+          "hint": ""
+        }
+      ],
+      "actions": [
+        {
+          "label": "Salvar verificação",
+          "to": "C05",
+          "style": "primary"
+        },
+        {
+          "label": "Ajustar intervalo da rotina",
+          "to": "C07",
+          "style": "secondary"
+        }
+      ],
+      "back": "C00",
+      "tab": null,
+      "note": "Evento “verificação sem rega” no histórico. Próxima verificação editável; não marcar rega como feita.",
+      "states": []
+    },
+    {
+      "key": "C05",
+      "group": "C",
+      "title": "Verificação reagendada",
+      "subtitle": "Você pode acompanhar a próxima data na agenda.",
+      "blocks": [
+        {
+          "kind": "notice",
+          "title": "Monstera · Amanhã às 09:00",
+          "body": "A rotina geral permanece igual.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Voltar para a planta",
+          "to": "D00",
+          "style": "primary"
+        },
+        {
+          "label": "Ver agenda",
+          "to": "C06",
+          "style": "secondary"
+        }
+      ],
+      "back": null,
+      "tab": null,
+      "note": "No caso de C04, também confirmar salvamento da verificação sem rega.",
+      "states": []
+    },
+    {
+      "key": "C06",
+      "group": "C",
+      "title": "Agenda de cuidados",
+      "subtitle": "O que está previsto para suas plantas.",
+      "blocks": [
+        {
+          "kind": "chips",
+          "title": "",
+          "body": "",
+          "to": null,
+          "items": [
+            "Hoje",
+            "Próximos",
+            "Concluídos"
+          ]
+        },
+        {
+          "kind": "row",
+          "title": "Monstera · Verificar substrato",
+          "body": "Hoje às 09:00",
+          "to": "C00",
+          "icon": "drop"
+        },
+        {
+          "kind": "row",
+          "title": "Jiboia · Verificação adiada",
+          "body": "Hoje às 18:00",
+          "to": "C00",
+          "icon": "drop"
+        },
+        {
+          "kind": "row",
+          "title": "Espada · Limpar folhas",
+          "body": "Amanhã às 09:00",
+          "to": "C00",
+          "icon": "leaf"
+        }
+      ],
+      "actions": [],
+      "back": "H02",
+      "tab": null,
+      "note": "Hoje inclui pendentes e atrasados com rótulo. Não ordenar por urgência clínica. Aba concluídos abre histórico.",
+      "states": [
+        {
+          "label": "Agenda vazia",
+          "to": "H03",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "C07",
+      "group": "C",
+      "title": "Rotina da Monstera",
+      "subtitle": "Ajuste cuidados, intervalos e horários.",
+      "blocks": [
+        {
+          "kind": "row",
+          "title": "Verificar substrato",
+          "body": "A cada 7 dias · 09:00",
+          "to": "C08",
+          "icon": "drop"
+        },
+        {
+          "kind": "row",
+          "title": "Adubação",
+          "body": "Sem rotina definida",
+          "to": "C08",
+          "icon": "leaf"
+        },
+        {
+          "kind": "row",
+          "title": "Limpeza de folhas",
+          "body": "A cada 15 dias",
+          "to": "C08",
+          "icon": "leaf"
+        },
+        {
+          "kind": "row",
+          "title": "Pausar todos os lembretes",
+          "body": "Manter planta na coleção",
+          "to": "C13",
+          "icon": "bell"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Adicionar cuidado",
+          "to": "C08",
+          "style": "primary"
+        },
+        {
+          "label": "Salvar rotina",
+          "to": "D00",
+          "style": "secondary"
+        }
+      ],
+      "back": "D00",
+      "tab": null,
+      "note": "Editar não apaga registros. Se vier de restauração, salvar reativa a planta e define próxima data.",
+      "states": []
+    },
+    {
+      "key": "C08",
+      "group": "C",
+      "title": "Editar cuidado",
+      "subtitle": "Monstera · Rotina personalizada",
+      "blocks": [
+        {
+          "kind": "field",
+          "title": "Tipo",
+          "body": "Verificar substrato",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "field",
+          "title": "Repetir a cada",
+          "body": "7 dias",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "field",
+          "title": "Próxima data",
+          "body": "14 de outubro de 2026",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "field",
+          "title": "Horário",
+          "body": "09:00",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "check",
+          "title": "Lembrete ativado",
+          "body": "Alertas dependem da permissão do aparelho.",
+          "to": null
+        }
+      ],
+      "actions": [
+        {
+          "label": "Salvar cuidado",
+          "to": "C07",
+          "style": "primary"
+        },
+        {
+          "label": "Remover da rotina",
+          "to": "C14",
+          "style": "secondary"
+        }
+      ],
+      "back": "C07",
+      "tab": null,
+      "note": "Intervalo deve ser maior que zero. Para novo cuidado, não exibir “Remover”. Desativar mantém configuração.",
+      "states": []
+    },
+    {
+      "key": "C09",
+      "group": "C",
+      "title": "Histórico de cuidados",
+      "subtitle": "Monstera · Registros da sua rotina",
+      "blocks": [
+        {
+          "kind": "chips",
+          "title": "",
+          "body": "",
+          "to": null,
+          "items": [
+            "Todos",
+            "Rega",
+            "Outros"
+          ]
+        },
+        {
+          "kind": "row",
+          "title": "Rega · Hoje às 09:00",
+          "body": "Substrato estava seco",
+          "to": "C11",
+          "icon": "drop"
+        },
+        {
+          "kind": "row",
+          "title": "Verificação · 30 de setembro",
+          "body": "Ainda estava úmido",
+          "to": "C11",
+          "icon": "leaf"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Registrar outro cuidado",
+          "to": "C01",
+          "style": "primary"
+        }
+      ],
+      "back": "D00",
+      "tab": null,
+      "note": "Dados de exemplo. Filtros não mudam a agenda. Histórico real ordenado do mais recente para o antigo.",
+      "states": [
+        {
+          "label": "Nenhum registro",
+          "to": "C10",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "C10",
+      "group": "C",
+      "title": "Cada cuidado conta",
+      "subtitle": "Você ainda não registrou cuidados nesta planta.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "mascot",
+          "body": "",
+          "to": null,
+          "height": 170
+        }
+      ],
+      "actions": [
+        {
+          "label": "Registrar primeiro cuidado",
+          "to": "C01",
+          "style": "primary"
+        }
+      ],
+      "back": "D00",
+      "tab": null,
+      "note": "",
+      "states": []
+    },
+    {
+      "key": "C11",
+      "group": "C",
+      "title": "Detalhe do registro",
+      "subtitle": "Monstera · Rega",
+      "blocks": [
+        {
+          "kind": "card",
+          "title": "7 de outubro · 09:00",
+          "body": "Substrato estava seco.",
+          "to": null,
+          "icon": "drop"
+        },
+        {
+          "kind": "field",
+          "title": "Tipo de cuidado",
+          "body": "Rega",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "field",
+          "title": "Data e horário",
+          "body": "Hoje · 09:00",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "field",
+          "title": "Observação",
+          "body": "Substrato estava seco.",
+          "to": null,
+          "hint": ""
+        }
+      ],
+      "actions": [
+        {
+          "label": "Salvar correção",
+          "to": "C09",
+          "style": "primary"
+        },
+        {
+          "label": "Excluir registro",
+          "to": "C12",
+          "style": "secondary"
+        }
+      ],
+      "back": "C09",
+      "tab": null,
+      "note": "Corrigir último cuidado recalcula próxima tarefa aplicável. Registros mais antigos não sobrescrevem o último.",
+      "states": []
+    },
+    {
+      "key": "C12",
+      "group": "C",
+      "title": "Excluir este registro?",
+      "subtitle": "Este cuidado será removido do histórico.",
+      "blocks": [
+        {
+          "kind": "notice",
+          "title": "A agenda pode ser recalculada",
+          "body": "A planta e os outros registros permanecem.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Manter registro",
+          "to": "C11",
+          "style": "primary"
+        },
+        {
+          "label": "Excluir registro",
+          "to": "C09",
+          "style": "danger"
+        }
+      ],
+      "back": null,
+      "tab": null,
+      "note": "Confirmação específica; excluir histórico não remove a planta.",
+      "states": []
+    },
+    {
+      "key": "C13",
+      "group": "C",
+      "title": "Pausar lembretes?",
+      "subtitle": "Sua planta continua na coleção.",
+      "blocks": [
+        {
+          "kind": "notice",
+          "title": "Cuidados sem alertas",
+          "body": "Você pode registrar manualmente e retomar quando quiser.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Pausar lembretes",
+          "to": "C07",
+          "style": "primary"
+        },
+        {
+          "label": "Manter lembretes",
+          "to": "C07",
+          "style": "secondary"
+        }
+      ],
+      "back": null,
+      "tab": null,
+      "note": "Pausa da rotina difere de arquivamento. Próximas tarefas pausadas têm rótulo e não geram push.",
+      "states": []
+    },
+    {
+      "key": "C14",
+      "group": "C",
+      "title": "Remover este cuidado?",
+      "subtitle": "A verificação recorrente deixará de aparecer na agenda.",
+      "blocks": [
+        {
+          "kind": "notice",
+          "title": "Seu histórico será preservado",
+          "body": "Você pode adicionar esse cuidado novamente.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Manter cuidado",
+          "to": "C08",
+          "style": "primary"
+        },
+        {
+          "label": "Remover da rotina",
+          "to": "C07",
+          "style": "danger"
+        }
+      ],
+      "back": null,
+      "tab": null,
+      "note": "Excluir a configuração cancela só as ocorrências futuras desse cuidado.",
+      "states": []
+    },
+    {
+      "key": "L00",
+      "group": "L",
+      "title": "Dicas para cultivar",
+      "subtitle": "Aprenda no seu ritmo.",
+      "blocks": [
+        {
+          "kind": "field",
+          "title": "Buscar dicas",
+          "body": "Luz, rega, substrato…",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "chips",
+          "title": "",
+          "body": "",
+          "to": null,
+          "items": [
+            "Para você",
+            "Rega",
+            "Luz",
+            "Iniciantes"
+          ]
+        },
+        {
+          "kind": "row",
+          "title": "Entenda a luz indireta",
+          "body": "Guia · 3 min de leitura",
+          "to": "L02",
+          "icon": "book"
+        },
+        {
+          "kind": "row",
+          "title": "Observe antes de regar",
+          "body": "Guia · 4 min de leitura",
+          "to": "L02",
+          "icon": "book"
+        },
+        {
+          "kind": "row",
+          "title": "Dicas salvas",
+          "body": "Seu conteúdo favorito",
+          "to": "L03",
+          "icon": "star"
+        }
+      ],
+      "actions": [],
+      "back": null,
+      "tab": "Dicas",
+      "note": "Personalizar por nível e interesses. Não inventar diagnósticos ou prometer identificar doenças.",
+      "states": [
+        {
+          "label": "Busca de conteúdo",
+          "to": "L01",
+          "style": "primary"
+        },
+        {
+          "label": "Falha ao carregar",
+          "to": "X02",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "L01",
+      "group": "L",
+      "title": "Buscar dicas",
+      "subtitle": "Encontre uma orientação para sua rotina.",
+      "blocks": [
+        {
+          "kind": "field",
+          "title": "Buscar",
+          "body": "Luz indireta",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "row",
+          "title": "Entenda a luz indireta",
+          "body": "Guia · 3 min de leitura",
+          "to": "L02",
+          "icon": "book"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Limpar busca",
+          "to": "L00",
+          "style": "secondary"
+        }
+      ],
+      "back": "L00",
+      "tab": null,
+      "note": "",
+      "states": [
+        {
+          "label": "Sem resultado",
+          "to": "L04",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "L02",
+      "group": "L",
+      "title": "Entenda a luz indireta",
+      "subtitle": "Guia para iniciantes · 3 min de leitura",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "monstera",
+          "body": "",
+          "to": null,
+          "height": 150
+        },
+        {
+          "kind": "card",
+          "title": "Observe o seu espaço",
+          "body": "Este conteúdo ajuda a reconhecer a luz disponível no ambiente.",
+          "to": null,
+          "icon": "leaf"
+        },
+        {
+          "kind": "card",
+          "title": "Compare horários",
+          "body": "Perceba como a luz muda ao longo do dia.",
+          "to": null,
+          "icon": "leaf"
+        },
+        {
+          "kind": "row",
+          "title": "Aplicar na minha planta",
+          "body": "Editar ambiente da Monstera",
+          "to": "D03",
+          "icon": "leaf"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Salvar dica",
+          "to": "L03",
+          "style": "primary"
+        },
+        {
+          "label": "Voltar às dicas",
+          "to": "L00",
+          "style": "secondary"
+        }
+      ],
+      "back": "L00",
+      "tab": null,
+      "note": "Texto demonstrativo, substituir por conteúdo editorial validado. Origem início, busca ou salvos define o retorno.",
+      "states": []
+    },
+    {
+      "key": "L03",
+      "group": "L",
+      "title": "Dicas salvas",
+      "subtitle": "Para consultar quando precisar.",
+      "blocks": [
+        {
+          "kind": "row",
+          "title": "Entenda a luz indireta",
+          "body": "Guia · 3 min de leitura",
+          "to": "L02",
+          "icon": "book"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Explorar mais dicas",
+          "to": "L00",
+          "style": "secondary"
+        }
+      ],
+      "back": "L00",
+      "tab": null,
+      "note": "Salvar/desmarcar é imediato e reversível. Sem favoritos → convite para explorar.",
+      "states": []
+    },
+    {
+      "key": "L04",
+      "group": "L",
+      "title": "Não encontramos dicas",
+      "subtitle": "Tente uma palavra mais simples.",
+      "blocks": [
+        {
+          "kind": "field",
+          "title": "Buscar dica",
+          "body": "Luz azul",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "notice",
+          "title": "Experimente “luz” ou “rega”",
+          "body": "Você também pode explorar as categorias.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Tentar outra busca",
+          "to": "L01",
+          "style": "primary"
+        },
+        {
+          "label": "Explorar categorias",
+          "to": "L00",
+          "style": "secondary"
+        }
+      ],
+      "back": "L01",
+      "tab": null,
+      "note": "",
+      "states": []
+    },
+    {
+      "key": "L05",
+      "group": "L",
+      "title": "Minhas conquistas",
+      "subtitle": "Seu progresso, no seu ritmo.",
+      "blocks": [
+        {
+          "kind": "row",
+          "title": "Primeira planta",
+          "body": "Concluída · 1 planta cadastrada",
+          "to": "L06",
+          "icon": "star"
+        },
+        {
+          "kind": "row",
+          "title": "Primeiro cuidado",
+          "body": "Concluída · 1 registro",
+          "to": "L06",
+          "icon": "drop"
+        },
+        {
+          "kind": "row",
+          "title": "Conhecendo minha planta",
+          "body": "Em andamento · ler um guia",
+          "to": "L06",
+          "icon": "book"
+        }
+      ],
+      "actions": [],
+      "back": "H02",
+      "tab": null,
+      "note": "Conquistas não incentivam rega excessiva ou cuidado diário desnecessário. Critérios baseados em ações úteis.",
+      "states": []
+    },
+    {
+      "key": "L06",
+      "group": "L",
+      "title": "Primeiro cuidado",
+      "subtitle": "Você deu o primeiro passo na sua rotina.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "mascot",
+          "body": "",
+          "to": null,
+          "height": 180
+        },
+        {
+          "kind": "card",
+          "title": "Como conquistar",
+          "body": "Registrar um cuidado real ou uma verificação na sua planta.",
+          "to": null,
+          "icon": "leaf"
+        },
+        {
+          "kind": "row",
+          "title": "Continuar aprendendo",
+          "body": "Encontre uma dica para sua planta",
+          "to": "L00",
+          "icon": "book"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Voltar às conquistas",
+          "to": "L05",
+          "style": "primary"
+        }
+      ],
+      "back": "L05",
+      "tab": null,
+      "note": "Estado bloqueado mostra critério; concluído mostra data. Nunca usar número inventado de plantas “salvas”.",
+      "states": []
+    },
+    {
+      "key": "F00",
+      "group": "F",
+      "title": "Meu perfil",
+      "subtitle": "Anna · anna@email.com",
+      "blocks": [
+        {
+          "kind": "row",
+          "title": "Editar perfil",
+          "body": "Nome e foto",
+          "to": "F02",
+          "icon": "user"
+        },
+        {
+          "kind": "row",
+          "title": "Preferências de cultivo",
+          "body": "Nível e interesses",
+          "to": "F03",
+          "icon": "leaf"
+        },
+        {
+          "kind": "row",
+          "title": "Notificações",
+          "body": "Horários e permissões",
+          "to": "F05",
+          "icon": "bell"
+        },
+        {
+          "kind": "row",
+          "title": "Conquistas",
+          "body": "Seu progresso no cultivo",
+          "to": "L05",
+          "icon": "trophy"
+        },
+        {
+          "kind": "row",
+          "title": "Ajuda e suporte",
+          "body": "Dúvidas sobre o app",
+          "to": "F07",
+          "icon": "book"
+        },
+        {
+          "kind": "row",
+          "title": "Privacidade e termos",
+          "body": "Dados e informações do PlantMe",
+          "to": "F09",
+          "icon": "book"
+        },
+        {
+          "kind": "row",
+          "title": "Conta e segurança",
+          "body": "Senha, sair e excluir conta",
+          "to": "S00",
+          "icon": "user"
+        }
+      ],
+      "actions": [],
+      "back": null,
+      "tab": "Perfil",
+      "note": "Dados reais da conta. Coleção local é vinculada ao autenticar; não apagar sem confirmação.",
+      "states": []
+    },
+    {
+      "key": "F01",
+      "group": "F",
+      "title": "Seu perfil",
+      "subtitle": "Você está usando o PlantMe como visitante.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "mascot",
+          "body": "",
+          "to": null,
+          "height": 110
+        },
+        {
+          "kind": "card",
+          "title": "Guarde sua coleção",
+          "body": "Crie uma conta para sincronizar suas plantas.",
+          "to": null,
+          "icon": "leaf"
+        },
+        {
+          "kind": "row",
+          "title": "Preferências de cultivo",
+          "body": "Nível e interesses",
+          "to": "F03",
+          "icon": "leaf"
+        },
+        {
+          "kind": "row",
+          "title": "Notificações",
+          "body": "Gerenciar avisos",
+          "to": "F05",
+          "icon": "bell"
+        },
+        {
+          "kind": "row",
+          "title": "Ajuda e suporte",
+          "body": "Dúvidas sobre o app",
+          "to": "F07",
+          "icon": "book"
+        },
+        {
+          "kind": "row",
+          "title": "Privacidade e termos",
+          "body": "Conhecer seus dados",
+          "to": "F09",
+          "icon": "book"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Criar conta",
+          "to": "B01",
+          "style": "primary"
+        },
+        {
+          "label": "Já tenho uma conta",
+          "to": "B00",
+          "style": "secondary"
+        }
+      ],
+      "back": null,
+      "tab": "Perfil",
+      "note": "Visitante não tem ação “Sair da conta”. Plantas locais permanecem ao criar conta.",
+      "states": []
+    },
+    {
+      "key": "F02",
+      "group": "F",
+      "title": "Editar perfil",
+      "subtitle": "Como você quer aparecer no PlantMe?",
+      "blocks": [
+        {
+          "kind": "row",
+          "title": "Alterar foto",
+          "body": "Escolher da galeria",
+          "to": "I02",
+          "icon": "camera"
+        },
+        {
+          "kind": "field",
+          "title": "Nome",
+          "body": "Anna",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "field",
+          "title": "E-mail",
+          "body": "anna@email.com",
+          "to": null,
+          "hint": "Alteração de e-mail fica em Conta e segurança."
+        }
+      ],
+      "actions": [
+        {
+          "label": "Salvar perfil",
+          "to": "F00",
+          "style": "primary"
+        }
+      ],
+      "back": "F00",
+      "tab": null,
+      "note": "Nome obrigatório. Foto opcional. Picker retorna ao perfil; não inicia identificação.",
+      "states": [
+        {
+          "label": "Sair com alterações",
+          "to": "X05",
+          "style": "primary"
+        },
+        {
+          "label": "Falha ao salvar",
+          "to": "X03",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "F03",
+      "group": "F",
+      "title": "Preferências de cultivo",
+      "subtitle": "Personalize as dicas para o seu momento.",
+      "blocks": [
+        {
+          "kind": "row",
+          "title": "Nível de experiência",
+          "body": "Estou começando",
+          "to": "F04",
+          "icon": "leaf"
+        },
+        {
+          "kind": "row",
+          "title": "Meus interesses",
+          "body": "Interior e suculentas",
+          "to": "F10",
+          "icon": "leaf"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Salvar preferências",
+          "to": "F00",
+          "style": "primary"
+        }
+      ],
+      "back": "F00",
+      "tab": null,
+      "note": "Mudar nível/interesses altera recomendações de conteúdo, não muda intervalos das plantas sem revisão.",
+      "states": []
+    },
+    {
+      "key": "F04",
+      "group": "F",
+      "title": "Seu nível de experiência",
+      "subtitle": "Você pode mudar quando quiser.",
+      "blocks": [
+        {
+          "kind": "choices",
+          "title": "",
+          "body": "",
+          "to": null,
+          "items": [
+            "Estou começando|Selecionado",
+            "Já sei o básico|Não selecionado",
+            "Experiente|Não selecionado"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "Salvar nível",
+          "to": "F03",
+          "style": "primary"
+        }
+      ],
+      "back": "F03",
+      "tab": null,
+      "note": "",
+      "states": []
+    },
+    {
+      "key": "F10",
+      "group": "F",
+      "title": "Meus interesses",
+      "subtitle": "Escolha o que quer cultivar.",
+      "blocks": [
+        {
+          "kind": "choices",
+          "title": "",
+          "body": "",
+          "to": null,
+          "items": [
+            "Plantas de interior|Selecionado",
+            "Suculentas|Selecionado",
+            "Cactos|Não selecionado",
+            "Ervas|Não selecionado",
+            "Flores|Não selecionado",
+            "Plantas externas|Não selecionado"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "Salvar interesses",
+          "to": "F03",
+          "style": "primary"
+        }
+      ],
+      "back": "F03",
+      "tab": null,
+      "note": "Seleção múltipla; nenhuma escolha é válida. Sugestões gerais quando vazio.",
+      "states": []
+    },
+    {
+      "key": "F05",
+      "group": "F",
+      "title": "Notificações",
+      "subtitle": "Você decide como receber os avisos.",
+      "blocks": [
+        {
+          "kind": "row",
+          "title": "Permissão no aparelho",
+          "body": "Ativada · gerenciar",
+          "to": "F06",
+          "icon": "bell"
+        },
+        {
+          "kind": "check",
+          "title": "Lembretes de cuidados",
+          "body": "Ativados",
+          "to": null
+        },
+        {
+          "kind": "check",
+          "title": "Conquistas",
+          "body": "Ativadas",
+          "to": null
+        },
+        {
+          "kind": "field",
+          "title": "Horário padrão",
+          "body": "09:00",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "field",
+          "title": "Período silencioso",
+          "body": "22:00 às 08:00",
+          "to": null,
+          "hint": ""
+        }
+      ],
+      "actions": [
+        {
+          "label": "Salvar preferências",
+          "to": "F00",
+          "style": "primary"
+        }
+      ],
+      "back": "F00",
+      "tab": null,
+      "note": "Permissão do sistema prevalece. Desativar push não exclui tarefas nem histórico. Horários por planta prevalecem sobre padrão.",
+      "states": [
+        {
+          "label": "Permissão do sistema negada",
+          "to": "F06",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "F06",
+      "group": "F",
+      "title": "Avisos desativados no aparelho",
+      "subtitle": "Sua rotina continua disponível no app.",
+      "blocks": [
+        {
+          "kind": "card",
+          "title": "Para ativar os avisos",
+          "body": "Abra os Ajustes do aparelho, encontre PlantMe e permita as notificações.",
+          "to": null,
+          "icon": "bell"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Ver ajustes do aparelho",
+          "to": "X04",
+          "style": "primary"
+        },
+        {
+          "label": "Continuar sem avisos",
+          "to": "F05",
+          "style": "secondary"
+        }
+      ],
+      "back": "F05",
+      "tab": null,
+      "note": "Não fingir que um toggle interno concede permissão nativa. Revalidar permissão ao retornar dos ajustes.",
+      "states": []
+    },
+    {
+      "key": "F07",
+      "group": "F",
+      "title": "Ajuda e suporte",
+      "subtitle": "Como podemos ajudar?",
+      "blocks": [
+        {
+          "kind": "row",
+          "title": "Como adicionar uma planta?",
+          "body": "Busca, identificação ou manual",
+          "to": "F08",
+          "icon": "book"
+        },
+        {
+          "kind": "row",
+          "title": "Como funcionam os lembretes?",
+          "body": "Rotinas e notificações",
+          "to": "F08",
+          "icon": "bell"
+        },
+        {
+          "kind": "row",
+          "title": "Como guardar minha coleção?",
+          "body": "Conta e sincronização",
+          "to": "F08",
+          "icon": "user"
+        },
+        {
+          "kind": "row",
+          "title": "Enviar uma mensagem ao suporte",
+          "body": "Abrir formulário",
+          "to": "F11",
+          "icon": "book"
+        }
+      ],
+      "actions": [],
+      "back": "F00",
+      "tab": null,
+      "note": "",
+      "states": []
+    },
+    {
+      "key": "F08",
+      "group": "F",
+      "title": "Como funcionam os lembretes?",
+      "subtitle": "Ajuda do PlantMe",
+      "blocks": [
+        {
+          "kind": "card",
+          "title": "Sua rotina é ajustável",
+          "body": "Os lembretes servem para conferir a planta. Você pode registrar, adiar ou ajustar o intervalo.",
+          "to": null,
+          "icon": "leaf"
+        },
+        {
+          "kind": "card",
+          "title": "Avisos no aparelho",
+          "body": "Para receber push, habilite as notificações nos ajustes.",
+          "to": null,
+          "icon": "leaf"
+        },
+        {
+          "kind": "row",
+          "title": "Gerenciar notificações",
+          "body": "Conferir minhas preferências",
+          "to": "F05",
+          "icon": "bell"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Voltar à ajuda",
+          "to": "F07",
+          "style": "secondary"
+        }
+      ],
+      "back": "F07",
+      "tab": null,
+      "note": "Cada pergunta usa a mesma estrutura de artigo com conteúdo correspondente; não repetir esta resposta em todas.",
+      "states": []
+    },
+    {
+      "key": "F09",
+      "group": "F",
+      "title": "Privacidade e informações",
+      "subtitle": "Conheça como o PlantMe funciona.",
+      "blocks": [
+        {
+          "kind": "row",
+          "title": "Política de privacidade",
+          "body": "Uso e armazenamento de dados",
+          "to": "F12",
+          "icon": "book"
+        },
+        {
+          "kind": "row",
+          "title": "Termos de uso",
+          "body": "Condições do serviço",
+          "to": "F13",
+          "icon": "book"
+        },
+        {
+          "kind": "row",
+          "title": "Sobre o PlantMe",
+          "body": "Versão e propósito",
+          "to": "F14",
+          "icon": "leaf"
+        }
+      ],
+      "actions": [],
+      "back": "F00",
+      "tab": null,
+      "note": "Quando aberto do cadastro, voltar retorna a B01 preservando os campos.",
+      "states": []
+    },
+    {
+      "key": "F11",
+      "group": "F",
+      "title": "Falar com o suporte",
+      "subtitle": "Conte o que aconteceu.",
+      "blocks": [
+        {
+          "kind": "field",
+          "title": "E-mail para resposta",
+          "body": "anna@email.com",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "field",
+          "title": "Assunto",
+          "body": "Lembretes",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "field",
+          "title": "Mensagem",
+          "body": "Não estou recebendo avisos.",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "row",
+          "title": "Anexo · opcional",
+          "body": "Adicionar imagem",
+          "to": "I02",
+          "icon": "camera"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Enviar mensagem",
+          "to": "F15",
+          "style": "primary"
+        }
+      ],
+      "back": "F07",
+      "tab": null,
+      "note": "Envio real somente na implementação e após toque da pessoa. Não incluir senhas ou fotos da coleção automaticamente.",
+      "states": [
+        {
+          "label": "Falha no envio",
+          "to": "X03",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "F12",
+      "group": "F",
+      "title": "Política de privacidade",
+      "subtitle": "Leia antes de decidir sobre seus dados.",
+      "blocks": [
+        {
+          "kind": "card",
+          "title": "Dados da conta e coleção",
+          "body": "Área reservada ao texto jurídico aprovado do produto.",
+          "to": null,
+          "icon": "leaf"
+        },
+        {
+          "kind": "card",
+          "title": "Fotos e permissões",
+          "body": "Explicar finalidade, retenção e fornecedores do reconhecimento.",
+          "to": null,
+          "icon": "leaf"
+        },
+        {
+          "kind": "card",
+          "title": "Seus controles",
+          "body": "Permissões, exportação e exclusão de dados.",
+          "to": null,
+          "icon": "leaf"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Voltar às informações",
+          "to": "F09",
+          "style": "secondary"
+        }
+      ],
+      "back": "F09",
+      "tab": null,
+      "note": "Documento jurídico ainda precisa de conteúdo aprovado. Fluxo e hierarquia definidos; não tratado como política já válida.",
+      "states": []
+    },
+    {
+      "key": "F13",
+      "group": "F",
+      "title": "Termos de uso",
+      "subtitle": "Informações sobre o serviço.",
+      "blocks": [
+        {
+          "kind": "card",
+          "title": "Uso do PlantMe",
+          "body": "Área reservada aos termos aprovados.",
+          "to": null,
+          "icon": "leaf"
+        },
+        {
+          "kind": "card",
+          "title": "Conteúdo e identificação",
+          "body": "Explicar os limites das sugestões e do conteúdo.",
+          "to": null,
+          "icon": "leaf"
+        },
+        {
+          "kind": "card",
+          "title": "Conta e suporte",
+          "body": "Regras para acesso, encerramento e atendimento.",
+          "to": null,
+          "icon": "leaf"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Voltar às informações",
+          "to": "F09",
+          "style": "secondary"
+        }
+      ],
+      "back": "F09",
+      "tab": null,
+      "note": "Conteúdo jurídico pendente de redação/aprovação; não inventar direitos ou condições.",
+      "states": []
+    },
+    {
+      "key": "F14",
+      "group": "F",
+      "title": "Sobre o PlantMe",
+      "subtitle": "Cuidar da sua planta ficou fácil.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "mascot",
+          "body": "",
+          "to": null,
+          "height": 170
+        },
+        {
+          "kind": "card",
+          "title": "Um cuidado de cada vez",
+          "body": "Organize suas plantas, acompanhe cuidados e aprenda no seu ritmo.",
+          "to": null,
+          "icon": "leaf"
+        },
+        {
+          "kind": "card",
+          "title": "Versão do aplicativo",
+          "body": "Exibir versão e número da compilação.",
+          "to": null,
+          "icon": "leaf"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Voltar",
+          "to": "F09",
+          "style": "secondary"
+        }
+      ],
+      "back": "F09",
+      "tab": null,
+      "note": "",
+      "states": []
+    },
+    {
+      "key": "F15",
+      "group": "F",
+      "title": "Mensagem enviada",
+      "subtitle": "O suporte vai responder pelo e-mail informado.",
+      "blocks": [
+        {
+          "kind": "notice",
+          "title": "Recebemos sua mensagem",
+          "body": "Confira também sua caixa de spam.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Voltar à ajuda",
+          "to": "F07",
+          "style": "primary"
+        }
+      ],
+      "back": null,
+      "tab": null,
+      "note": "Não prometer prazo de resposta sem definição operacional.",
+      "states": []
+    },
+    {
+      "key": "S00",
+      "group": "S",
+      "title": "Conta e segurança",
+      "subtitle": "Anna · anna@email.com",
+      "blocks": [
+        {
+          "kind": "row",
+          "title": "Alterar senha",
+          "body": "Proteger seu acesso",
+          "to": "S01",
+          "icon": "user"
+        },
+        {
+          "kind": "row",
+          "title": "Alterar e-mail",
+          "body": "Confirmar novo endereço",
+          "to": "S03",
+          "icon": "user"
+        },
+        {
+          "kind": "row",
+          "title": "Exportar meus dados",
+          "body": "Receber uma cópia da coleção",
+          "to": "S05",
+          "icon": "book"
+        },
+        {
+          "kind": "row",
+          "title": "Sair da conta",
+          "body": "Encerrar sessão neste aparelho",
+          "to": "S06",
+          "icon": "user"
+        },
+        {
+          "kind": "row",
+          "title": "Excluir minha conta",
+          "body": "Apagar conta e dados vinculados",
+          "to": "S08",
+          "icon": "close"
+        }
+      ],
+      "actions": [],
+      "back": "F00",
+      "tab": null,
+      "note": "",
+      "states": []
+    },
+    {
+      "key": "S01",
+      "group": "S",
+      "title": "Alterar senha",
+      "subtitle": "Confirme sua senha atual para continuar.",
+      "blocks": [
+        {
+          "kind": "field",
+          "title": "Senha atual",
+          "body": "••••••••",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "field",
+          "title": "Nova senha",
+          "body": "••••••••",
+          "to": null,
+          "hint": "Pelo menos 8 caracteres"
+        },
+        {
+          "kind": "field",
+          "title": "Confirmar nova senha",
+          "body": "••••••••",
+          "to": null,
+          "hint": ""
+        }
+      ],
+      "actions": [
+        {
+          "label": "Salvar nova senha",
+          "to": "S02",
+          "style": "primary"
+        },
+        {
+          "label": "Esqueci a senha atual",
+          "to": "B05",
+          "style": "link"
+        }
+      ],
+      "back": "S00",
+      "tab": null,
+      "note": "Atualização exige sessão recente ou reautenticação. Senhas diferentes → erro junto ao campo.",
+      "states": [
+        {
+          "label": "Dados inválidos",
+          "to": "B10",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "S02",
+      "group": "S",
+      "title": "Senha alterada",
+      "subtitle": "Sua conta foi atualizada.",
+      "blocks": [
+        {
+          "kind": "notice",
+          "title": "Tudo certo",
+          "body": "Use a nova senha no próximo acesso.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Voltar à segurança",
+          "to": "S00",
+          "style": "primary"
+        }
+      ],
+      "back": null,
+      "tab": null,
+      "note": "Encerrar outras sessões; manter sessão atual conforme política de autenticação.",
+      "states": []
+    },
+    {
+      "key": "S03",
+      "group": "S",
+      "title": "Alterar e-mail",
+      "subtitle": "Confirme sua identidade e o novo endereço.",
+      "blocks": [
+        {
+          "kind": "field",
+          "title": "Novo e-mail",
+          "body": "anna.novo@email.com",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "field",
+          "title": "Senha atual",
+          "body": "••••••••",
+          "to": null,
+          "hint": ""
+        }
+      ],
+      "actions": [
+        {
+          "label": "Enviar código de confirmação",
+          "to": "S04",
+          "style": "primary"
+        }
+      ],
+      "back": "S00",
+      "tab": null,
+      "note": "E-mail atual continua válido até verificar o novo. E-mail em uso gera erro sem perda de sessão.",
+      "states": []
+    },
+    {
+      "key": "S04",
+      "group": "S",
+      "title": "Confirmar novo e-mail",
+      "subtitle": "Enviamos um código para anna.novo@email.com.",
+      "blocks": [
+        {
+          "kind": "field",
+          "title": "Código",
+          "body": "4 8 2 1 9 0",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "notice",
+          "title": "Seu e-mail atual continua válido",
+          "body": "A troca só acontece depois da confirmação.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Confirmar alteração",
+          "to": "S00",
+          "style": "primary"
+        },
+        {
+          "label": "Corrigir novo e-mail",
+          "to": "S03",
+          "style": "secondary"
+        }
+      ],
+      "back": "S03",
+      "tab": null,
+      "note": "Código expira em 10 min. Reenvio no contexto desta troca; não voltar ao cadastro de conta.",
+      "states": [
+        {
+          "label": "Código expirado",
+          "to": "B12",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "S05",
+      "group": "S",
+      "title": "Exportar meus dados",
+      "subtitle": "Receba uma cópia das suas informações.",
+      "blocks": [
+        {
+          "kind": "card",
+          "title": "O que será incluído",
+          "body": "Dados de perfil, plantas e histórico de cuidados.",
+          "to": null,
+          "icon": "leaf"
+        },
+        {
+          "kind": "field",
+          "title": "E-mail de destino",
+          "body": "anna@email.com",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "notice",
+          "title": "Você receberá uma confirmação",
+          "body": "A exportação não apaga os dados da conta.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Solicitar exportação",
+          "to": "S12",
+          "style": "primary"
+        }
+      ],
+      "back": "S00",
+      "tab": null,
+      "note": "Somente e-mail verificado. Processo assíncrono com confirmação, disponibilidade e expiração informadas.",
+      "states": []
+    },
+    {
+      "key": "S06",
+      "group": "S",
+      "title": "Sair da sua conta?",
+      "subtitle": "Sua coleção ficará salva na conta.",
+      "blocks": [
+        {
+          "kind": "notice",
+          "title": "Este aparelho vai encerrar a sessão",
+          "body": "Você poderá entrar novamente para acessar suas plantas.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Continuar conectado",
+          "to": "F00",
+          "style": "primary"
+        },
+        {
+          "label": "Sair da conta",
+          "to": "S07",
+          "style": "danger"
+        }
+      ],
+      "back": null,
+      "tab": null,
+      "note": "Sair não exclui a conta. Limpar dados privados em cache e cancelar alertas locais desta sessão. Não reapresentar onboarding inteiro.",
+      "states": []
+    },
+    {
+      "key": "S07",
+      "group": "S",
+      "title": "Você saiu da conta",
+      "subtitle": "Sua coleção continua salva.",
+      "blocks": [
+        {
+          "kind": "photo",
+          "title": "mascot",
+          "body": "",
+          "to": null,
+          "height": 150
+        }
+      ],
+      "actions": [
+        {
+          "label": "Entrar novamente",
+          "to": "B00",
+          "style": "primary"
+        },
+        {
+          "label": "Explorar como visitante",
+          "to": "H00",
+          "style": "secondary"
+        }
+      ],
+      "back": null,
+      "tab": null,
+      "note": "Novo visitante não vê coleção privada da conta anterior. A tela de entrada não mantém senha preenchida.",
+      "states": []
+    },
+    {
+      "key": "S08",
+      "group": "S",
+      "title": "Excluir minha conta?",
+      "subtitle": "Esta ação apagará sua conta e os dados vinculados.",
+      "blocks": [
+        {
+          "kind": "card",
+          "title": "Serão removidos",
+          "body": "Perfil, plantas, fotos e histórico de cuidados da conta.",
+          "to": null,
+          "icon": "leaf"
+        },
+        {
+          "kind": "row",
+          "title": "Guardar uma cópia antes",
+          "body": "Exportar meus dados",
+          "to": "S05",
+          "icon": "book"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Manter minha conta",
+          "to": "S00",
+          "style": "primary"
+        },
+        {
+          "label": "Continuar exclusão",
+          "to": "S09",
+          "style": "danger"
+        }
+      ],
+      "back": "S00",
+      "tab": null,
+      "note": "Primeira confirmação informa consequências. Não executar exclusão apenas ao abrir esta tela.",
+      "states": []
+    },
+    {
+      "key": "S09",
+      "group": "S",
+      "title": "Confirmar exclusão",
+      "subtitle": "Confirme sua identidade para apagar a conta.",
+      "blocks": [
+        {
+          "kind": "field",
+          "title": "Senha atual",
+          "body": "••••••••",
+          "to": null,
+          "hint": ""
+        },
+        {
+          "kind": "check",
+          "title": "Entendo que a exclusão é permanente",
+          "body": "Os dados vinculados serão apagados.",
+          "to": null
+        }
+      ],
+      "actions": [
+        {
+          "label": "Excluir definitivamente",
+          "to": "S10",
+          "style": "danger"
+        },
+        {
+          "label": "Cancelar",
+          "to": "S00",
+          "style": "secondary"
+        }
+      ],
+      "back": "S08",
+      "tab": null,
+      "note": "Reautenticação e aceite obrigatórios. Após confirmação inicia exclusão; falha não mostra sucesso.",
+      "states": [
+        {
+          "label": "Falha na exclusão",
+          "to": "S11",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "S10",
+      "group": "S",
+      "title": "Sua conta foi excluída",
+      "subtitle": "O processo de exclusão foi concluído.",
+      "blocks": [
+        {
+          "kind": "notice",
+          "title": "Sessão encerrada",
+          "body": "Os lembretes desta conta foram cancelados.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Voltar às boas-vindas",
+          "to": "A01",
+          "style": "primary"
+        }
+      ],
+      "back": null,
+      "tab": null,
+      "note": "Mostrar somente após confirmação real do backend. Se processo for assíncrono, informar pendência em vez de concluído.",
+      "states": []
+    },
+    {
+      "key": "S11",
+      "group": "S",
+      "title": "Não foi possível excluir",
+      "subtitle": "Sua conta continua ativa.",
+      "blocks": [
+        {
+          "kind": "notice",
+          "title": "Tente novamente quando estiver conectado",
+          "body": "Nenhum sucesso deve ser exibido sem confirmação.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Tentar novamente",
+          "to": "S09",
+          "style": "primary"
+        },
+        {
+          "label": "Voltar à segurança",
+          "to": "S00",
+          "style": "secondary"
+        }
+      ],
+      "back": null,
+      "tab": null,
+      "note": "Preservar intenção, exigir identidade recente; não reenviar operação sem proteção contra duplicidade.",
+      "states": []
+    },
+    {
+      "key": "S12",
+      "group": "S",
+      "title": "Exportação solicitada",
+      "subtitle": "Você receberá uma atualização no seu e-mail.",
+      "blocks": [
+        {
+          "kind": "notice",
+          "title": "Pedido recebido",
+          "body": "Enviaremos instruções quando a cópia estiver disponível.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Voltar à segurança",
+          "to": "S00",
+          "style": "primary"
+        }
+      ],
+      "back": null,
+      "tab": null,
+      "note": "Distinguir pedido recebido de arquivo pronto. Notificação abre informação da exportação, não a coleção.",
+      "states": []
+    },
+    {
+      "key": "X00",
+      "group": "X",
+      "title": "Carregando suas plantas…",
+      "subtitle": "Só mais um instante.",
+      "blocks": [
+        {
+          "kind": "skeleton",
+          "title": "",
+          "body": "",
+          "to": null
+        },
+        {
+          "kind": "skeleton",
+          "title": "",
+          "body": "",
+          "to": null
+        },
+        {
+          "kind": "skeleton",
+          "title": "",
+          "body": "",
+          "to": null
+        }
+      ],
+      "actions": [
+        {
+          "label": "Ver conteúdo carregado",
+          "to": "D01",
+          "style": "secondary"
+        }
+      ],
+      "back": "H02",
+      "tab": null,
+      "note": "Skeleton acompanha a estrutura final. Botão apenas para demonstrar o protótipo; avanço é automático.",
+      "states": [
+        {
+          "label": "Falha",
+          "to": "X02",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "X01",
+      "group": "X",
+      "title": "Você está sem conexão",
+      "subtitle": "Sua coleção salva neste aparelho continua disponível.",
+      "blocks": [
+        {
+          "kind": "notice",
+          "title": "Algumas funções precisam de internet",
+          "body": "Busca no catálogo, identificação e sincronização aguardam conexão.",
+          "to": null,
+          "icon": "check"
+        },
+        {
+          "kind": "row",
+          "title": "Ver coleção disponível",
+          "body": "Dados salvos localmente",
+          "to": "D01",
+          "icon": "leaf"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Tentar reconectar",
+          "to": "H02",
+          "style": "primary"
+        },
+        {
+          "label": "Ver minha coleção",
+          "to": "D01",
+          "style": "secondary"
+        }
+      ],
+      "back": null,
+      "tab": null,
+      "note": "Offline não equivale a logout. Escritas locais suportadas mostram pendência de sincronização; sem suporte, preservar rascunho.",
+      "states": [
+        {
+          "label": "Sincronização pendente",
+          "to": "X07",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "key": "X02",
+      "group": "X",
+      "title": "Não conseguimos carregar",
+      "subtitle": "Tente novamente em alguns instantes.",
+      "blocks": [
+        {
+          "kind": "notice",
+          "title": "Seus dados continuam guardados",
+          "body": "A falha não deve ser apresentada como coleção vazia.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Tentar novamente",
+          "to": "P01",
+          "style": "primary"
+        },
+        {
+          "label": "Voltar",
+          "to": "P00",
+          "style": "secondary"
+        }
+      ],
+      "back": null,
+      "tab": null,
+      "note": "Componente reutilizável. Retentar repete só a operação que falhou; voltar retorna à origem, não sempre à busca.",
+      "states": []
+    },
+    {
+      "key": "X03",
+      "group": "X",
+      "title": "Não foi possível salvar",
+      "subtitle": "Seus dados preenchidos continuam aqui.",
+      "blocks": [
+        {
+          "kind": "notice",
+          "title": "Você pode tentar de novo",
+          "body": "Não saia antes de confirmar se o registro foi salvo.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Voltar ao formulário",
+          "to": "N08",
+          "style": "primary"
+        },
+        {
+          "label": "Tentar salvar novamente",
+          "to": "N09",
+          "style": "secondary"
+        }
+      ],
+      "back": null,
+      "tab": null,
+      "note": "Destinos dependem da origem (cadastro, cuidado, edição ou suporte). Não duplicar operação em retentativas.",
+      "states": []
+    },
+    {
+      "key": "X04",
+      "group": "X",
+      "title": "Ajustes do aparelho",
+      "subtitle": "Ative a permissão desejada para o PlantMe.",
+      "blocks": [
+        {
+          "kind": "system",
+          "title": "Representação dos Ajustes do sistema",
+          "body": "Câmera, notificações ou localização conforme a ação de origem.",
+          "to": null
+        }
+      ],
+      "actions": [
+        {
+          "label": "Voltar ao PlantMe",
+          "to": "F05",
+          "style": "primary"
+        },
+        {
+          "label": "Continuar sem permissão",
+          "to": "I00",
+          "style": "secondary"
+        }
+      ],
+      "back": null,
+      "tab": null,
+      "note": "Na implementação abre Ajustes nativos. Retorno verifica a permissão e volta à origem; não é tela própria do produto.",
+      "states": []
+    },
+    {
+      "key": "X05",
+      "group": "X",
+      "title": "Sair sem salvar?",
+      "subtitle": "Você tem alterações ainda não salvas.",
+      "blocks": [
+        {
+          "kind": "notice",
+          "title": "Continuar mantém seus dados",
+          "body": "Descartar remove somente as alterações deste formulário.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Continuar editando",
+          "to": "D03",
+          "style": "primary"
+        },
+        {
+          "label": "Descartar alterações",
+          "to": "D00",
+          "style": "danger"
+        }
+      ],
+      "back": null,
+      "tab": null,
+      "note": "Aplicar somente com mudanças. Retornos correspondem ao formulário em andamento; não apagar dados já salvos.",
+      "states": []
+    },
+    {
+      "key": "X06",
+      "group": "X",
+      "title": "Sua sessão expirou",
+      "subtitle": "Entre novamente para sincronizar sua coleção.",
+      "blocks": [
+        {
+          "kind": "notice",
+          "title": "Seu rascunho está preservado",
+          "body": "Após entrar, você volta à ação em andamento.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Entrar novamente",
+          "to": "B00",
+          "style": "primary"
+        },
+        {
+          "label": "Continuar como visitante",
+          "to": "S07",
+          "style": "secondary"
+        }
+      ],
+      "back": null,
+      "tab": null,
+      "note": "Não descartar trabalho. Ao escolher visitante, ocultar dados privados da sessão anterior e explicar o retorno.",
+      "states": []
+    },
+    {
+      "key": "X07",
+      "group": "X",
+      "title": "Aguardando sincronização",
+      "subtitle": "Seu registro foi salvo neste aparelho.",
+      "blocks": [
+        {
+          "kind": "notice",
+          "title": "Vamos sincronizar quando houver conexão",
+          "body": "Evite sair da conta antes de concluir o envio.",
+          "to": null,
+          "icon": "check"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Tentar sincronizar",
+          "to": "H02",
+          "style": "primary"
+        },
+        {
+          "label": "Voltar à coleção",
+          "to": "D01",
+          "style": "secondary"
+        }
+      ],
+      "back": null,
+      "tab": null,
+      "note": "Só usar se houver gravação offline real. Antes de sair com pendências, sincronizar ou oferecer confirmação específica.",
+      "states": []
+    }
+  ],
+  "visualTreatment": "Monochrome; decorative images removed; functional photos represented by labeled placeholders."
+}

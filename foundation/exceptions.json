@@ -1,0 +1,5618 @@
+{
+  "fileKey": "l6fOEzCk3migCg7NOUlNRl",
+  "pages": [
+    {
+      "id": "2:2",
+      "name": "ui design",
+      "nodeCount": 2335,
+      "unavailableFonts": [
+        {
+          "family": "Satoshi",
+          "style": "Black"
+        },
+        {
+          "family": "SF Pro Text",
+          "style": "Medium"
+        },
+        {
+          "family": "Satoshi Variable",
+          "style": "Black"
+        },
+        {
+          "family": "Satoshi",
+          "style": "Bold"
+        }
+      ],
+      "exceptions": [
+        {
+          "property": "fills",
+          "value": "#FFFFFF",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 150,
+          "exampleNodeIds": [
+            "21:31",
+            "I21:375;129:194",
+            "I21:375;129:198"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#000000",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 149,
+          "exampleNodeIds": [
+            "I21:375;129:195",
+            "I21:375;129:196",
+            "I21:375;129:197"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#0E160E",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 90,
+          "exampleNodeIds": [
+            "122:479",
+            "122:487",
+            "122:525"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 12,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 83,
+          "exampleNodeIds": [
+            "28:148",
+            "41:436",
+            "47:525"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 12,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 83,
+          "exampleNodeIds": [
+            "28:148",
+            "41:436",
+            "47:525"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 16,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 74,
+          "exampleNodeIds": [
+            "21:39",
+            "21:40",
+            "21:476"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 16,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 74,
+          "exampleNodeIds": [
+            "21:39",
+            "21:40",
+            "21:476"
+          ]
+        },
+        {
+          "property": "itemSpacing",
+          "value": 10,
+          "reason": "Fora da escala; preservado",
+          "occurrences": 65,
+          "exampleNodeIds": [
+            "21:39",
+            "21:40",
+            "28:148"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#FFFFFF",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 64,
+          "exampleNodeIds": [
+            "145:970",
+            "29:256",
+            "29:314"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#0E160E",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 64,
+          "exampleNodeIds": [
+            "I123:429;123:428",
+            "123:481",
+            "I123:432;123:428"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 16,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 63,
+          "exampleNodeIds": [
+            "21:39",
+            "21:40",
+            "21:476"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 16,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 63,
+          "exampleNodeIds": [
+            "21:39",
+            "21:40",
+            "21:476"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#62645B",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 61,
+          "exampleNodeIds": [
+            "122:407",
+            "122:409",
+            "123:461"
+          ]
+        },
+        {
+          "property": "font",
+          "value": "missing",
+          "reason": "Fonte existente indisponível; nó preservado",
+          "occurrences": 59,
+          "exampleNodeIds": [
+            "21:41",
+            "I21:375;129:204",
+            "21:427"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 12,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 52,
+          "exampleNodeIds": [
+            "28:148",
+            "41:436",
+            "47:525"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 12,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 52,
+          "exampleNodeIds": [
+            "28:148",
+            "41:436",
+            "47:525"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#145C30",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 50,
+          "exampleNodeIds": [
+            "21:30",
+            "21:39",
+            "28:103"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#000000",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 49,
+          "exampleNodeIds": [
+            "28:150",
+            "41:438",
+            "47:527"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#092121",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 46,
+          "exampleNodeIds": [
+            "21:29",
+            "28:149",
+            "41:437"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 1,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 39,
+          "exampleNodeIds": [
+            "I21:375;129:201",
+            "I21:375;129:202",
+            "I21:375;129:203"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 1,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 39,
+          "exampleNodeIds": [
+            "I21:375;129:201",
+            "I21:375;129:202",
+            "I21:375;129:203"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 1,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 39,
+          "exampleNodeIds": [
+            "I21:375;129:201",
+            "I21:375;129:202",
+            "I21:375;129:203"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 1,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 39,
+          "exampleNodeIds": [
+            "I21:375;129:201",
+            "I21:375;129:202",
+            "I21:375;129:203"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#E0E0D6",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 36,
+          "exampleNodeIds": [
+            "28:39",
+            "28:56",
+            "41:406"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#145C30",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 35,
+          "exampleNodeIds": [
+            "21:467",
+            "21:468",
+            "21:469"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#548427",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 30,
+          "exampleNodeIds": [
+            "122:285",
+            "122:471",
+            "122:480"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#2F7D49",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 26,
+          "exampleNodeIds": [
+            "29:261",
+            "16:13",
+            "16:14"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#548427",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 26,
+          "exampleNodeIds": [
+            "122:286",
+            "122:472",
+            "122:563"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#D1D1C7",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 25,
+          "exampleNodeIds": [
+            "41:484",
+            "145:975",
+            "41:465"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 24,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 25,
+          "exampleNodeIds": [
+            "91:345",
+            "91:350",
+            "91:355"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 24,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 25,
+          "exampleNodeIds": [
+            "91:345",
+            "91:350",
+            "91:355"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 24,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 25,
+          "exampleNodeIds": [
+            "91:345",
+            "91:350",
+            "91:355"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 24,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 25,
+          "exampleNodeIds": [
+            "91:345",
+            "91:350",
+            "91:355"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#42524D",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 25,
+          "exampleNodeIds": [
+            "91:352",
+            "91:353",
+            "91:357"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 14,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 24,
+          "exampleNodeIds": [
+            "50:91",
+            "145:870",
+            "145:871"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 14,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 24,
+          "exampleNodeIds": [
+            "50:91",
+            "145:870",
+            "145:871"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#8C9499",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 23,
+          "exampleNodeIds": [
+            "28:48",
+            "28:64",
+            "41:414"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#1C3E18",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 23,
+          "exampleNodeIds": [
+            "123:451",
+            "123:460",
+            "123:455"
+          ]
+        },
+        {
+          "property": "paddingLeft",
+          "value": 10,
+          "reason": "Fora da escala; preservado",
+          "occurrences": 22,
+          "exampleNodeIds": [
+            "21:39",
+            "21:40",
+            "21:435"
+          ]
+        },
+        {
+          "property": "paddingRight",
+          "value": 10,
+          "reason": "Fora da escala; preservado",
+          "occurrences": 22,
+          "exampleNodeIds": [
+            "21:39",
+            "21:40",
+            "21:435"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#4F5963",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 21,
+          "exampleNodeIds": [
+            "21:428",
+            "28:47",
+            "28:63"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#EBF5E8",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 21,
+          "exampleNodeIds": [
+            "21:476",
+            "28:148",
+            "28:150"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 14,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 21,
+          "exampleNodeIds": [
+            "50:91",
+            "145:870",
+            "145:871"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 14,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 21,
+          "exampleNodeIds": [
+            "50:91",
+            "145:870",
+            "145:871"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#176333",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 21,
+          "exampleNodeIds": [
+            "50:100",
+            "50:102",
+            "50:123"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#157A45",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 20,
+          "exampleNodeIds": [
+            "145:977",
+            "41:281",
+            "41:282"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#68736F",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 20,
+          "exampleNodeIds": [
+            "91:378",
+            "91:387",
+            "91:333"
+          ]
+        },
+        {
+          "property": "paddingTop",
+          "value": 5,
+          "reason": "Fora da escala; preservado",
+          "occurrences": 20,
+          "exampleNodeIds": [
+            "91:345",
+            "91:350",
+            "91:355"
+          ]
+        },
+        {
+          "property": "paddingTop",
+          "value": 10,
+          "reason": "Fora da escala; preservado",
+          "occurrences": 19,
+          "exampleNodeIds": [
+            "21:435",
+            "28:46",
+            "28:62"
+          ]
+        },
+        {
+          "property": "paddingBottom",
+          "value": 10,
+          "reason": "Fora da escala; preservado",
+          "occurrences": 19,
+          "exampleNodeIds": [
+            "21:435",
+            "28:46",
+            "28:62"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#176333",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 19,
+          "exampleNodeIds": [
+            "50:96",
+            "50:98",
+            "50:99"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#8C9499",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 17,
+          "exampleNodeIds": [
+            "28:50",
+            "28:80",
+            "28:66"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#082A24",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 17,
+          "exampleNodeIds": [
+            "91:386",
+            "91:522",
+            "95:544"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#299EF1",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 17,
+          "exampleNodeIds": [
+            "122:489",
+            "122:491",
+            "122:536"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Regular\",16,{\"unit\":\"PIXELS\",\"value\":22},{\"unit\":\"PIXELS\",\"value\":-0.15000000596046448}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 16,
+          "exampleNodeIds": [
+            "21:428",
+            "28:149",
+            "41:390"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#42524D",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 15,
+          "exampleNodeIds": [
+            "91:354",
+            "91:358",
+            "91:363"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Medium\",10,{\"unit\":\"PIXELS\",\"value\":12},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 15,
+          "exampleNodeIds": [
+            "91:354",
+            "91:358",
+            "91:363"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Medium\",12,{\"unit\":\"PIXELS\",\"value\":15},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 15,
+          "exampleNodeIds": [
+            "I123:366;123:355",
+            "I123:378;123:355",
+            "123:469"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 15,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 15,
+          "exampleNodeIds": [
+            "123:634",
+            "123:665",
+            "130:343"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 15,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 15,
+          "exampleNodeIds": [
+            "123:634",
+            "123:665",
+            "130:343"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 15,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 15,
+          "exampleNodeIds": [
+            "123:634",
+            "123:665",
+            "130:343"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 15,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 15,
+          "exampleNodeIds": [
+            "123:634",
+            "123:665",
+            "130:343"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 14,
+          "reason": "Valor difere do token da função",
+          "occurrences": 14,
+          "exampleNodeIds": [
+            "41:484",
+            "145:975",
+            "46:496"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 14,
+          "reason": "Valor difere do token da função",
+          "occurrences": 14,
+          "exampleNodeIds": [
+            "41:484",
+            "145:975",
+            "46:496"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 14,
+          "reason": "Valor difere do token da função",
+          "occurrences": 14,
+          "exampleNodeIds": [
+            "41:484",
+            "145:975",
+            "46:496"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 14,
+          "reason": "Valor difere do token da função",
+          "occurrences": 14,
+          "exampleNodeIds": [
+            "41:484",
+            "145:975",
+            "46:496"
+          ]
+        },
+        {
+          "property": "opacity",
+          "value": 0.4399999976158142,
+          "reason": "Intenção semântica não confirmada",
+          "occurrences": 13,
+          "exampleNodeIds": [
+            "I21:375;129:195",
+            "I41:376;129:195",
+            "I28:155;129:195"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#FAF8F2",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 13,
+          "exampleNodeIds": [
+            "48:76",
+            "50:96",
+            "47:633"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#2F6B3F",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 13,
+          "exampleNodeIds": [
+            "53:775",
+            "53:858",
+            "53:859"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#FAFAF7",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 13,
+          "exampleNodeIds": [
+            "102:536",
+            "122:595",
+            "123:333"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#91BE35",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 13,
+          "exampleNodeIds": [
+            "122:603",
+            "123:607",
+            "123:615"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Regular\",10,{\"unit\":\"PIXELS\",\"value\":13},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 13,
+          "exampleNodeIds": [
+            "123:470",
+            "123:471",
+            "123:487"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Regular\",11,{\"unit\":\"PIXELS\",\"value\":14},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 13,
+          "exampleNodeIds": [
+            "123:606",
+            "123:614",
+            "123:622"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#FCFAF4",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 12,
+          "exampleNodeIds": [
+            "21:25",
+            "21:400",
+            "41:375"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 20,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 12,
+          "exampleNodeIds": [
+            "12:4",
+            "12:5",
+            "12:6"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 20,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 12,
+          "exampleNodeIds": [
+            "12:4",
+            "12:5",
+            "12:6"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 20,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 12,
+          "exampleNodeIds": [
+            "12:4",
+            "12:5",
+            "12:6"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 20,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 12,
+          "exampleNodeIds": [
+            "12:4",
+            "12:5",
+            "12:6"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 18,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 12,
+          "exampleNodeIds": [
+            "99:458",
+            "122:746",
+            "100:171"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Regular\",13,{\"unit\":\"PIXELS\",\"value\":17},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 12,
+          "exampleNodeIds": [
+            "123:595",
+            "130:301",
+            "130:340"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Regular\",14,{\"unit\":\"AUTO\"},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 11,
+          "exampleNodeIds": [
+            "41:276",
+            "41:278",
+            "41:279"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Regular\",15,{\"unit\":\"PIXELS\",\"value\":20},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 11,
+          "exampleNodeIds": [
+            "130:290",
+            "130:300",
+            "130:325"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Bold\",20,{\"unit\":\"PIXELS\",\"value\":25},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 11,
+          "exampleNodeIds": [
+            "130:348",
+            "130:381",
+            "130:387"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#0B2525",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 10,
+          "exampleNodeIds": [
+            "16:4",
+            "16:5",
+            "16:20"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Medium\",12,{\"unit\":\"PIXELS\",\"value\":15},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 10,
+          "exampleNodeIds": [
+            "91:387",
+            "91:333",
+            "95:540"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#ECF6D3",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 10,
+          "exampleNodeIds": [
+            "122:468",
+            "123:490",
+            "123:578"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Manrope\",\"Bold\",18,{\"unit\":\"AUTO\"},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 9,
+          "exampleNodeIds": [
+            "21:37",
+            "28:104",
+            "41:487"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 24,
+          "reason": "Valor difere do token da função",
+          "occurrences": 9,
+          "exampleNodeIds": [
+            "12:16",
+            "12:42",
+            "12:74"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 24,
+          "reason": "Valor difere do token da função",
+          "occurrences": 9,
+          "exampleNodeIds": [
+            "12:16",
+            "12:42",
+            "12:74"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 24,
+          "reason": "Valor difere do token da função",
+          "occurrences": 9,
+          "exampleNodeIds": [
+            "12:16",
+            "12:42",
+            "12:74"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 24,
+          "reason": "Valor difere do token da função",
+          "occurrences": 9,
+          "exampleNodeIds": [
+            "12:16",
+            "12:42",
+            "12:74"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 18,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 9,
+          "exampleNodeIds": [
+            "99:458",
+            "122:746",
+            "100:171"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 18,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 9,
+          "exampleNodeIds": [
+            "99:458",
+            "122:746",
+            "100:171"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 18,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 9,
+          "exampleNodeIds": [
+            "99:458",
+            "122:746",
+            "100:171"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 22,
+          "reason": "Valor difere do token da função",
+          "occurrences": 9,
+          "exampleNodeIds": [
+            "130:287",
+            "130:330",
+            "130:378"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 22,
+          "reason": "Valor difere do token da função",
+          "occurrences": 9,
+          "exampleNodeIds": [
+            "130:287",
+            "130:330",
+            "130:378"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 22,
+          "reason": "Valor difere do token da função",
+          "occurrences": 9,
+          "exampleNodeIds": [
+            "130:287",
+            "130:330",
+            "130:378"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 22,
+          "reason": "Valor difere do token da função",
+          "occurrences": 9,
+          "exampleNodeIds": [
+            "130:287",
+            "130:330",
+            "130:378"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Semi Bold\",13,{\"unit\":\"AUTO\"},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 8,
+          "exampleNodeIds": [
+            "12:9",
+            "12:24",
+            "12:49"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#3B9CFF",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 8,
+          "exampleNodeIds": [
+            "16:7",
+            "16:8",
+            "91:526"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Regular\",12,{\"unit\":\"PIXELS\",\"value\":15},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 8,
+          "exampleNodeIds": [
+            "123:474",
+            "123:671",
+            "123:678"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#DDDCD6",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 8,
+          "exampleNodeIds": [
+            "130:264",
+            "130:265",
+            "130:266"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#737970",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 8,
+          "exampleNodeIds": [
+            "130:405",
+            "130:408",
+            "130:411"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Regular\",12,{\"unit\":\"AUTO\"},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 7,
+          "exampleNodeIds": [
+            "21:30",
+            "21:16",
+            "12:12"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#2F6B3F",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 7,
+          "exampleNodeIds": [
+            "21:434",
+            "41:400",
+            "21:22"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 8,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 7,
+          "exampleNodeIds": [
+            "12:38",
+            "12:87",
+            "12:92"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 8,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 7,
+          "exampleNodeIds": [
+            "12:38",
+            "12:87",
+            "12:92"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 8,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 7,
+          "exampleNodeIds": [
+            "12:38",
+            "12:87",
+            "12:92"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 8,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 7,
+          "exampleNodeIds": [
+            "12:38",
+            "12:87",
+            "12:92"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#4F5963",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 7,
+          "exampleNodeIds": [
+            "99:398",
+            "99:399",
+            "99:384"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Regular\",14,{\"unit\":\"PIXELS\",\"value\":11},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 7,
+          "exampleNodeIds": [
+            "91:528",
+            "95:550",
+            "97:312"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#FFBF00",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 7,
+          "exampleNodeIds": [
+            "122:442",
+            "123:485",
+            "130:338"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#FFBF00",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 7,
+          "exampleNodeIds": [
+            "122:443",
+            "123:486",
+            "130:339"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Manrope\",\"Regular\",14,{\"unit\":\"PIXELS\",\"value\":13},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 7,
+          "exampleNodeIds": [
+            "122:407",
+            "122:409",
+            "122:474"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#9D6800",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 7,
+          "exampleNodeIds": [
+            "122:539",
+            "122:541",
+            "122:551"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#9D6800",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 7,
+          "exampleNodeIds": [
+            "122:540",
+            "122:552",
+            "122:588"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#E7E6E0",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 7,
+          "exampleNodeIds": [
+            "123:439",
+            "123:440",
+            "123:441"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Medium\",12,{\"unit\":\"PIXELS\",\"value\":16},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 7,
+          "exampleNodeIds": [
+            "123:460",
+            "130:281",
+            "130:317"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Regular\",14,{\"unit\":\"PIXELS\",\"value\":19},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 7,
+          "exampleNodeIds": [
+            "130:463",
+            "130:472",
+            "130:481"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#9EA3A6",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "41:329",
+            "91:367",
+            "99:392"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Semi Bold\",17,{\"unit\":\"PIXELS\",\"value\":22},{\"unit\":\"PIXELS\",\"value\":-0.20000000298023224}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "21:434",
+            "28:47",
+            "28:63"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Regular\",12,{\"unit\":\"PIXELS\",\"value\":16},{\"unit\":\"PIXELS\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "21:436",
+            "28:48",
+            "28:64"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#75867A",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "28:53",
+            "28:54",
+            "28:68"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Semi Bold\",12,{\"unit\":\"AUTO\"},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "12:10",
+            "12:25",
+            "12:50"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 10,
+          "reason": "Valor difere do token da função",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "12:86",
+            "12:91",
+            "12:96"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 10,
+          "reason": "Valor difere do token da função",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "12:86",
+            "12:91",
+            "12:96"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 10,
+          "reason": "Valor difere do token da função",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "12:86",
+            "12:91",
+            "12:96"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 10,
+          "reason": "Valor difere do token da função",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "12:86",
+            "12:91",
+            "12:96"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Medium\",12,{\"unit\":\"AUTO\"},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "12:88",
+            "12:93",
+            "12:98"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#838383",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "91:368",
+            "99:393",
+            "97:280"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#FAF8F2",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "91:383",
+            "97:294",
+            "99:467"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#4B7F4D",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "96:166",
+            "96:167",
+            "96:168"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#E4F2E4",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "91:345",
+            "97:335",
+            "102:623"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 19,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "123:429",
+            "123:529",
+            "123:432"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 19,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "123:429",
+            "123:529",
+            "123:432"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 19,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "123:429",
+            "123:529",
+            "123:432"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 19,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "123:429",
+            "123:529",
+            "123:432"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#1C3E18",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "123:497",
+            "123:539",
+            "123:640"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#62645B",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "123:508",
+            "123:509",
+            "123:510"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Medium\",15,{\"unit\":\"PIXELS\",\"value\":19},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "123:533",
+            "130:274",
+            "130:352"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#F9FAF6",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "123:651",
+            "123:656",
+            "123:661"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#EBEDE6",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "123:651",
+            "123:656",
+            "123:661"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#4C573B",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "123:655",
+            "123:660",
+            "123:664"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Medium\",17,{\"unit\":\"PIXELS\",\"value\":22},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "130:269",
+            "130:299",
+            "130:308"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Regular\",12,{\"unit\":\"PIXELS\",\"value\":16},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "130:282",
+            "130:318",
+            "130:425"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Medium\",15,{\"unit\":\"PIXELS\",\"value\":20},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "130:349",
+            "130:382",
+            "130:438"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#B0C7B7",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "36:68",
+            "47:687",
+            "47:701"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Regular\",15,{\"unit\":\"AUTO\"},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "41:271",
+            "12:29",
+            "12:54"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Medium\",17,{\"unit\":\"AUTO\"},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "12:17",
+            "12:43",
+            "12:75"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Regular\",14,{\"unit\":\"PIXELS\",\"value\":18.899999618530273},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "50:90",
+            "47:636",
+            "53:862"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Medium\",14,{\"unit\":\"PIXELS\",\"value\":19.5},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "52:758",
+            "53:838",
+            "53:794"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#D1D1C7",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "58:164",
+            "122:495",
+            "122:532"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 16,
+          "reason": "Valor difere do token da função",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "91:371",
+            "97:283",
+            "102:553"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 16,
+          "reason": "Valor difere do token da função",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "91:371",
+            "97:283",
+            "102:553"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 16,
+          "reason": "Valor difere do token da função",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "91:371",
+            "97:283",
+            "102:553"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 16,
+          "reason": "Valor difere do token da função",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "91:371",
+            "97:283",
+            "102:553"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Semi Bold\",14,{\"unit\":\"PIXELS\",\"value\":14},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "91:522",
+            "97:306",
+            "145:928"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#F8F7F1",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "91:344",
+            "97:334",
+            "102:622"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 32,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "91:344",
+            "97:334",
+            "102:622"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 32,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "91:344",
+            "97:334",
+            "102:622"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 32,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "91:344",
+            "97:334",
+            "102:622"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 32,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "91:344",
+            "97:334",
+            "102:622"
+          ]
+        },
+        {
+          "property": "effects",
+          "value": "[{\"type\":\"BACKGROUND_BLUR\",\"radius\":24},{\"type\":\"DROP_SHADOW\",\"radius\":16}]",
+          "reason": "Sombra sem equivalência exata",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "91:344",
+            "97:334",
+            "102:622"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Semi Bold\",10,{\"unit\":\"PIXELS\",\"value\":12},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "91:349",
+            "97:339",
+            "102:627"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#F7F7F8",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "123:332",
+            "123:334",
+            "123:336"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 46,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "123:332",
+            "123:334",
+            "123:336"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 46,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "123:332",
+            "123:334",
+            "123:336"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 46,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "123:332",
+            "123:334",
+            "123:336"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 46,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "123:332",
+            "123:334",
+            "123:336"
+          ]
+        },
+        {
+          "property": "effects",
+          "value": "[{\"type\":\"DROP_SHADOW\",\"radius\":25}]",
+          "reason": "Sombra sem equivalência exata",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "123:332",
+            "123:334",
+            "123:336"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 36,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "123:333",
+            "123:335",
+            "123:337"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 36,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "123:333",
+            "123:335",
+            "123:337"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 36,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "123:333",
+            "123:335",
+            "123:337"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 36,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "123:333",
+            "123:335",
+            "123:337"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Medium\",14,{\"unit\":\"PIXELS\",\"value\":18},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "I123:451;123:448",
+            "I123:455;123:448",
+            "123:577"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Medium\",10,{\"unit\":\"PIXELS\",\"value\":13},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 5,
+          "exampleNodeIds": [
+            "123:495",
+            "123:502",
+            "123:513"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Nunito\",\"Black\",42,{\"unit\":\"AUTO\"},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "21:29",
+            "21:15",
+            "12:11"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#4B7F4D",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "21:32",
+            "21:18",
+            "20:10"
+          ]
+        },
+        {
+          "property": "opacity",
+          "value": 0.5,
+          "reason": "Intenção semântica não confirmada",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "41:331",
+            "41:465",
+            "41:319"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#157A45",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "41:485",
+            "41:466",
+            "46:497"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Semi Bold\",15,{\"unit\":\"AUTO\"},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "12:39",
+            "12:57",
+            "12:63"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#9EA3A6",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "12:99",
+            "12:103",
+            "12:107"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#DCDAD1",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "50:91",
+            "50:111",
+            "50:115"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#EBF5E8",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "52:757",
+            "53:825",
+            "53:781"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 100,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "59:299",
+            "I59:299;1:1857",
+            "59:302"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 100,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "59:299",
+            "I59:299;1:1857",
+            "59:302"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 100,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "59:299",
+            "I59:299;1:1857",
+            "59:302"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 100,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "59:299",
+            "I59:299;1:1857",
+            "59:302"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Regular\",14,{\"unit\":\"PIXELS\",\"value\":22},{\"unit\":\"PIXELS\",\"value\":-0.15000000596046448}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "99:393",
+            "97:280",
+            "102:545"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#E7E9D8",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "91:371",
+            "97:283",
+            "102:553"
+          ]
+        },
+        {
+          "property": "effects",
+          "value": "[{\"type\":\"DROP_SHADOW\",\"radius\":12}]",
+          "reason": "Sombra sem equivalência exata",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "91:371",
+            "97:283",
+            "102:553"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Regular\",12,{\"unit\":\"PIXELS\",\"value\":16},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "91:378",
+            "97:289",
+            "102:559"
+          ]
+        },
+        {
+          "property": "itemSpacing",
+          "value": 3,
+          "reason": "Fora da escala; preservado",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "91:380",
+            "97:291",
+            "102:561"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Semi Bold\",12,{\"unit\":\"PIXELS\",\"value\":15},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "91:381",
+            "97:292",
+            "102:562"
+          ]
+        },
+        {
+          "property": "itemSpacing",
+          "value": 134,
+          "reason": "Fora da escala; preservado",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "91:385",
+            "97:297",
+            "145:921"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Semi Bold\",21,{\"unit\":\"PIXELS\",\"value\":26},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "91:386",
+            "97:298",
+            "145:868"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Medium\",14,{\"unit\":\"PIXELS\",\"value\":11},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "95:533",
+            "95:552",
+            "97:314"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#68736F",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "95:536",
+            "95:554",
+            "97:316"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#2C4420",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "122:474",
+            "122:475",
+            "123:494"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Manrope\",\"SemiBold\",16,{\"unit\":\"PIXELS\",\"value\":19},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "122:487",
+            "122:525",
+            "122:545"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#E7F1C6",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "122:567",
+            "123:529",
+            "130:371"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#334129",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "122:571",
+            "123:534",
+            "130:376"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Manrope\",\"SemiBold\",14,{\"unit\":\"PIXELS\",\"value\":11},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "122:780",
+            "122:783",
+            "122:798"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Manrope\",\"Regular\",16,{\"unit\":\"PIXELS\",\"value\":29},{\"unit\":\"PIXELS\",\"value\":-0.23999999463558197}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "102:660",
+            "120:188",
+            "120:189"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Regular\",15,{\"unit\":\"PIXELS\",\"value\":21},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "123:463",
+            "130:376",
+            "130:498"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#80827D",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "123:563",
+            "123:565",
+            "123:568"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#80827D",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "123:564",
+            "123:567",
+            "123:570"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#343B39",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "123:584",
+            "123:585",
+            "123:588"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#EBEDE6",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "123:680",
+            "123:686",
+            "130:557"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Regular\",13,{\"unit\":\"PIXELS\",\"value\":18},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "130:356",
+            "130:363",
+            "130:370"
+          ]
+        },
+        {
+          "property": "itemSpacing",
+          "value": 5,
+          "reason": "Fora da escala; preservado",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "130:461",
+            "130:470",
+            "130:479"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Medium\",16,{\"unit\":\"PIXELS\",\"value\":21},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "130:462",
+            "130:471",
+            "130:480"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#2F7D49",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "21:40",
+            "21:436",
+            "41:401"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Regular\",13,{\"unit\":\"AUTO\"},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "41:293",
+            "12:73",
+            "12:138"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Medium\",13,{\"unit\":\"AUTO\"},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "12:31",
+            "12:33",
+            "12:35"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#60706C",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "16:47",
+            "16:48",
+            "16:49"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#072721",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "50:89",
+            "50:101",
+            "47:647"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#EFF0E9",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "47:748",
+            "47:749",
+            "56:452"
+          ]
+        },
+        {
+          "property": "paddingTop",
+          "value": 14,
+          "reason": "Fora da escala; preservado",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "47:748",
+            "47:749",
+            "56:452"
+          ]
+        },
+        {
+          "property": "paddingBottom",
+          "value": 14,
+          "reason": "Fora da escala; preservado",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "47:748",
+            "47:749",
+            "56:452"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#FBE7E4",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "95:534",
+            "97:313",
+            "122:782"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#E16880",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "95:533",
+            "97:314",
+            "122:783"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#EFF4E8",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "99:458",
+            "122:746",
+            "100:171"
+          ]
+        },
+        {
+          "property": "effects",
+          "value": "[{\"type\":\"DROP_SHADOW\",\"radius\":14}]",
+          "reason": "Sombra sem equivalência exata",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "99:458",
+            "122:746",
+            "100:171"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 21,
+          "reason": "Valor difere do token da função",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "99:464",
+            "100:176",
+            "123:483"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 21,
+          "reason": "Valor difere do token da função",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "99:464",
+            "100:176",
+            "123:483"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 21,
+          "reason": "Valor difere do token da função",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "99:464",
+            "100:176",
+            "123:483"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 21,
+          "reason": "Valor difere do token da função",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "99:464",
+            "100:176",
+            "123:483"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#E5E2D9",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "145:925",
+            "145:935",
+            "145:943"
+          ]
+        },
+        {
+          "property": "effects",
+          "value": "[{\"type\":\"DROP_SHADOW\",\"radius\":8}]",
+          "reason": "Sombra sem equivalência exata",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "145:925",
+            "145:935",
+            "145:943"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#91BE35",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "122:603",
+            "130:324",
+            "137:252"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Bold\",14,{\"unit\":\"PIXELS\",\"value\":17},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "123:546",
+            "123:551",
+            "123:556"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Regular\",9,{\"unit\":\"PIXELS\",\"value\":12},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "123:565",
+            "123:568",
+            "123:572"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#F1F6E6",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "123:573",
+            "130:414",
+            "137:342"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Regular\",14,{\"unit\":\"PIXELS\",\"value\":18},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "123:650",
+            "130:442",
+            "130:446"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 26,
+          "reason": "Valor difere do token da função",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "130:268",
+            "130:307",
+            "130:569"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 26,
+          "reason": "Valor difere do token da função",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "130:268",
+            "130:307",
+            "130:569"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 26,
+          "reason": "Valor difere do token da função",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "130:268",
+            "130:307",
+            "130:569"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 26,
+          "reason": "Valor difere do token da função",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "130:268",
+            "130:307",
+            "130:569"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#0A2A22",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "41:332",
+            "45:76"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#1C8445",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "21:476",
+            "41:392"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#FBF9F2",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "21:12",
+            "20:3"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#385C4F",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "21:20",
+            "20:12"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Caveat\",\"Regular\",20,{\"unit\":\"PIXELS\",\"value\":22},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "21:20",
+            "20:12"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Bold\",28,{\"unit\":\"AUTO\"},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "12:28",
+            "12:127"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#F5A623",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "16:10",
+            "16:11"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Bold\",27,{\"unit\":\"AUTO\"},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "12:53",
+            "12:84"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#5B626F",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "50:90",
+            "50:95"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#5B626F",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "50:93",
+            "50:94"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Bold\",18,{\"unit\":\"PIXELS\",\"value\":23},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "50:101",
+            "47:647"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Medium\",14,{\"unit\":\"PIXELS\",\"value\":17.5},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "50:102",
+            "47:648"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#ECF6EC",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "50:107",
+            "50:125"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#D2D5DA",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "59:299",
+            "59:302"
+          ]
+        },
+        {
+          "property": "effects",
+          "value": "[{\"type\":\"DROP_SHADOW\",\"radius\":4}]",
+          "reason": "Sombra sem equivalência exata",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "I59:299;1:1857",
+            "I59:302;1:1857"
+          ]
+        },
+        {
+          "property": "itemSpacing",
+          "value": -2,
+          "reason": "Fora da escala; preservado",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "99:390",
+            "97:277"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Semi Bold\",14,{\"unit\":\"PIXELS\",\"value\":16},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "95:544",
+            "97:322"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#F0EDEA",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "95:551",
+            "97:330"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#696A69",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "95:552",
+            "97:331"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Semi Bold\",20,{\"unit\":\"PIXELS\",\"value\":29},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "99:462",
+            "122:753"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Regular\",14,{\"unit\":\"PIXELS\",\"value\":20},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "99:463",
+            "122:754"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Semi Bold\",14,{\"unit\":\"PIXELS\",\"value\":18},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "99:465",
+            "100:177"
+          ]
+        },
+        {
+          "property": "itemSpacing",
+          "value": -4,
+          "reason": "Fora da escala; preservado",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "122:292",
+            "122:637"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Regular\",15,{\"unit\":\"PIXELS\",\"value\":20},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "145:866",
+            "100:175"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Semi Bold\",11,{\"unit\":\"PIXELS\",\"value\":13},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "145:873",
+            "145:877"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Regular\",8.5,{\"unit\":\"PIXELS\",\"value\":10},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "145:874",
+            "145:878"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Semi Bold\",14,{\"unit\":\"PIXELS\",\"value\":17},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "145:938",
+            "145:946"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#385C4F",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "145:941",
+            "145:949"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#C5C5C5",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "122:785",
+            "122:803"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#EFEFF4",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "123:331",
+            "130:250"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#001405",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "123:345",
+            "130:258"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#82AD25",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "123:438",
+            "123:443"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Regular\",11,{\"unit\":\"PIXELS\",\"value\":15},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "123:461",
+            "123:637"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#E2F3FD",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "123:465",
+            "130:295"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 21,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "123:472",
+            "123:558"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 21,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "123:472",
+            "123:558"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 21,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "123:472",
+            "123:558"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 21,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "123:472",
+            "123:558"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 22,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "123:479",
+            "123:537"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 22,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "123:479",
+            "123:537"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 22,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "123:479",
+            "123:537"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 22,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "123:479",
+            "123:537"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#FF2929",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "123:482",
+            "130:333"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 17,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "123:490",
+            "123:646"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 17,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "123:490",
+            "123:646"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 17,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "123:490",
+            "123:646"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 17,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "123:490",
+            "123:646"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Bold\",15,{\"unit\":\"PIXELS\",\"value\":19},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "123:498",
+            "123:540"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#F0F0EE",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "123:591",
+            "130:447"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#282E2D",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "123:593",
+            "123:594"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#2A7D32",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "123:653",
+            "130:531"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#2A7D32",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "123:654",
+            "130:532"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#268039",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "123:663",
+            "130:541"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#777977",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "123:682",
+            "123:688"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Regular\",17,{\"unit\":\"PIXELS\",\"value\":24},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "130:262",
+            "130:292"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 27,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "130:324",
+            "137:252"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 27,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "130:324",
+            "137:252"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 27,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "130:324",
+            "137:252"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 27,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "130:324",
+            "137:252"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Bold\",22,{\"unit\":\"PIXELS\",\"value\":27},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "130:326",
+            "137:254"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Bold\",24,{\"unit\":\"PIXELS\",\"value\":29},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "130:341",
+            "137:269"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Medium\",14,{\"unit\":\"PIXELS\",\"value\":19},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "130:347",
+            "137:275"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#996000",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "130:361",
+            "130:363"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Medium\",18,{\"unit\":\"PIXELS\",\"value\":23},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "130:375",
+            "137:303"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Medium\",11,{\"unit\":\"PIXELS\",\"value\":14},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "130:402",
+            "137:330"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#737970",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "130:404",
+            "137:332"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Regular\",17,{\"unit\":\"PIXELS\",\"value\":22},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "130:451",
+            "130:528"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#737770",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "130:559",
+            "130:565"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#B0C7B7",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "41:331"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Medium\",15,{\"unit\":\"PIXELS\",\"value\":20},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "45:76"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#F0F2F0",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "38:154"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Medium\",14,{\"unit\":\"AUTO\"},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "41:298"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 2,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "12:3"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 2,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "12:3"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 2,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "12:3"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 2,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "12:3"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Regular\",16,{\"unit\":\"AUTO\"},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "12:14"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#F5F5ED",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "12:112"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Bold\",24,{\"unit\":\"PIXELS\",\"value\":29},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "50:89"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Regular\",15,{\"unit\":\"PIXELS\",\"value\":19.5},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "50:95"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Semi Bold\",16,{\"unit\":\"PIXELS\",\"value\":23.200000762939453},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "50:100"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 10,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "50:123"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 10,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "50:123"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 10,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "50:123"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 10,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "50:123"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 8,
+          "reason": "Valor difere do token da função",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "50:125"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 8,
+          "reason": "Valor difere do token da função",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "50:125"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 8,
+          "reason": "Valor difere do token da função",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "50:125"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 8,
+          "reason": "Valor difere do token da função",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "50:125"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Medium\",11,{\"unit\":\"PIXELS\",\"value\":13.199999809265137},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "50:126"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Medium\",14,{\"unit\":\"PIXELS\",\"value\":18.200000762939453},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "50:127"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Semi Bold\",17,{\"unit\":\"PIXELS\",\"value\":22.950000762939453},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "50:132"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Manrope\",\"SemiBold\",14,{\"unit\":\"PIXELS\",\"value\":13},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "122:475"
+          ]
+        },
+        {
+          "property": "itemSpacing",
+          "value": 156,
+          "reason": "Fora da escala; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "122:482"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Manrope\",\"ExtraBold\",15,{\"unit\":\"PIXELS\",\"value\":19},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "122:479"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Manrope\",\"Medium\",12,{\"unit\":\"PIXELS\",\"value\":15},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "122:480"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Nunito\",\"Regular\",14,{\"unit\":\"PIXELS\",\"value\":16},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "122:571"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#1C3328",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "145:870"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#F0E7CF",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "145:875"
+          ]
+        },
+        {
+          "property": "itemSpacing",
+          "value": 185,
+          "reason": "Fora da escala; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "122:743"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Manrope\",\"SemiBold\",14,{\"unit\":\"PIXELS\",\"value\":18},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "143:854"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Manrope\",\"Medium\",14,{\"unit\":\"PIXELS\",\"value\":15},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "122:765"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#F9F9F9",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "122:800"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#9B9B9B",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "122:801"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#A6CBA8",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "122:842"
+          ]
+        },
+        {
+          "property": "paddingTop",
+          "value": 17,
+          "reason": "Fora da escala; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "122:842"
+          ]
+        },
+        {
+          "property": "paddingBottom",
+          "value": 17,
+          "reason": "Fora da escala; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "122:842"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 20,
+          "reason": "Valor difere do token da função",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "122:842"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 20,
+          "reason": "Valor difere do token da função",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "122:842"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 20,
+          "reason": "Valor difere do token da função",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "122:842"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 20,
+          "reason": "Valor difere do token da função",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "122:842"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Manrope\",\"SemiBold\",16,{\"unit\":\"PIXELS\",\"value\":11},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "122:841"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Semi Bold\",25,{\"unit\":\"PIXELS\",\"value\":29},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "100:174"
+          ]
+        },
+        {
+          "property": "paddingLeft",
+          "value": 9,
+          "reason": "Fora da escala; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "120:194"
+          ]
+        },
+        {
+          "property": "paddingRight",
+          "value": 9,
+          "reason": "Fora da escala; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "120:194"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Manrope\",\"Bold\",16,{\"unit\":\"PIXELS\",\"value\":29},{\"unit\":\"PIXELS\",\"value\":-0.23999999463558197}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "120:196"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#A99B86",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "126:253"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#E5DDCE",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "126:254"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Black\",49,{\"unit\":\"PIXELS\",\"value\":60},{\"unit\":\"PIXELS\",\"value\":-2}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:345"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#416D1C",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:347"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#416D1C",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:348"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#1D321A",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:349"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Regular\",14,{\"unit\":\"PIXELS\",\"value\":20},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:349"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#747469",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:459"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Regular\",11.5,{\"unit\":\"PIXELS\",\"value\":16},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:459"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#153310",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:462"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Bold\",35,{\"unit\":\"PIXELS\",\"value\":38},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:462"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#5B614F",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:463"
+          ]
+        },
+        {
+          "property": "effects",
+          "value": "[{\"type\":\"DROP_SHADOW\",\"radius\":27}]",
+          "reason": "Sombra sem equivalência exata",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:464"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#8BBB35",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:473"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 26,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:473"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 26,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:473"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 26,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:473"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 26,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:473"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#182A12",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:475"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Bold\",17,{\"unit\":\"PIXELS\",\"value\":21},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:475"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Bold\",18,{\"unit\":\"PIXELS\",\"value\":22},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:488"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#1A2C12",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:533"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Regular\",11,{\"unit\":\"PIXELS\",\"value\":16},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:534"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#F9FAED",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:537"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#FFB000",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:550"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#FFB000",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:555"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Medium\",9,{\"unit\":\"PIXELS\",\"value\":12},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:561"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#8DB824",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:574"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#949795",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:597"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Bold\",14,{\"unit\":\"PIXELS\",\"value\":18},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:600"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#818674",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:637"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#F6F9E8",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:638"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 13,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:638"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 13,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:638"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 13,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:638"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 13,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:638"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Bold\",21,{\"unit\":\"PIXELS\",\"value\":26},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:647"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#FFBD00",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:658"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#FFBD00",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:659"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#243919",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:670"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Medium\",13,{\"unit\":\"PIXELS\",\"value\":17},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:670"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#708C27",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:671"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#7B9C28",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:673"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#226F23",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:676"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#226F23",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "123:677"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Black\",56,{\"unit\":\"PIXELS\",\"value\":66},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "130:258"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Regular\",15,{\"unit\":\"PIXELS\",\"value\":19},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "130:273"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Bold\",32,{\"unit\":\"PIXELS\",\"value\":37},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "130:291"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 18,
+          "reason": "Valor difere do token da função",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "130:294"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 18,
+          "reason": "Valor difere do token da função",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "130:294"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 18,
+          "reason": "Valor difere do token da função",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "130:294"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 18,
+          "reason": "Valor difere do token da função",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "130:294"
+          ]
+        },
+        {
+          "property": "effects",
+          "value": "[{\"type\":\"DROP_SHADOW\",\"radius\":24}]",
+          "reason": "Sombra sem equivalência exata",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "130:294"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#996000",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "130:362"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Medium\",20,{\"unit\":\"PIXELS\",\"value\":25},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "130:433"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#7E8379",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "130:454"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Roboto\",\"Bold\",26,{\"unit\":\"PIXELS\",\"value\":32},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "130:525"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#647D23",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "130:549"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "155:229",
+      "name": "wireframe",
+      "nodeCount": 4736,
+      "unavailableFonts": [],
+      "exceptions": [
+        {
+          "property": "fills",
+          "value": "#333333",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 810,
+          "exampleNodeIds": [
+            "155:242",
+            "155:245",
+            "155:246"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#616161",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 744,
+          "exampleNodeIds": [
+            "155:251",
+            "155:252",
+            "155:255"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#1A1A1A",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 742,
+          "exampleNodeIds": [
+            "155:241",
+            "155:254",
+            "155:257"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Regular\",13,{\"unit\":\"PIXELS\",\"value\":18},{\"unit\":\"PIXELS\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 586,
+          "exampleNodeIds": [
+            "155:255",
+            "155:258",
+            "155:261"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 14,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 444,
+          "exampleNodeIds": [
+            "155:250",
+            "155:256",
+            "155:259"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 14,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 444,
+          "exampleNodeIds": [
+            "155:250",
+            "155:256",
+            "155:259"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 14,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 444,
+          "exampleNodeIds": [
+            "155:250",
+            "155:256",
+            "155:259"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 14,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 444,
+          "exampleNodeIds": [
+            "155:250",
+            "155:256",
+            "155:259"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Semi Bold\",14,{\"unit\":\"PIXELS\",\"value\":18},{\"unit\":\"PIXELS\",\"value\":-0.10000000149011612}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 379,
+          "exampleNodeIds": [
+            "155:251",
+            "163:1249",
+            "163:1263"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Regular\",11,{\"unit\":\"PIXELS\",\"value\":18},{\"unit\":\"PIXELS\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 250,
+          "exampleNodeIds": [
+            "163:1252",
+            "163:1253",
+            "163:1275"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Semi Bold\",17,{\"unit\":\"PIXELS\",\"value\":22},{\"unit\":\"PIXELS\",\"value\":-0.20000000298023224}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 246,
+          "exampleNodeIds": [
+            "155:254",
+            "155:257",
+            "155:260"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#FFFFFF",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 237,
+          "exampleNodeIds": [
+            "155:250",
+            "155:259",
+            "155:262"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#333333",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 216,
+          "exampleNodeIds": [
+            "156:260",
+            "156:291",
+            "156:318"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Regular\",16,{\"unit\":\"PIXELS\",\"value\":22},{\"unit\":\"PIXELS\",\"value\":-0.15000000596046448}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 208,
+          "exampleNodeIds": [
+            "155:252",
+            "156:322",
+            "156:337"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#E5E5E5",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 178,
+          "exampleNodeIds": [
+            "155:244",
+            "155:256",
+            "163:1267"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Manrope\",\"Bold\",16,{\"unit\":\"PIXELS\",\"value\":22},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 175,
+          "exampleNodeIds": [
+            "155:243",
+            "155:245",
+            "155:247"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Semi Bold\",24,{\"unit\":\"PIXELS\",\"value\":29},{\"unit\":\"PIXELS\",\"value\":-0.23999999463558197}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 138,
+          "exampleNodeIds": [
+            "155:241",
+            "156:321",
+            "163:1245"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#FAFAFA",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 138,
+          "exampleNodeIds": [
+            "155:265",
+            "163:1244",
+            "163:1250"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#D1D1D1",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 132,
+          "exampleNodeIds": [
+            "155:250",
+            "155:259",
+            "163:1243"
+          ]
+        },
+        {
+          "property": "itemSpacing",
+          "value": 3,
+          "reason": "Fora da escala; preservado",
+          "occurrences": 70,
+          "exampleNodeIds": [
+            "156:230",
+            "156:234",
+            "156:239"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Regular\",11,{\"unit\":\"PIXELS\",\"value\":14},{\"unit\":\"PIXELS\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 56,
+          "exampleNodeIds": [
+            "156:233",
+            "156:238",
+            "156:246"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 14,
+          "reason": "Valor difere do token da função",
+          "occurrences": 54,
+          "exampleNodeIds": [
+            "155:242",
+            "155:244",
+            "155:246"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 14,
+          "reason": "Valor difere do token da função",
+          "occurrences": 54,
+          "exampleNodeIds": [
+            "155:242",
+            "155:244",
+            "155:246"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 14,
+          "reason": "Valor difere do token da função",
+          "occurrences": 54,
+          "exampleNodeIds": [
+            "155:242",
+            "155:244",
+            "155:246"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 14,
+          "reason": "Valor difere do token da função",
+          "occurrences": 54,
+          "exampleNodeIds": [
+            "155:242",
+            "155:244",
+            "155:246"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 10,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 50,
+          "exampleNodeIds": [
+            "163:1267",
+            "163:1269",
+            "163:1433"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 10,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 50,
+          "exampleNodeIds": [
+            "163:1267",
+            "163:1269",
+            "163:1433"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 10,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 50,
+          "exampleNodeIds": [
+            "163:1267",
+            "163:1269",
+            "163:1433"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 10,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 50,
+          "exampleNodeIds": [
+            "163:1267",
+            "163:1269",
+            "163:1433"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#616161",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 44,
+          "exampleNodeIds": [
+            "156:237",
+            "156:245",
+            "156:249"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 8,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 44,
+          "exampleNodeIds": [
+            "183:1215",
+            "163:1866",
+            "183:1217"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 8,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 44,
+          "exampleNodeIds": [
+            "183:1215",
+            "163:1866",
+            "183:1217"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 8,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 44,
+          "exampleNodeIds": [
+            "183:1215",
+            "163:1866",
+            "183:1217"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 8,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 44,
+          "exampleNodeIds": [
+            "183:1215",
+            "163:1866",
+            "183:1217"
+          ]
+        },
+        {
+          "property": "itemSpacing",
+          "value": 44,
+          "reason": "Fora da escala; preservado",
+          "occurrences": 23,
+          "exampleNodeIds": [
+            "163:1247",
+            "163:1403",
+            "163:1593"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#F0F0F0",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 22,
+          "exampleNodeIds": [
+            "163:1866",
+            "163:1903",
+            "163:1907"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 12,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 21,
+          "exampleNodeIds": [
+            "163:2384",
+            "163:2386",
+            "163:2388"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 12,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 21,
+          "exampleNodeIds": [
+            "163:2384",
+            "163:2386",
+            "163:2388"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 12,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 21,
+          "exampleNodeIds": [
+            "163:2384",
+            "163:2386",
+            "163:2388"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 12,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 21,
+          "exampleNodeIds": [
+            "163:2384",
+            "163:2386",
+            "163:2388"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 22,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 14,
+          "exampleNodeIds": [
+            "156:240",
+            "156:263",
+            "156:286"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 22,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 14,
+          "exampleNodeIds": [
+            "156:240",
+            "156:263",
+            "156:286"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 22,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 14,
+          "exampleNodeIds": [
+            "156:240",
+            "156:263",
+            "156:286"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 22,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 14,
+          "exampleNodeIds": [
+            "156:240",
+            "156:263",
+            "156:286"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#FFFFFF",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 14,
+          "exampleNodeIds": [
+            "156:242",
+            "156:265",
+            "156:288"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 2,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 12,
+          "exampleNodeIds": [
+            "163:1243",
+            "163:1399",
+            "163:1822"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 2,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 12,
+          "exampleNodeIds": [
+            "163:1243",
+            "163:1399",
+            "163:1822"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 2,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 12,
+          "exampleNodeIds": [
+            "163:1243",
+            "163:1399",
+            "163:1822"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 2,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 12,
+          "exampleNodeIds": [
+            "163:1243",
+            "163:1399",
+            "163:1822"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#737373",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 10,
+          "exampleNodeIds": [
+            "163:1305",
+            "163:1329",
+            "163:1330"
+          ]
+        },
+        {
+          "property": "paddingBottom",
+          "value": 10,
+          "reason": "Fora da escala; preservado",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "163:1902",
+            "163:1906",
+            "163:1910"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#D1D1D1",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 4,
+          "exampleNodeIds": [
+            "155:248",
+            "163:5574",
+            "163:5575"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Semi Bold\",20,{\"unit\":\"PIXELS\",\"value\":25},{\"unit\":\"PIXELS\",\"value\":-0.20000000298023224}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "156:336",
+            "156:338",
+            "167:1236"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Nunito\",\"Black\",34,{\"unit\":\"PIXELS\",\"value\":42},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "183:1214"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 10,
+          "reason": "Valor difere do token da função",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "163:1471"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 10,
+          "reason": "Valor difere do token da função",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "163:1471"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 10,
+          "reason": "Valor difere do token da função",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "163:1471"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 10,
+          "reason": "Valor difere do token da função",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "163:1471"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0:1",
+      "name": "Ícones",
+      "nodeCount": 180,
+      "unavailableFonts": [],
+      "exceptions": [
+        {
+          "property": "strokes",
+          "value": "#214F38",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 46,
+          "exampleNodeIds": [
+            "3:21",
+            "3:23",
+            "3:37"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#637068",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 36,
+          "exampleNodeIds": [
+            "4:6",
+            "4:13",
+            "4:15"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Regular\",11,{\"unit\":\"AUTO\"},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 34,
+          "exampleNodeIds": [
+            "4:13",
+            "4:15",
+            "4:17"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#214F38",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 30,
+          "exampleNodeIds": [
+            "4:4",
+            "4:5",
+            "4:9"
+          ]
+        },
+        {
+          "property": "itemSpacing",
+          "value": 10,
+          "reason": "Fora da escala; preservado",
+          "occurrences": 24,
+          "exampleNodeIds": [
+            "4:3",
+            "4:14",
+            "4:16"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#DCE1D9",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 23,
+          "exampleNodeIds": [
+            "4:14",
+            "4:16",
+            "4:22"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 16,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 23,
+          "exampleNodeIds": [
+            "4:14",
+            "4:16",
+            "4:22"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 16,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 23,
+          "exampleNodeIds": [
+            "4:14",
+            "4:16",
+            "4:22"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 16,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 23,
+          "exampleNodeIds": [
+            "4:14",
+            "4:16",
+            "4:22"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 16,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 23,
+          "exampleNodeIds": [
+            "4:14",
+            "4:16",
+            "4:22"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Semi Bold\",15,{\"unit\":\"AUTO\"},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 11,
+          "exampleNodeIds": [
+            "4:12",
+            "4:20",
+            "4:28"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#E7EEDE",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 11,
+          "exampleNodeIds": [
+            "4:16",
+            "4:24",
+            "4:32"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#FFFFFF",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 6,
+          "exampleNodeIds": [
+            "3:13",
+            "3:59",
+            "3:7"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#FFFFFF",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 3,
+          "exampleNodeIds": [
+            "5:8",
+            "5:9",
+            "5:17"
+          ]
+        },
+        {
+          "property": "itemSpacing",
+          "value": 14,
+          "reason": "Fora da escala; preservado",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "4:8",
+            "4:50"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Semi Bold\",13,{\"unit\":\"AUTO\"},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "4:9",
+            "4:51"
+          ]
+        },
+        {
+          "property": "strokes",
+          "value": "#000000",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "5:7",
+            "5:17"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 1,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "5:24",
+            "5:17"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 1,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "5:24",
+            "5:17"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 1,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "5:24",
+            "5:17"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 1,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 2,
+          "exampleNodeIds": [
+            "5:24",
+            "5:17"
+          ]
+        },
+        {
+          "property": "fills",
+          "value": "#F9F7F0",
+          "reason": "Sem correspondência exata e semântica segura",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "4:2"
+          ]
+        },
+        {
+          "property": "paddingTop",
+          "value": 56,
+          "reason": "Fora da escala; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "4:2"
+          ]
+        },
+        {
+          "property": "paddingBottom",
+          "value": 56,
+          "reason": "Fora da escala; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "4:2"
+          ]
+        },
+        {
+          "property": "paddingLeft",
+          "value": 56,
+          "reason": "Fora da escala; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "4:2"
+          ]
+        },
+        {
+          "property": "paddingRight",
+          "value": 56,
+          "reason": "Fora da escala; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "4:2"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Semi Bold\",18,{\"unit\":\"AUTO\"},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "4:4"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Semi Bold\",42,{\"unit\":\"AUTO\"},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "4:5"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Regular\",16,{\"unit\":\"AUTO\"},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "4:6"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Semi Bold\",14,{\"unit\":\"AUTO\"},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "4:101"
+          ]
+        },
+        {
+          "property": "typography",
+          "value": "[\"Inter\",\"Regular\",13,{\"unit\":\"AUTO\"},{\"unit\":\"PERCENT\",\"value\":0}]",
+          "reason": "Estilo difere da Foundation; preservado",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "4:102"
+          ]
+        },
+        {
+          "property": "topLeftRadius",
+          "value": 3,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "5:14"
+          ]
+        },
+        {
+          "property": "topRightRadius",
+          "value": 3,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "5:14"
+          ]
+        },
+        {
+          "property": "bottomLeftRadius",
+          "value": 3,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "5:14"
+          ]
+        },
+        {
+          "property": "bottomRightRadius",
+          "value": 3,
+          "reason": "Função semântica do radius não confirmada",
+          "occurrences": 1,
+          "exampleNodeIds": [
+            "5:14"
+          ]
+        }
+      ]
+    }
+  ],
+  "preservedAmbiguousIconFrameFills": [
+    {
+      "pageId": "2:2",
+      "nodeIds": [
+        "21:465",
+        "28:76",
+        "28:51",
+        "28:79",
+        "28:58",
+        "28:67",
+        "28:82",
+        "41:394",
+        "41:402",
+        "41:408",
+        "41:417",
+        "41:421",
+        "41:425",
+        "41:432",
+        "145:976",
+        "145:969",
+        "29:252",
+        "29:310",
+        "30:349",
+        "30:362",
+        "30:332",
+        "30:372",
+        "36:71",
+        "36:80",
+        "36:94",
+        "36:108",
+        "36:122",
+        "36:136",
+        "41:463",
+        "41:280",
+        "41:285",
+        "41:288",
+        "16:3",
+        "16:6",
+        "16:9",
+        "16:12",
+        "16:19",
+        "16:22",
+        "16:25",
+        "16:30",
+        "16:37",
+        "16:43",
+        "16:46",
+        "16:50",
+        "16:53",
+        "16:58",
+        "16:61",
+        "41:317",
+        "41:321",
+        "41:325",
+        "50:92",
+        "50:97",
+        "50:129",
+        "52:768",
+        "53:773",
+        "52:765",
+        "53:826",
+        "53:856",
+        "53:839",
+        "53:782",
+        "53:818",
+        "53:795",
+        "53:863",
+        "47:659",
+        "56:562",
+        "58:147",
+        "58:151",
+        "58:117",
+        "58:115",
+        "56:404",
+        "56:453",
+        "59:318",
+        "56:569",
+        "99:396",
+        "91:524",
+        "95:535",
+        "96:164",
+        "95:553",
+        "91:346",
+        "91:351",
+        "91:356",
+        "91:360",
+        "99:382",
+        "99:466",
+        "97:308",
+        "97:315",
+        "97:324",
+        "97:332",
+        "97:336",
+        "97:341",
+        "97:346",
+        "97:350",
+        "102:548",
+        "102:624",
+        "102:629",
+        "102:634",
+        "102:638",
+        "122:284",
+        "122:441",
+        "122:470",
+        "122:476",
+        "122:488",
+        "122:494",
+        "122:535",
+        "122:538",
+        "122:531",
+        "122:547",
+        "122:562",
+        "122:550",
+        "122:554",
+        "122:580",
+        "122:583",
+        "122:586",
+        "122:590",
+        "145:882",
+        "145:887",
+        "145:892",
+        "145:896",
+        "145:930",
+        "145:940",
+        "145:948",
+        "122:641",
+        "122:600",
+        "143:855",
+        "122:825",
+        "122:784",
+        "122:793",
+        "122:802",
+        "145:861",
+        "122:619",
+        "122:624",
+        "122:629",
+        "122:633",
+        "100:178",
+        "120:184",
+        "120:186",
+        "120:206",
+        "120:198",
+        "123:346",
+        "I123:366;123:357",
+        "I123:366;123:359",
+        "I123:366;123:362",
+        "I123:451;123:449",
+        "I123:378;123:357",
+        "I123:378;123:359",
+        "I123:378;123:362",
+        "I123:429;123:427",
+        "I123:455;123:449",
+        "123:466",
+        "I123:390;123:357",
+        "I123:390;123:359",
+        "I123:390;123:362",
+        "123:476",
+        "123:480",
+        "123:484",
+        "123:491",
+        "123:496",
+        "123:503",
+        "123:507",
+        "123:514",
+        "123:518",
+        "123:525",
+        "123:530",
+        "123:538",
+        "123:543",
+        "123:549",
+        "123:554",
+        "123:559",
+        "123:562",
+        "123:566",
+        "123:569",
+        "123:575",
+        "I123:402;123:357",
+        "I123:402;123:359",
+        "I123:402;123:362",
+        "I123:432;123:427",
+        "123:579",
+        "123:583",
+        "123:587",
+        "123:592",
+        "123:598",
+        "123:608",
+        "123:616",
+        "123:624",
+        "123:632",
+        "123:639",
+        "I123:414;123:357",
+        "I123:414;123:359",
+        "I123:414;123:362",
+        "I123:435;123:427",
+        "123:642",
+        "123:648",
+        "123:652",
+        "123:657",
+        "123:662",
+        "123:667",
+        "123:672",
+        "123:675",
+        "123:681",
+        "123:687",
+        "123:693",
+        "123:357",
+        "123:359",
+        "123:362",
+        "123:427",
+        "123:449",
+        "130:259",
+        "130:270",
+        "130:276",
+        "130:278",
+        "130:283",
+        "130:288",
+        "130:296",
+        "130:309",
+        "130:312",
+        "130:314",
+        "130:319",
+        "130:327",
+        "130:331",
+        "130:337",
+        "130:344",
+        "130:353",
+        "130:360",
+        "130:367",
+        "130:372",
+        "130:379",
+        "130:384",
+        "130:390",
+        "130:395",
+        "130:400",
+        "130:403",
+        "130:407",
+        "130:410",
+        "130:416",
+        "130:419",
+        "130:421",
+        "130:426",
+        "130:431",
+        "130:435",
+        "130:439",
+        "130:443",
+        "130:448",
+        "130:453",
+        "130:466",
+        "130:475",
+        "130:484",
+        "130:493",
+        "130:499",
+        "130:502",
+        "130:504",
+        "130:509",
+        "130:517",
+        "130:520",
+        "130:526",
+        "130:530",
+        "130:535",
+        "130:540",
+        "130:545",
+        "130:550",
+        "130:552",
+        "130:558",
+        "130:564",
+        "130:571",
+        "130:575",
+        "130:577",
+        "130:582",
+        "137:255",
+        "137:259",
+        "137:265",
+        "137:272",
+        "137:281",
+        "137:300",
+        "137:307",
+        "137:312",
+        "137:318",
+        "137:323",
+        "137:328",
+        "137:331",
+        "137:335",
+        "137:338",
+        "137:344",
+        "137:347",
+        "137:349",
+        "137:354"
+      ],
+      "reason": "Fundo branco de frame de ícone com intenção não confirmada: valor visual preservado sem novo vínculo."
+    },
+    {
+      "pageId": "0:1",
+      "nodeIds": [
+        "4:14",
+        "3:20",
+        "3:22",
+        "4:22",
+        "3:36",
+        "3:39",
+        "4:30",
+        "3:14",
+        "3:17",
+        "4:38",
+        "3:8",
+        "3:11",
+        "4:46",
+        "3:42",
+        "3:45",
+        "4:56",
+        "3:54",
+        "3:57",
+        "4:64",
+        "3:2",
+        "3:5",
+        "4:72",
+        "3:30",
+        "3:33",
+        "4:80",
+        "3:48",
+        "3:51",
+        "4:88",
+        "3:24",
+        "3:27",
+        "4:96",
+        "3:60",
+        "3:64"
+      ],
+      "reason": "Fundo branco de frame de ícone com intenção não confirmada: valor visual preservado sem novo vínculo."
+    }
+  ]
+}

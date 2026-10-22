@@ -1,0 +1,1226 @@
+{
+  "name": "PlantMe Icons",
+  "version": "1.0.0",
+  "grid": 24,
+  "count": {
+    "symbols": 200,
+    "assets": 400
+  },
+  "styles": {
+    "stroke-rounded": {
+      "strokeWidth": 1.8,
+      "linecap": "round",
+      "linejoin": "round"
+    },
+    "solid-rounded": {
+      "fill": "#214F38"
+    }
+  },
+  "colors": {
+    "primary": "#214F38",
+    "accent": "#B86E45",
+    "cutout": "#FAF8F2"
+  },
+  "icons": [
+    {
+      "category": "navigation",
+      "name": "home",
+      "base": "home",
+      "badge": "none"
+    },
+    {
+      "category": "navigation",
+      "name": "home-add",
+      "base": "home",
+      "badge": "plus"
+    },
+    {
+      "category": "navigation",
+      "name": "home-check",
+      "base": "home",
+      "badge": "check"
+    },
+    {
+      "category": "navigation",
+      "name": "menu",
+      "base": "menu",
+      "badge": "none"
+    },
+    {
+      "category": "navigation",
+      "name": "grid",
+      "base": "grid",
+      "badge": "none"
+    },
+    {
+      "category": "navigation",
+      "name": "search",
+      "base": "search",
+      "badge": "none"
+    },
+    {
+      "category": "navigation",
+      "name": "close",
+      "base": "close",
+      "badge": "none"
+    },
+    {
+      "category": "navigation",
+      "name": "arrow-left",
+      "base": "arrow-left",
+      "badge": "none"
+    },
+    {
+      "category": "navigation",
+      "name": "arrow-right",
+      "base": "arrow-right",
+      "badge": "none"
+    },
+    {
+      "category": "navigation",
+      "name": "arrow-up",
+      "base": "arrow-up",
+      "badge": "none"
+    },
+    {
+      "category": "navigation",
+      "name": "arrow-down",
+      "base": "arrow-down",
+      "badge": "none"
+    },
+    {
+      "category": "navigation",
+      "name": "chevron-left",
+      "base": "chevron-left",
+      "badge": "none"
+    },
+    {
+      "category": "navigation",
+      "name": "chevron-right",
+      "base": "chevron-right",
+      "badge": "none"
+    },
+    {
+      "category": "navigation",
+      "name": "expand",
+      "base": "expand",
+      "badge": "none"
+    },
+    {
+      "category": "navigation",
+      "name": "collapse",
+      "base": "collapse",
+      "badge": "none"
+    },
+    {
+      "category": "navigation",
+      "name": "more-horizontal",
+      "base": "more-h",
+      "badge": "none"
+    },
+    {
+      "category": "navigation",
+      "name": "more-vertical",
+      "base": "more-v",
+      "badge": "none"
+    },
+    {
+      "category": "navigation",
+      "name": "filter",
+      "base": "filter",
+      "badge": "none"
+    },
+    {
+      "category": "navigation",
+      "name": "sort",
+      "base": "sort",
+      "badge": "none"
+    },
+    {
+      "category": "navigation",
+      "name": "refresh",
+      "base": "refresh",
+      "badge": "none"
+    },
+    {
+      "category": "plants",
+      "name": "leaf",
+      "base": "leaf",
+      "badge": "none"
+    },
+    {
+      "category": "plants",
+      "name": "leaf-check",
+      "base": "leaf",
+      "badge": "check"
+    },
+    {
+      "category": "plants",
+      "name": "leaf-alert",
+      "base": "leaf",
+      "badge": "alert"
+    },
+    {
+      "category": "plants",
+      "name": "sprout",
+      "base": "sprout",
+      "badge": "none"
+    },
+    {
+      "category": "plants",
+      "name": "seedling",
+      "base": "sprout",
+      "badge": "sparkle"
+    },
+    {
+      "category": "plants",
+      "name": "potted-plant",
+      "base": "pot",
+      "badge": "leaf"
+    },
+    {
+      "category": "plants",
+      "name": "plant-add",
+      "base": "pot",
+      "badge": "plus"
+    },
+    {
+      "category": "plants",
+      "name": "plant-check",
+      "base": "pot",
+      "badge": "check"
+    },
+    {
+      "category": "plants",
+      "name": "flower",
+      "base": "flower",
+      "badge": "none"
+    },
+    {
+      "category": "plants",
+      "name": "cactus",
+      "base": "cactus",
+      "badge": "none"
+    },
+    {
+      "category": "plants",
+      "name": "succulent",
+      "base": "succulent",
+      "badge": "none"
+    },
+    {
+      "category": "plants",
+      "name": "herb",
+      "base": "herb",
+      "badge": "none"
+    },
+    {
+      "category": "plants",
+      "name": "tree",
+      "base": "tree",
+      "badge": "none"
+    },
+    {
+      "category": "plants",
+      "name": "palm",
+      "base": "palm",
+      "badge": "none"
+    },
+    {
+      "category": "plants",
+      "name": "seed",
+      "base": "seed",
+      "badge": "none"
+    },
+    {
+      "category": "plants",
+      "name": "roots",
+      "base": "roots",
+      "badge": "none"
+    },
+    {
+      "category": "plants",
+      "name": "vine",
+      "base": "vine",
+      "badge": "none"
+    },
+    {
+      "category": "plants",
+      "name": "bonsai",
+      "base": "bonsai",
+      "badge": "none"
+    },
+    {
+      "category": "plants",
+      "name": "garden",
+      "base": "garden",
+      "badge": "none"
+    },
+    {
+      "category": "plants",
+      "name": "plant-identify",
+      "base": "leaf",
+      "badge": "scan"
+    },
+    {
+      "category": "care",
+      "name": "water",
+      "base": "drop",
+      "badge": "none"
+    },
+    {
+      "category": "care",
+      "name": "water-check",
+      "base": "drop",
+      "badge": "check"
+    },
+    {
+      "category": "care",
+      "name": "watering-can",
+      "base": "watering-can",
+      "badge": "none"
+    },
+    {
+      "category": "care",
+      "name": "mist",
+      "base": "mist",
+      "badge": "none"
+    },
+    {
+      "category": "care",
+      "name": "fertilizer",
+      "base": "fertilizer",
+      "badge": "none"
+    },
+    {
+      "category": "care",
+      "name": "prune",
+      "base": "scissors",
+      "badge": "none"
+    },
+    {
+      "category": "care",
+      "name": "repot",
+      "base": "repot",
+      "badge": "none"
+    },
+    {
+      "category": "care",
+      "name": "soil",
+      "base": "soil",
+      "badge": "none"
+    },
+    {
+      "category": "care",
+      "name": "humidity",
+      "base": "drop",
+      "badge": "percent"
+    },
+    {
+      "category": "care",
+      "name": "sunlight",
+      "base": "sun",
+      "badge": "none"
+    },
+    {
+      "category": "care",
+      "name": "shade",
+      "base": "shade",
+      "badge": "none"
+    },
+    {
+      "category": "care",
+      "name": "temperature",
+      "base": "thermometer",
+      "badge": "none"
+    },
+    {
+      "category": "care",
+      "name": "clean-leaves",
+      "base": "leaf",
+      "badge": "sparkle"
+    },
+    {
+      "category": "care",
+      "name": "rotate-plant",
+      "base": "pot",
+      "badge": "refresh"
+    },
+    {
+      "category": "care",
+      "name": "support-stake",
+      "base": "stake",
+      "badge": "none"
+    },
+    {
+      "category": "care",
+      "name": "inspect-plant",
+      "base": "leaf",
+      "badge": "search"
+    },
+    {
+      "category": "care",
+      "name": "measure-plant",
+      "base": "ruler",
+      "badge": "leaf"
+    },
+    {
+      "category": "care",
+      "name": "care-schedule",
+      "base": "calendar",
+      "badge": "leaf"
+    },
+    {
+      "category": "care",
+      "name": "care-completed",
+      "base": "clipboard",
+      "badge": "check"
+    },
+    {
+      "category": "care",
+      "name": "care-overdue",
+      "base": "clipboard",
+      "badge": "alert"
+    },
+    {
+      "category": "time",
+      "name": "calendar",
+      "base": "calendar",
+      "badge": "none"
+    },
+    {
+      "category": "time",
+      "name": "calendar-add",
+      "base": "calendar",
+      "badge": "plus"
+    },
+    {
+      "category": "time",
+      "name": "calendar-check",
+      "base": "calendar",
+      "badge": "check"
+    },
+    {
+      "category": "time",
+      "name": "calendar-alert",
+      "base": "calendar",
+      "badge": "alert"
+    },
+    {
+      "category": "time",
+      "name": "calendar-heart",
+      "base": "calendar",
+      "badge": "heart"
+    },
+    {
+      "category": "time",
+      "name": "clock",
+      "base": "clock",
+      "badge": "none"
+    },
+    {
+      "category": "time",
+      "name": "clock-add",
+      "base": "clock",
+      "badge": "plus"
+    },
+    {
+      "category": "time",
+      "name": "clock-check",
+      "base": "clock",
+      "badge": "check"
+    },
+    {
+      "category": "time",
+      "name": "timer",
+      "base": "timer",
+      "badge": "none"
+    },
+    {
+      "category": "time",
+      "name": "stopwatch",
+      "base": "stopwatch",
+      "badge": "none"
+    },
+    {
+      "category": "time",
+      "name": "history",
+      "base": "history",
+      "badge": "none"
+    },
+    {
+      "category": "time",
+      "name": "repeat",
+      "base": "repeat",
+      "badge": "none"
+    },
+    {
+      "category": "time",
+      "name": "reminder",
+      "base": "bell",
+      "badge": "none"
+    },
+    {
+      "category": "time",
+      "name": "reminder-active",
+      "base": "bell",
+      "badge": "sparkle"
+    },
+    {
+      "category": "time",
+      "name": "reminder-off",
+      "base": "bell",
+      "badge": "close"
+    },
+    {
+      "category": "time",
+      "name": "streak",
+      "base": "flame",
+      "badge": "none"
+    },
+    {
+      "category": "time",
+      "name": "day",
+      "base": "sun",
+      "badge": "clock"
+    },
+    {
+      "category": "time",
+      "name": "night",
+      "base": "moon",
+      "badge": "clock"
+    },
+    {
+      "category": "time",
+      "name": "week",
+      "base": "calendar",
+      "badge": "star"
+    },
+    {
+      "category": "time",
+      "name": "month",
+      "base": "calendar",
+      "badge": "grid"
+    },
+    {
+      "category": "weather",
+      "name": "sun",
+      "base": "sun",
+      "badge": "none"
+    },
+    {
+      "category": "weather",
+      "name": "moon",
+      "base": "moon",
+      "badge": "none"
+    },
+    {
+      "category": "weather",
+      "name": "cloud",
+      "base": "cloud",
+      "badge": "none"
+    },
+    {
+      "category": "weather",
+      "name": "cloud-sun",
+      "base": "cloud",
+      "badge": "sun"
+    },
+    {
+      "category": "weather",
+      "name": "cloud-moon",
+      "base": "cloud",
+      "badge": "moon"
+    },
+    {
+      "category": "weather",
+      "name": "rain",
+      "base": "cloud",
+      "badge": "rain"
+    },
+    {
+      "category": "weather",
+      "name": "heavy-rain",
+      "base": "cloud",
+      "badge": "rain-heavy"
+    },
+    {
+      "category": "weather",
+      "name": "drizzle",
+      "base": "cloud",
+      "badge": "drizzle"
+    },
+    {
+      "category": "weather",
+      "name": "storm",
+      "base": "cloud",
+      "badge": "bolt"
+    },
+    {
+      "category": "weather",
+      "name": "wind",
+      "base": "wind",
+      "badge": "none"
+    },
+    {
+      "category": "weather",
+      "name": "snow",
+      "base": "snow",
+      "badge": "none"
+    },
+    {
+      "category": "weather",
+      "name": "fog",
+      "base": "fog",
+      "badge": "none"
+    },
+    {
+      "category": "weather",
+      "name": "hot",
+      "base": "thermometer",
+      "badge": "sun"
+    },
+    {
+      "category": "weather",
+      "name": "cold",
+      "base": "thermometer",
+      "badge": "snow"
+    },
+    {
+      "category": "weather",
+      "name": "humidity-weather",
+      "base": "drop",
+      "badge": "percent"
+    },
+    {
+      "category": "weather",
+      "name": "uv-index",
+      "base": "sun",
+      "badge": "alert"
+    },
+    {
+      "category": "weather",
+      "name": "sunrise",
+      "base": "horizon",
+      "badge": "sunrise"
+    },
+    {
+      "category": "weather",
+      "name": "sunset",
+      "base": "horizon",
+      "badge": "sunset"
+    },
+    {
+      "category": "weather",
+      "name": "location-weather",
+      "base": "pin",
+      "badge": "cloud"
+    },
+    {
+      "category": "weather",
+      "name": "forecast",
+      "base": "calendar",
+      "badge": "cloud"
+    },
+    {
+      "category": "community",
+      "name": "community",
+      "base": "users",
+      "badge": "none"
+    },
+    {
+      "category": "community",
+      "name": "community-add",
+      "base": "users",
+      "badge": "plus"
+    },
+    {
+      "category": "community",
+      "name": "friend",
+      "base": "user",
+      "badge": "heart"
+    },
+    {
+      "category": "community",
+      "name": "user-add",
+      "base": "user",
+      "badge": "plus"
+    },
+    {
+      "category": "community",
+      "name": "user-check",
+      "base": "user",
+      "badge": "check"
+    },
+    {
+      "category": "community",
+      "name": "chat",
+      "base": "chat",
+      "badge": "none"
+    },
+    {
+      "category": "community",
+      "name": "chat-add",
+      "base": "chat",
+      "badge": "plus"
+    },
+    {
+      "category": "community",
+      "name": "chat-heart",
+      "base": "chat",
+      "badge": "heart"
+    },
+    {
+      "category": "community",
+      "name": "comment",
+      "base": "comment",
+      "badge": "none"
+    },
+    {
+      "category": "community",
+      "name": "share",
+      "base": "share",
+      "badge": "none"
+    },
+    {
+      "category": "community",
+      "name": "send",
+      "base": "send",
+      "badge": "none"
+    },
+    {
+      "category": "community",
+      "name": "post",
+      "base": "post",
+      "badge": "none"
+    },
+    {
+      "category": "community",
+      "name": "photo-post",
+      "base": "image",
+      "badge": "plus"
+    },
+    {
+      "category": "community",
+      "name": "like",
+      "base": "heart",
+      "badge": "none"
+    },
+    {
+      "category": "community",
+      "name": "favorite",
+      "base": "star",
+      "badge": "none"
+    },
+    {
+      "category": "community",
+      "name": "follow",
+      "base": "user",
+      "badge": "check"
+    },
+    {
+      "category": "community",
+      "name": "group",
+      "base": "group",
+      "badge": "none"
+    },
+    {
+      "category": "community",
+      "name": "discover-people",
+      "base": "users",
+      "badge": "search"
+    },
+    {
+      "category": "community",
+      "name": "report-post",
+      "base": "flag",
+      "badge": "alert"
+    },
+    {
+      "category": "community",
+      "name": "block-user",
+      "base": "user",
+      "badge": "close"
+    },
+    {
+      "category": "profile",
+      "name": "profile",
+      "base": "user",
+      "badge": "none"
+    },
+    {
+      "category": "profile",
+      "name": "profile-edit",
+      "base": "user",
+      "badge": "edit"
+    },
+    {
+      "category": "profile",
+      "name": "profile-verified",
+      "base": "user",
+      "badge": "check"
+    },
+    {
+      "category": "profile",
+      "name": "account",
+      "base": "id-card",
+      "badge": "none"
+    },
+    {
+      "category": "profile",
+      "name": "settings",
+      "base": "settings",
+      "badge": "none"
+    },
+    {
+      "category": "profile",
+      "name": "preferences",
+      "base": "sliders",
+      "badge": "none"
+    },
+    {
+      "category": "profile",
+      "name": "privacy",
+      "base": "shield",
+      "badge": "lock"
+    },
+    {
+      "category": "profile",
+      "name": "security",
+      "base": "shield",
+      "badge": "check"
+    },
+    {
+      "category": "profile",
+      "name": "password",
+      "base": "key",
+      "badge": "none"
+    },
+    {
+      "category": "profile",
+      "name": "notifications",
+      "base": "bell",
+      "badge": "none"
+    },
+    {
+      "category": "profile",
+      "name": "language",
+      "base": "globe",
+      "badge": "none"
+    },
+    {
+      "category": "profile",
+      "name": "theme",
+      "base": "palette",
+      "badge": "none"
+    },
+    {
+      "category": "profile",
+      "name": "light-mode",
+      "base": "sun",
+      "badge": "none"
+    },
+    {
+      "category": "profile",
+      "name": "dark-mode",
+      "base": "moon",
+      "badge": "none"
+    },
+    {
+      "category": "profile",
+      "name": "help",
+      "base": "help",
+      "badge": "none"
+    },
+    {
+      "category": "profile",
+      "name": "support",
+      "base": "headset",
+      "badge": "none"
+    },
+    {
+      "category": "profile",
+      "name": "terms",
+      "base": "document",
+      "badge": "check"
+    },
+    {
+      "category": "profile",
+      "name": "about",
+      "base": "info",
+      "badge": "none"
+    },
+    {
+      "category": "profile",
+      "name": "logout",
+      "base": "logout",
+      "badge": "none"
+    },
+    {
+      "category": "profile",
+      "name": "delete-account",
+      "base": "user",
+      "badge": "trash"
+    },
+    {
+      "category": "content",
+      "name": "book",
+      "base": "book",
+      "badge": "none"
+    },
+    {
+      "category": "content",
+      "name": "article",
+      "base": "document",
+      "badge": "none"
+    },
+    {
+      "category": "content",
+      "name": "tutorial",
+      "base": "play",
+      "badge": "none"
+    },
+    {
+      "category": "content",
+      "name": "video",
+      "base": "video",
+      "badge": "none"
+    },
+    {
+      "category": "content",
+      "name": "audio",
+      "base": "audio",
+      "badge": "none"
+    },
+    {
+      "category": "content",
+      "name": "bookmark",
+      "base": "bookmark",
+      "badge": "none"
+    },
+    {
+      "category": "content",
+      "name": "bookmark-fill",
+      "base": "bookmark",
+      "badge": "star"
+    },
+    {
+      "category": "content",
+      "name": "guide",
+      "base": "map",
+      "badge": "none"
+    },
+    {
+      "category": "content",
+      "name": "tip",
+      "base": "bulb",
+      "badge": "none"
+    },
+    {
+      "category": "content",
+      "name": "idea",
+      "base": "bulb",
+      "badge": "sparkle"
+    },
+    {
+      "category": "content",
+      "name": "education",
+      "base": "graduation",
+      "badge": "none"
+    },
+    {
+      "category": "content",
+      "name": "library",
+      "base": "books",
+      "badge": "none"
+    },
+    {
+      "category": "content",
+      "name": "search-content",
+      "base": "search",
+      "badge": "document"
+    },
+    {
+      "category": "content",
+      "name": "filter-content",
+      "base": "filter",
+      "badge": "document"
+    },
+    {
+      "category": "content",
+      "name": "category",
+      "base": "folder",
+      "badge": "none"
+    },
+    {
+      "category": "content",
+      "name": "folder-open",
+      "base": "folder",
+      "badge": "open"
+    },
+    {
+      "category": "content",
+      "name": "download",
+      "base": "download",
+      "badge": "none"
+    },
+    {
+      "category": "content",
+      "name": "upload",
+      "base": "upload",
+      "badge": "none"
+    },
+    {
+      "category": "content",
+      "name": "external-link",
+      "base": "external",
+      "badge": "none"
+    },
+    {
+      "category": "content",
+      "name": "copy",
+      "base": "copy",
+      "badge": "none"
+    },
+    {
+      "category": "commerce",
+      "name": "store",
+      "base": "store",
+      "badge": "none"
+    },
+    {
+      "category": "commerce",
+      "name": "cart",
+      "base": "cart",
+      "badge": "none"
+    },
+    {
+      "category": "commerce",
+      "name": "cart-add",
+      "base": "cart",
+      "badge": "plus"
+    },
+    {
+      "category": "commerce",
+      "name": "bag",
+      "base": "bag",
+      "badge": "none"
+    },
+    {
+      "category": "commerce",
+      "name": "gift",
+      "base": "gift",
+      "badge": "none"
+    },
+    {
+      "category": "commerce",
+      "name": "coupon",
+      "base": "ticket",
+      "badge": "percent"
+    },
+    {
+      "category": "commerce",
+      "name": "discount",
+      "base": "tag",
+      "badge": "percent"
+    },
+    {
+      "category": "commerce",
+      "name": "tag",
+      "base": "tag",
+      "badge": "none"
+    },
+    {
+      "category": "commerce",
+      "name": "wallet",
+      "base": "wallet",
+      "badge": "none"
+    },
+    {
+      "category": "commerce",
+      "name": "card",
+      "base": "card",
+      "badge": "none"
+    },
+    {
+      "category": "commerce",
+      "name": "payment-check",
+      "base": "card",
+      "badge": "check"
+    },
+    {
+      "category": "commerce",
+      "name": "coin",
+      "base": "coin",
+      "badge": "none"
+    },
+    {
+      "category": "commerce",
+      "name": "subscription",
+      "base": "repeat",
+      "badge": "star"
+    },
+    {
+      "category": "commerce",
+      "name": "premium",
+      "base": "crown",
+      "badge": "none"
+    },
+    {
+      "category": "commerce",
+      "name": "reward",
+      "base": "medal",
+      "badge": "none"
+    },
+    {
+      "category": "commerce",
+      "name": "achievement",
+      "base": "trophy",
+      "badge": "none"
+    },
+    {
+      "category": "commerce",
+      "name": "challenge",
+      "base": "target",
+      "badge": "none"
+    },
+    {
+      "category": "commerce",
+      "name": "points",
+      "base": "sparkles",
+      "badge": "none"
+    },
+    {
+      "category": "commerce",
+      "name": "receipt",
+      "base": "receipt",
+      "badge": "none"
+    },
+    {
+      "category": "commerce",
+      "name": "history-payment",
+      "base": "clock",
+      "badge": "card"
+    },
+    {
+      "category": "system",
+      "name": "camera",
+      "base": "camera",
+      "badge": "none"
+    },
+    {
+      "category": "system",
+      "name": "camera-add",
+      "base": "camera",
+      "badge": "plus"
+    },
+    {
+      "category": "system",
+      "name": "scan",
+      "base": "scan",
+      "badge": "none"
+    },
+    {
+      "category": "system",
+      "name": "qr-code",
+      "base": "qr",
+      "badge": "none"
+    },
+    {
+      "category": "system",
+      "name": "image",
+      "base": "image",
+      "badge": "none"
+    },
+    {
+      "category": "system",
+      "name": "image-add",
+      "base": "image",
+      "badge": "plus"
+    },
+    {
+      "category": "system",
+      "name": "microphone",
+      "base": "microphone",
+      "badge": "none"
+    },
+    {
+      "category": "system",
+      "name": "location",
+      "base": "pin",
+      "badge": "none"
+    },
+    {
+      "category": "system",
+      "name": "location-add",
+      "base": "pin",
+      "badge": "plus"
+    },
+    {
+      "category": "system",
+      "name": "map",
+      "base": "map",
+      "badge": "none"
+    },
+    {
+      "category": "system",
+      "name": "wifi",
+      "base": "wifi",
+      "badge": "none"
+    },
+    {
+      "category": "system",
+      "name": "bluetooth",
+      "base": "bluetooth",
+      "badge": "none"
+    },
+    {
+      "category": "system",
+      "name": "sync",
+      "base": "refresh",
+      "badge": "none"
+    },
+    {
+      "category": "system",
+      "name": "cloud-upload",
+      "base": "cloud",
+      "badge": "upload"
+    },
+    {
+      "category": "system",
+      "name": "cloud-download",
+      "base": "cloud",
+      "badge": "download"
+    },
+    {
+      "category": "system",
+      "name": "lock",
+      "base": "lock",
+      "badge": "none"
+    },
+    {
+      "category": "system",
+      "name": "unlock",
+      "base": "unlock",
+      "badge": "none"
+    },
+    {
+      "category": "system",
+      "name": "eye",
+      "base": "eye",
+      "badge": "none"
+    },
+    {
+      "category": "system",
+      "name": "eye-off",
+      "base": "eye",
+      "badge": "close"
+    },
+    {
+      "category": "system",
+      "name": "warning",
+      "base": "warning",
+      "badge": "none"
+    }
+  ]
+}
